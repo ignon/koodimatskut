@@ -1,27 +1,62 @@
-// Step 1: Import React
 import * as React from 'react'
-import { Link } from 'gatsby'
+import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
-import { StaticImage } from 'gatsby-plugin-image'
+import { GatsbyImage, StaticImage, getImage } from 'gatsby-plugin-image'
 
-// Step 2: Define your component
-const IndexPage = () => {
+const BlogPage = ({ data }: {
+  data: any
+}) => {
   return (
-    <Layout pageTitle="Home page">
-      <p>I'm making this by following the Gatsby Tutorial.</p>
+    <Layout pageTitle="Blog posts">
+      {data.allMdx.nodes.map((node: any) => {
+        console.log(node)
 
-      <StaticImage
-        alt="Doggo"
-        src="https://pbs.twimg.com/media/E1oMV3QVgAIr1NT?format=jpg&name=large"
-      />
+        const { title, image } = node.frontmatter;
+        const heroImage =
+          getImage(node.fields?.hero?.childImageSharp?.gatsbyImageData)
 
-      <Link to="/about">About</Link>
+        return (
+          <article key={node.id}>
+            <h2>{node.frontmatter.title}</h2>
+            {heroImage &&
+              <GatsbyImage
+                image={heroImage}
+                alt={title + "featured image"}
+              />
+            }
+
+            <p>{node.frontmatter.priority}</p>
+          </article>
+        )
+      })}
     </Layout>
   )
 }
 
-// You'll learn about this in the next task, just copy it for now
-export const Head = () => <title>Home Page</title>
+// (sort: { frontmatter: { date: DESC }})
+export const query = graphql`
+  query {
+    allMdx(sort: { frontmatter: { priority: ASC }}) {
+      nodes {
+        frontmatter {
+          title
+          priority
+        }
+        id
+        excerpt
+        fields {
+           hero {
+             id
+             childImageSharp {
+               gatsbyImageData
+             }
+           }
+        }
+      }
+    }
+  }
+`
 
-// Step 3: Export your component
-export default IndexPage
+//export const Head = () => <Seo title="My Blog Posts" />
+
+export default BlogPage

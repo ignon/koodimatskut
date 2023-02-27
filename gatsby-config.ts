@@ -12,15 +12,29 @@ const config: GatsbyConfig = {
   plugins: [
     "gatsby-plugin-postcss",
     "gatsby-plugin-google-gtag",
-    "gatsby-plugin-image",
     "gatsby-plugin-sitemap",
     {
       resolve: 'gatsby-plugin-manifest',
       options: { "icon": "src/images/icon.png" }
     },
     "gatsby-plugin-mdx",
+    "gatsby-plugin-image",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
+    {
+      resolve: "gatsby-plugin-mdx",
+      options: {
+        extensions: [".mdx", ".md"],
+        gatsyRemarkPlugins: [{
+          resolve: 'gatsby-remark-images',
+          options: {
+            maxWidth: 1200
+          }
+        }]
+      }
+    },
+    // "gatsby-remark-images",
+    "gatsby-remark-autolink-headers",
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -30,13 +44,22 @@ const config: GatsbyConfig = {
       __key: "images"
     },
     {
-    resolve: 'gatsby-source-filesystem',
-    options: {
-      "name": "pages",
-      "path": "./src/pages/"
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        "name": "pages",
+        "path": "./src/pages/"
+      },
+      __key: "pages"
     },
-    __key: "pages"
-  }]
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        "name": "content",
+        "path": "./content/",
+      },
+      __key: "content"
+    },
+  ]
 };
 
 export default config;
