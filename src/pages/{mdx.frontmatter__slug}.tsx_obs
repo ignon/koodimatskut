@@ -1,0 +1,41 @@
+import * as React from 'react'
+import Layout from '../components/Layout'
+import { graphql } from 'gatsby'
+// import { MDXProvider } from '@mdx-js/react'
+
+const BlogPost = ({ data, children }) => {
+  const components = {
+    h1: React.h1,
+    h2: React.h2,
+    b: React.b
+  }
+  return (
+    <Layout pageTitle={data.mdx.frontmatter.title}>
+      {/* <MDXProvider components={components}> */}
+      {/*   {data.mdx.body} */}
+      {/* </MDXProvider> */}
+      {/* {data.mdx.excerpt} */}
+      {/* <MDXRenderer> */}
+      {/*   {data.mdx.body} */}
+      {/* </MDXRenderer> */}
+    </Layout>
+  )
+}
+
+// export const Head = () => <Seo title="Super Cool Blog Posts" />
+
+export const query = graphql`
+  query ($id: String) {
+    mdx(id: {eq: $id}) {
+      frontmatter {
+        title
+        priority
+        slug
+      }
+      excerpt
+      body
+    }
+  }
+`
+
+export default BlogPost

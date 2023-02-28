@@ -1,6 +1,6 @@
 ---
 title: Kidbot
-image: ./hero.png
+hero: ./hero.png
 slug: kidbot
 priority: 500
 ---

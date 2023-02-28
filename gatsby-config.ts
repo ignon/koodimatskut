@@ -11,13 +11,11 @@ const config: GatsbyConfig = {
   graphqlTypegen: true,
   plugins: [
     "gatsby-plugin-postcss",
-    "gatsby-plugin-google-gtag",
     "gatsby-plugin-sitemap",
     {
       resolve: 'gatsby-plugin-manifest',
       options: { "icon": "src/images/icon.png" }
     },
-    "gatsby-plugin-mdx",
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
@@ -32,6 +30,12 @@ const config: GatsbyConfig = {
           }
         }]
       }
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        gfm: true
+      },
     },
     // "gatsby-remark-images",
     "gatsby-remark-autolink-headers",

@@ -1,15 +1,15 @@
 ---
+hero: ./hero.png
 title: "CodeMonkey Jr"
 priority: 100
-slug: "codemonkey_jr"
-image: ./codemonkey_jr.png
+slug: codemonkey_jr
 tags: [algoritmit]
 categories: [alakoulu]
 link: https://studio.code.org/s/course1/lessons/4/levels/1
 ---
 
 \
-CodeMonkey Jr toimii hyvänä ensikosketuksena ohjelmointiin "kaverini on robotti" tyylisen tietokoneettoman harjoituksen ohella. Peli on täysin symbolinen eli lukutaitoa ei vaadita.
+**CodeMonkey Jr** toimii hyvänä /ensikosketuksena/ ohjelmointiin "kaverini on robotti" tyylisen tietokoneettoman harjoituksen ohella. Peli on täysin symbolinen eli lukutaitoa ei vaadita.
 
 
 

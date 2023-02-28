@@ -1,9 +1,9 @@
 ---
 title: "Angry Birds - Sokkelo"
 priority: 200
-slug: "angry-birds-maze"
-image: ./sokkelo2.jpg
-tags: [algoritmit]
+slug: angry-birds-maze
+hero: ./hero.jpg
+tags: [käskysarjat]
 categories: [alakoulu]
 link: https://studio.code.org/s/course1/lessons/4/levels/1
 ---

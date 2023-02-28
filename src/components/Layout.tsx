@@ -13,8 +13,7 @@ const Layout = ({ pageTitle, children }: {
           <li><Link to="/about">About</Link></li>
         </ul>
       </nav>
-      <main>
-        <h1>{pageTitle}</h1>
+      <main style={{maxWidth: "30%", margin: "auto"}}> <h1>{pageTitle}</h1>
         {children}
       </main>
     </div>

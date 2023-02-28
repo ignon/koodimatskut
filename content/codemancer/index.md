@@ -1,5 +1,6 @@
 ---
 title: Codemancer
+hero: ./hero.jpg
 priority: 400
 slug: codemancer
 tags: [silmukat, lukutaidottomille]
