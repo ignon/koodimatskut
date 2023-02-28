@@ -32,6 +32,7 @@ const BlogPage = ({ data }: {
               flex flex-col items-center
               mb-6 min-w-full rounded-3xl
               shadow-xl shadow-black/40 overflow-hidden
+              bg-white
             `}>
 
             {/* <h2>{node.frontmatter.title}</h2> */}
