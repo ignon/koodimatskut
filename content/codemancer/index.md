@@ -8,7 +8,7 @@ tags: [silmukat, lukutaidottomille]
 
 - Pelin kartasta voi valita minkä kentän harjoituksen pelata, jokainen "kenttä" on oikeasti usemman kentän setti
 - Koodieditori jää joskus harvoin jumiin, ei auta muuta kuin poistua takaisin kenttäkarttaan ja käynnistää harjoitus uusiksi
-- Tekee yksittäisten demonstroinnista luokan edessä vaikeampaa, koska joutuu pelaamaan edelliset kentät päästäkseen oikeaan
+  * Tekee yksittäisten demonstroinnista luokan edessä vaikeampaa, koska joutuu pelaamaan edelliset kentät päästäkseen oikeaan
 - Valitaan lemmikki, vähän kuin Pokemonissa. Ohjelmoimaan lemmikille liikesarjoja.
 - Toista-silmukka näyttää erilaiselta kuin Code.orgin harjoituksissa, mutta toimii samalla tavalla
 - Noppa-ikonit, ei tarvitse osata edes numeroita

@@ -34,7 +34,13 @@ const config: GatsbyConfig = {
     {
       resolve: `gatsby-transformer-remark`,
       options: {
-        gfm: true
+        gfm: true,
+        plugins: [{
+          resolve: 'gatsby-transformer-remark',
+          options: {
+            maxWidth: 600
+          }
+        }]
       },
     },
     // "gatsby-remark-images",

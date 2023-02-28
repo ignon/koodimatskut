@@ -5,6 +5,7 @@ slug: kidbot
 priority: 500
 ---
 
+
 - Funktiot
 - Rekursio
 - Rekursiosilmukka

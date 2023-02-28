@@ -3,34 +3,50 @@ hero: ./hero.png
 title: "CodeMonkey Jr"
 priority: 100
 slug: codemonkey_jr
-tags: [algoritmit]
+tags: [käskysarjat, toista-ikuisesti, lukutaidottomille]
 categories: [alakoulu]
 link: https://studio.code.org/s/course1/lessons/4/levels/1
 ---
 
-\
-**CodeMonkey Jr** toimii hyvänä /ensikosketuksena/ ohjelmointiin "kaverini on robotti" tyylisen tietokoneettoman harjoituksen ohella. Peli on täysin symbolinen eli lukutaitoa ei vaadita.
+**CodeMonkey Jr** toimii hyvänä ensikosketuksena ohjelmointiin *"kaverini on robotti"* tyylisen tietokoneettoman harjoituksen ohella. Peli on täysin symbolinen eli lukutaitoa ei vaadita.
 
 
+Omalla kokemuksellani kahden ensimmäisen tehtävän läpikäynti luokan edessä riittää, tämän jälkeen oppilaat pärjäävät melko hyvin omillaan; opettaja voi keskittyä opettajajohtoisen opettamisen sijasta oppilaiden henkilökohtaiseen opastamiseen (ihan  kuten matematiikan tunneilla, kysymyksillä johdattamalla)
 
 
+> ### Kysymyksillä johdattaminen
+> *"Minne apinahahmon pitäisi mennä?"* \
+> => *Pitäisikö apinan mennä vasemmalle vai oikealle?*\
+> => *"Montako ruutua apinan pitäisi liikkua kyseiseen suuntaan?*\
+> => *"Mikä käsky pitäisi laittaa ensimmäiseksi (entä montako sellaista pitäisi laittaa että apina pääsisi perille?"*).
 
-\
-Omalla kokemuksellani kahden ensimmäisen tehtävän läpikäynti luokan edessä riittää, jonka jälkeen oppilaat pärjäävät eteenpäin melko hyvin omillaan; opettaja voi keskittyä opettajajohtoisen opettamisen sijasta oppilaiden henkilökohtaiseen opastamiseen (ihan  kuten matematiikan tunneilla, kysymyksillä johdattamalla:
+Opettajan kannattaa korostaa <u>ettei kaikkia käskyjä kannata aina edes yrittää laittaa kerralla</u>, vaan niitä voi lisätä yksi tai kaksi kerrallaan, välillä testaten että käskysarja toimii toivotusti. Näin on helpompi tunnistaa missä kohtaa koodi menee pieleen ja korjata se.
 
-*"Minne apinahahmon pitäisi mennä?"* => *Pitäisikö apinan mennä vasemmalle vai oikealle?* => *"Montako ruutua apinan pitäisi edetä?* => *"Mikä käsky pitäisi laittaa ensimmäiseksi, entä montako sellaista pitäisi laittaa että apina pääsisi perille?"*).
+> Pelatessa voi havainnoida että <u>tietokoneohjelmat koostuvat peräkkäisistä käskyistä</u> eli `käskysarjoista`. Käskyjen järjestyksellä on merkitystä eikä niitä voi sijoittaa miten sattuu; käskyt suoritetaan järjestyksessä ensimmäisestä viimeiseen, tässä tapauksessa vasemmalta oikealle.
 
-\
-Opettajan kannattaa korostaa ettei kaikkia käskyjä kannata edes yrittää laittaa kerralla, vaan niitä voi lisätä yksi tai kaksi kerrallaan, välillä testaten että käskysarja toimii toivotusti. Näin on helpompi tunnistaa ja poistaa virheellinen koodi jonkin mennessä vikaan.
+**Code Monkey Jr** (kuten useimmat muut graafiset ohjelmointiympäristöt) korostaa kirkkaimpana parhaillaan suoritettavan käskypalikan. Tämän takia on helppoa havainnoida missä kohtaa koodin suoritusta ollaan. Tämä on hyödyllistä esimerkiksi silloin kun halutaan selvittää missä kohtaa koodia asiat alkavat tapahtua epätoivotulla tavalla.
 
-\
-Peli sisältää yksinkertaisten käskysarjojen (algoritmien)  lisäksi myös toista-ikuisesti -silmukan käyttöä. Ei kuitenkaan haittaa vaikka oppilaat eivät niihin saakka ehtisi, sillä silmukan konseptin opettelun voi jättää tuleville tunneille. Jos oppilaat ehtivät silmukoihin saakka, voi opettaja selittää että ikuisesti-silmukan sisään laitettuja käskyjä toistetaan ikuisesti. Esimerkiksi jos ikuisesti-silmukan sisään laittaa "oikealle"-käskyn, koittaa apina liikkua ikuisesti oikealle; jos ikuisesti-silmukan sisään laittaa vasemmalle SEKÄ oikealle käskyn, liikkuu apina ikuisesti kahden ruudun välillä. Ikiliikkujaa tässä ei kuitenkaan valitettavasti ole keksitty, vaan tietokoneesta tai robotista loppuu aina lopulta virta.
+---
 
-\
-Pelatessa voi havainnoida että tietokoneohjelmat koostuvat peräkkäisistä käskyistä eli käskysarjoista: käskyjen järjestyksellä on merkitystä eikä niitä voi sijoittaa miten sattuu; käskyt suoritetaan järjestyksessä ensimmäisestä viimeiseen, tässä tapauksessa vasemmalta oikealle. Oppilaat oppivat pelatessaan myös korjaamaan tekemiänsä virheellisiä käskysarjoja. Code Monkey Jr (kuten useimmat muut graafiset ohjelmointiympäristöt) korostaa kirkkaimpana parhaillaan suoritettavan käskypalikan. Tämän takia on helppoa havainnoida missä kohtaa koodin suoritusta ollaan. Tämä on hyödyllistä esimerkiksi silloin kun halutaan selvittää missä kohtaa koodia asiat alkavat tapahtua epätoivotulla tavalla.
+Peli sisältää yksinkertaisten käskysarjojen lisäksi myös `toista ikuisesti` -silmukan käyttöä. Ei kuitenkaan haittaa vaikka oppilaat eivät ehtisi näihin tehtäviin saakka, sillä silmukan konseptin opettelun voi jättää tuleville tunneille. Jos oppilaat ehtivät silmukoihin saakka, voi opettaja selittää että ikuisesti-silmukan sisään voi raahata yhden tai useamman käskyn joita toistetaan ikuisesti.
 
-\
-Jos oppilailla on käytössä kosketusnäytöttömät tietokoneet, on CodeMonkey hyvä ympäristö hiiren käytön harjoitteluun, sillä käskyt lisätään ohjelmaan klikkaamalla haluttua käskypalikkaa (toisin kuin esim. Code.org:in harjoituksissa joissa käskypalikat pitää raahata paikoilleen) - toki käskyjä voi halutessaan uudelleenjärjestää myös raahaamalla. Jos pidätte iltapäiväkerhoa koulun ulkopuolella, älkää olettako että oppilaat osaisivat hiiren käyttöä - kouluista suurin osa käyttää vain iPadeja ja kosketusnäytöllisiä Chromebookeja, eikä moni oppilaista ole eläessään koskenutkaan hiireen. Näppäimistön ja kymmensormijärjestelmän käyttöä onneksi harjoitellaan useimmissa kouluissa Näppistaiturin avulla.
+> **Koodi**: IKUISESTI: oikealle\
+> **suoritetaan näin:** oikealle, oikealle, oikealle, oikealle...
+>
+> **Koodi**: IKUISESTI: oikealle, vasemmalle\
+> **suoritetaan näin:** oikealle, vasemmalle, oikealle, vasemmalle...
+
+
+![Silmukan sisällä voi olla useampi käsky](kaskysarja_silmukassa.png)
+
+---
+
+Jos oppilaat saavat kaikki tehtävät läpäistyä tunnin aikana, pyydä heitä tarkistamaan saivatko he kaikista tehtävistä kolme tähteä (eli läpäisivät tehtävät pienimmällä mahdollisella käskymäärällä). Toki seuraaviinkiin tehtäviin voi jo päästää.
+
+Jos oppilailla on käytössä kosketusnäytöttömät tietokoneet, <u>on CodeMonkey hyvä ympäristö hiiren käytön harjoitteluun</u>, sillä käskyt lisätään ohjelmaan klikkaamalla haluttua käskypalikkaa (toisin kuin esim. Code.org:in harjoituksissa joissa käskypalikat pitää osata raahata paikoilleen) - toki käskyjä voi halutessaan uudelleenjärjestää myös raahaamalla.
+
+Jos pidätte iltapäiväkerhoa koulun ulkopuolella, älkää olettako että oppilaat osaisivat käyttää hiirtä - kouluista suuri osa käyttää vain iPadeja tai kosketusnäytöllisiä Chromebookeja. Näppäimistön ja kymmensormijärjestelmän käyttöä onneksi harjoitellaan useimmissa kouluissa Näppistaiturin avulla.
+
 
 
 

@@ -1,6 +1,8 @@
 ---
 title: RoboCodo
 priority: 300
+hero: hero.png
+tags: [toista-x-kertaa, funktiot, lukutaidottomille]
 slug: robocodo
 ---
 

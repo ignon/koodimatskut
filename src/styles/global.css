@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.markdown-area ul {
+  list-style: square !important;
+  padding-left: 1rem;
+}
+
+.markdown-area li {
+  padding-bottom: 1rem !important;
+  padding-top: 1rem !important;
+}
+
+.markdown-area p {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.markdown-area > p {
+  margin-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.markdown-area h1,
+.markdown-area h2,
+.markdown-area h3,
+.markdown-area h4,
+.markdown-area h5,
+.markdown-area h6 {
+  font-weight: bold;
+  font-color: gray;
+  margin-top: 2rem;
+}
+
+.markdown-area hr {
+  border: none;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.markdown-area h2 { font-size: 1.5rem; }
+
+.markdown-area code {
+  background-color: lightgray;
+  border-radius: 0.2rem;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+  font-weight: 600;
+}
+
+.markdown-area u {
+  text-decoration: underline solid;
+  text-decoration-color: #AAAAAA;
+  text-decoration-thickness: 0.2rem;
+}
+
+.markdown-area blockquote {
+  background-color: lightgray;
+  border-left: 0.25rem solid gray;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+}
+
+.markdown-area blockquote h3 {
+  margin-top: 0.5rem;
+}
+
+.markdown-area img {
+  max-width: 90%;
+  margin: 0 auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
