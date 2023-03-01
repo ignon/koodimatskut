@@ -1,6 +1,7 @@
 ---
 title: Kidbot
 hero: ./hero.png
+tags: [funktiot, ehtolauseet, lukutaidottomille]
 slug: kidbot
 priority: 500
 ---
