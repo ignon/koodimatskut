@@ -1,9 +1,18 @@
 ---
 title: Codemancer
+developer: Important Little Games
 hero: ./hero.jpg
+time: "+60min"
+difficulty: Haastava
 priority: 400
 slug: codemancer
-tags: [silmukat, lukutaidottomille]
+tags: [toista-x-kertaa, lukutaidottomille]
+links:
+- title: iPad/iPhone (ilmainen)
+  url:   https://apps.apple.com/us/app/codemancer/id1385748933
+- title: Android (maksullinen)
+  url:   https://play.google.com/store/apps/details?id=air.com.importantlittlegames.codemancerch1&hl=en&gl=US
+
 ---
 
 - Pelin kartasta voi valita minkä kentän harjoituksen pelata, jokainen "kenttä" on oikeasti usemman kentän setti

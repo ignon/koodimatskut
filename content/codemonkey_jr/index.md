@@ -1,11 +1,15 @@
 ---
-hero: ./hero.png
-title: "CodeMonkey Jr"
+hero: hero.png
+title: CodeMonkey Jr
+time: 50min
+difficulty: Helppo
 priority: 100
 slug: codemonkey_jr
 tags: [käskysarjat, toista-ikuisesti, lukutaidottomille]
 categories: [alakoulu]
-link: https://studio.code.org/s/course1/lessons/4/levels/1
+links:
+- title: Code Monkey Jr
+  url:   https://app.codemonkey.com/junior/chapters/sequencing/challenges/1
 ---
 
 **CodeMonkey Jr** toimii hyvänä ensikosketuksena ohjelmointiin *"kaverini on robotti"* tyylisen tietokoneettoman harjoituksen ohella. Peli on täysin symbolinen eli lukutaitoa ei vaadita.

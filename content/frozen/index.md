@@ -1,12 +1,12 @@
 ---
-title: Kidbot
+title: Frozen
 hero: ./hero.png
-developer: Escape 2 Play
+developer: Code.org
 time: "+60min"
-difficulty: Keskivaikea
-tags: [funktiot, ehtolauseet, lukutaidottomille]
-slug: kidbot
-priority: 500
+difficulty: Vaikea
+tags: ["sisäkkäiset silmukat", argumentit]
+slug: frozen
+priority: 1300
 links:
 - title: Nettiversio (ilmainen)
   url:   https://e2p.itch.io/kidbot

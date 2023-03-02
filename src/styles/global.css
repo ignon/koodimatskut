@@ -49,6 +49,7 @@ body {
   margin-bottom: 2rem;
 }
 
+.markdown-area h1 { font-size: 2rem; }
 .markdown-area h2 { font-size: 1.5rem; }
 
 .markdown-area code {
@@ -83,7 +84,8 @@ body {
 .markdown-area img {
   max-width: 90%;
   margin: 0 auto;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 4rem;
+  box-shadow: rgba(0, 0, 0, 0.30) 0px 5px 5px;
 }
 
 body {
