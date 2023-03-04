@@ -1,17 +1,15 @@
 ---
 title: Frozen
 hero: ./hero.png
-developer: Code.org
+developer: Code.org, Disney
 time: "+60min"
 difficulty: Vaikea
 tags: ["sisäkkäiset silmukat", argumentit]
 slug: frozen
 priority: 1300
 links:
-- title: Nettiversio (ilmainen)
-  url:   https://e2p.itch.io/kidbot
-- title: iPad/iPhone (maksullinen)
-  url:   https://apps.apple.com/us/app/kidbot-start/id1090682359
+- title: Frozen
+  url:   http://studio.code.org/s/frozen/reset
 ---
 
 - Funktiot

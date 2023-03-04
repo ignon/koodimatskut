@@ -1,7 +1,7 @@
 ---
 title: Taiteilija
 developer: Code.org
-time: 40min
+time: 30min
 difficulty: Keskivaikea
 hero: ./hero.jpg
 priority: 250

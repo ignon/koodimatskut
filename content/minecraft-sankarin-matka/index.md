@@ -8,10 +8,8 @@ priority: 1200
 slug: minecraft-sankarin-matka
 tags: [toista-kunnes, funktiot]
 links:
-- title: 1. Käskysarjat
-  url:   https://studio.code.org/s/course1/lessons/10/levels/1
-- title: 2. Silmukat
-  url:   https://studio.code.org/s/course1/lessons/18/levels/1
+- title: Sankarin matka
+  url:   https://studio.code.org/s/hero/reset
 ---
 
 

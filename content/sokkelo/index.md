@@ -5,7 +5,7 @@ time: 30min
 difficulty: Helppo
 priority: 200
 slug: angry-birds-maze
-hero: ./hero.jpg
+hero: banner.png
 tags: [käskysarjat, toista-x-kertaa, lukutaidottomille]
 categories: [alakoulu]
 link: https://studio.code.org/s/course1/lessons/4/levels/1
@@ -24,9 +24,11 @@ Tehtävät on mahdollista suorittaa käyttämättä toista-silmukoita. Täsmenn�
 
 **Huom:** Jos jonkun toista-silmukan sisään ei laita ainuttakaan käskyä, koodi on virheellistä eikä sitä suoriteta ollenkaan. Jos *"Suorita"* nappia painaessa ei tapahdu mitään, se johtuu todennäköisimmin tästä.
 
-**Huom2:** Joskus Code.org ei päästä oppilasta seuraavaan tehtävään, vaikka hän olisi tehnyt tehtävän oikein. Tällöin kannattaa vain suorittaa koodi uudestaan.
+**Huom2:** Jos oppilas läpäisee kentän, mutta Code.org ei päästä häntä seuraavaan tehtävään, kannattaa vain koittaa suorittaa koodi uudestaan.
 
-**Huom3:** Jos käytössä ei ole kosketusnäytöllisiä tietokoneita, kannattaa huomioida että käskyjen raahaaminen voi olla haastavaa oppilaille, jotka eivät ole käyttäneet hiirtä aiemmin
+**Huom3:** Jos käytössä ei ole kosketusnäytöllisiä tietokoneita, kannattaa huomioida että käskyjen raahaaminen voi olla haastavaa oppilaille jotka eivät ole käyttäneet hiirtä aiemmin
+
+**Huom4:** Jos oppilas läpäisee kentän täydellisesti pienimmällä mahdollisella käskymäärällä, näkyy se yläpalkissa tummanvihreänä täplänä, muuten  vaaleanvihreänä. Jos oppilaalla näkyy vaaleanvihreitä kenttiä, pyri käymään ne uudestaan läpi oppilaan kanssa (todennäköisesti hän ei ole käyttänyt silmukoita). Päästä oppilas oman harkintasi mukaan seuraaviin harjoituksiin vasta kun kaikki tai suurin osa tehtävistä on tummanvihreinä.
 
 
 
