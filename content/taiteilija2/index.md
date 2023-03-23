@@ -2,7 +2,7 @@
 title: "Taiteilija: Kuviot"
 developer: Code.org
 time: 40min
-difficulty: Keskivaikea
+difficulty: Vaikea
 hero: hero.png
 priority: 1400
 slug: taiteilija

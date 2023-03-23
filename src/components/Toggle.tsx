@@ -3,7 +3,7 @@ import { MdExpandMore, MdExpandLess } from 'react-icons/md'
 
 
 export const ToggleIcon = ({ isOpen }: {
-  isOpen: boolean
+  isOpen: boolean,
 }) => {
   return (isOpen)
     ? <MdExpandLess className="inline-block"/>
@@ -11,10 +11,11 @@ export const ToggleIcon = ({ isOpen }: {
 }
 
 
-const Toggle = ({ text, onClick, isOpen }: {
+const Toggle = ({ text, onClick, isOpen, className }: {
   text: string,
   isOpen: boolean
   onClick: any,
+  className?: string
 }) => {
 
 
@@ -24,8 +25,8 @@ const Toggle = ({ text, onClick, isOpen }: {
       className={`
         text-xl text-gray-700
         hover:text-gray-400
-        pt-3
         flex-none
+        ${className ?? ''}
     `}>
       <div className="block flex-none shrink-1">
         {text} <ToggleIcon isOpen={isOpen} />

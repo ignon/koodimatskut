@@ -1,6 +1,6 @@
 ---
 title: "Angry Birds: Sokkelo"
-developer: Code.org
+developer: Code.org, Rovio
 time: 30min
 difficulty: Helppo
 priority: 200

@@ -1,6 +1,6 @@
 ---
 title: Ice Age
-developer: Code.org
+developer: Code.org, Disney
 time: 20min
 difficulty: Helppo
 hero: ./hero.png

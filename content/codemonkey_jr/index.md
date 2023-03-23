@@ -45,7 +45,7 @@ Pelin viimeinen puolisko sisältää yksinkertaisten käskysarjojen lisäksi my�
 
 ---
 
-Jos oppilaat saavat kaikki tehtävät läpäistyä tunnin aikana, pyydä heitä tarkistamaan saivatko he kaikista tehtävistä kolme tähteä (eli läpäisivät tehtävät pienimmällä mahdollisella käskymäärällä). Toki seuraaviinkiin tehtäviin voi jo päästää.
+Jos oppilaat saavat kaikki tehtävät tehtyä tunnin aikana, pyydä heitä tarkistamaan saivatko he kaikista tehtävistä kolme tähteä (eli läpäisivät tehtävät pienimmällä mahdollisella käskymäärällä). Toki seuraaviinkiin tehtäviin voi jo päästää.
 
 Jos oppilailla on käytössä kosketusnäytöttömät tietokoneet, <u>on CodeMonkey hyvä ympäristö hiiren käytön harjoitteluun</u>, sillä käskyt lisätään ohjelmaan klikkaamalla haluttua käskypalikkaa (toisin kuin esim. Code.org:in harjoituksissa joissa käskypalikat pitää osata raahata paikoilleen) - toki käskyjä voi halutessaan uudelleenjärjestää myös raahaamalla.
 

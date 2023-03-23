@@ -16,4 +16,15 @@ links:
 
 `jos-muuten` on englanniksi `if-else`
 
-`jos-josmuuten-muuten` on englanniksi `if-elseif-else`
+`jos-muutenjos-muuten` on englanniksi `if-elseif-else`
+
+> **hero** - sankari \
+> **step** - askel \
+> **line** - (koodi)rivi \
+> **back** - takaisin
+>
+> **switch** - kytkin \
+> **floor** - lattia \
+> **hole** - reikä \
+> **nothing** - ei mitään \
+> **bonfire** - kokko, iso nuotio

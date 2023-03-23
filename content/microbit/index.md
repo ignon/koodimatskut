@@ -1,12 +1,12 @@
 ---
-title: Microbit
+title: Microbit MakeCode
 developer: BBC, Microsoft
 time: +120min
 difficulty: Keskivaikea
 hero: microbit.png
 priority: 1700
 slug: microbit
-tags: [muuttujat, jos-josmuuten-muuten, satunnaisluvut]
+tags: [muuttujat, tapahtumat, jos-josmuuten-muuten]
 links:
 - title: "1. Sydänanimaatio"
   url:   https://makecode.microbit.org/#pub:94105-08146-83787-54034
@@ -28,21 +28,28 @@ links:
   url:   https://makecode.microbit.org/#pub:84508-21488-26125-71321
 - title: "10. Askelmittari"
   url:   https://makecode.microbit.org/#pub:06235-49467-80010-25551
-- title: "11. Lämpömittari"
+- title: "11. Laskuri"
+  url:   https://makecode.microbit.org/#pub:92364-53382-37530-92747
+- title: "12. Lämpömittari"
   url:   https://makecode.microbit.org/#pub:52785-04419-53206-11240
-- title: "12. Meteoriittipeli"
+- title: "13. Meteoriittipeli"
   url:   https://makecode.microbit.org/#pub:18696-24769-37859-82092
-
-
-
 ---
 
+**Note for myself** Lisää taskulaskuri-projekti
 
+Tämän sivuston harjoitukset on pyritty rajaamaan harjoituksiin jotka ovat ilmaisia, toimivat nettiselaimessa eivätkä tarvi opettajatilejä tai fyysisten laitteiden ostamista. Teen Microbitin osalta poikkeuksen sillä se on halpa, helppo kuljettaa ja jakaa luokkahuoneiden välillä ja monella koululla tuntuu lähtökohtaisesti olevan näitä. Lisäksi koodia voi ajaa koodausympäristön Microbit-simulaattorissa eli laitetta ei välttämättä tarvitse edes ostaa.
+
+
+## Harjoitukset
+Harjoituksista pitäisi riittää tekemistä useammallekin tunnille. Harjoitukset on pyritty tekemään siten, että oppilaat voivat edetä niitä omalla vauhdillaan, opettajan tukemana.
+
+Harjoituksissa on annettu koodilohkot valmiiksi joten oppilaiden on vain osattava järjestää ne oikein. Ei ole varmasti pahitteeksi koodata jokin harjoituksista täysin tyhjältä pöydältä opettajajohtoisesti, jolloin oppilaat oppivat miltä välilehdeltä mikäkin käsky löytyy ja minkälaisiin kategorioihin ne on jaoteltu.
 
 **Huom:** Varoite oppilaita että jos koodilohkon raahaa vasemman reunan valikon kohdalle, se joutuu roskiin ja häviää. Tämän tapahtuessa harjoituksen voi kuitenkin avata tämän sivun linkistä uudestaan jolloin saa alkuperäiset palikat takaisin.
 
 **Huom:** Kuten useimmissa graafisissa ohjelmointiympäristöissä, koodipalikat on värikoodattu eli punaiset koodilohkot löytyvät punaiselta välilehdeltä ja siniset siniseltä välilehdeltä jne.
 
-Harjoituksista pitäisi riittää tekemistä useammallekin tunnille. Harjoitukset on pyritty tekemään siten, että oppilaat voivat edetä niitä omalla vauhdillaan, opettajan tukemana.
 
-Harjoituksissa on annettu oppilaille koodilohkot valmiiksi ja heidän on vain osattava järjestellä ne oikein. Ei ole varmasti pahitteeksi koodata jokin harjoituksista täysin tyhjältä pöydältä opettajajohtoisesti, niin oppilaat oppivat miltä välilehdeltä mikäkin käsky löytyy ja minkälaisiin kategorioihin ne on jaoteltu.
+
+

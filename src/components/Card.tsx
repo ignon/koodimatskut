@@ -1,11 +1,13 @@
 import * as React from 'react'
 
-const Card = ({ children }: {
-  children: any
+const Card = ({ children, ref }: {
+  children: React.ReactNode,
+  ref?: React.RefObject<HTMLDivElement>
 }) => {
 
     return (
       <div
+        ref={ref}
         className={`
           flex flex-col items-center
           mb-6 min-w-full rounded-3xl

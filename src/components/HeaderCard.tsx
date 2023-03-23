@@ -1,0 +1,45 @@
+import * as React from 'react'
+import { useState } from 'react'
+import Toggle from '../components/Toggle'
+import HeroImage from '../components/HeroImage'
+import LinkButton from '../components/LinkButton'
+import { MdAccessTime } from 'react-icons/md'
+
+import Card from '../components/Card'
+
+const HeaderCard = () => {
+  const [isOpen, setIsOpen] = useState(false)
+
+  return (
+    <div className="flex flex-col justify-start align-center my-4 w-full px-2">
+      <h1 className="text-center mt-7 text-6xl font-extrabold text-gray-600">Pelipaja</h1>
+      {/* <div className="my-5" /> */}
+      <p className="text-center mt-7 mb-5 mx-3 text-lg text-gray-800">
+        Pelipaja on tarkkaan valikoitu lista ohjelmoinnin pelillisiä harjoituksia,<br/>jotka on organisoitu järkevään etenemisjärjestykseen.
+      </p>
+
+      <Toggle
+        text="Opettajalle"
+        isOpen={false}
+        onClick={() => setIsOpen(!isOpen)}
+        className="py-3 text-gray-500"
+      />
+
+      {!isOpen || (
+        <Card>
+          <div className="bg-red-400 py-5 w-full">
+            <h1 className="text-center text-4xl font-extrabold text-gray-700">Opettajan materiaalit</h1>
+          </div>
+          <div className="text-lg text-gray-800 my-8 px-3 py-3">
+            <p>Pelipaja on tarkkaan valikoitu lista ohjelmoinnin pelillisiä harjoituksia, jotka on organisoitu järkevään oppimisjärjestykseen.</ p>
+            <p>Tehtävät alkavat lukutaidottomille sopivilla harjoituksilla ja etenevät tavoitteellisesti käsite kerrallaan eteenpäin. Listan tarkoitus on tarjota opettajille mahdollisimman valmiiksi jäsenneltyä oppimateriaalia, joka ohjaa ja tukee oppituntien kulkua kuten matematiikan kirjakin. Kaikki tehtävät toimivat ilman tilien luontia, joko iPadilla tai suoraan selaimessa.</ p>
+            <p>Materiaalia riittää ainakin 15 oppitunniksi. Microbit, Scratch ja muut projektilähtöisemmät ympäristöt ovat toki rinnalle suositeltavaa.</ p>
+          </div>
+        </Card>
+      )}
+
+    </div>
+  )
+}
+
+export default HeaderCard;

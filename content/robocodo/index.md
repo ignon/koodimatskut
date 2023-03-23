@@ -53,11 +53,11 @@ Silmukkatehtävissä on tärkeää hahmottaa kentän toistuva osuus. Tässä ken
 
 ![Silmukat 2](robocodo/silmukat2.png)
 
-Tässä tehtävässä on kolme kahden kolikon rypästä eli on käytettävä `toista-3-kertaa` silmukkaa.
+Tässä tehtävässä on kolme kahden kolikon rypästä eli koodin on toistettava kolmesti käyttäen `toista-x-kertaa`-silmukkaa.
 
 ![Silmukat 3](robocodo/silmukat3.png)
 
-Tässä tehtävässä on neljä identtistä saareketta, joten on käytettävä `toista-4-kertaa` silmukkaa
+Tässä tehtävässä on neljä identtistä saareketta, joten on käytettävä `toista` silmukkaa
 
 ![Silmukat 4](robocodo/silmukat4.png)
 
@@ -97,5 +97,5 @@ Nyt jokaisen `F`-käskyn kohdalla suoritetaan `Function` laatikon käskyt eli <u
 ![Funktiot 3](robocodo/funktiot3.png)
 
 ---
-## Part 2: Monimutkainen silmukkatehtäviä
+## Part 2: Monimutkainen silmukkatehtävä
 ![part2 silmukat](robocodo/part2_silmukat.png)

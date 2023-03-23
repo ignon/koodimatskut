@@ -6,6 +6,7 @@ import Layout from '../components/Layout'
 
 
 import GameCard from '../components/GameCard'
+import HeaderCard from '../components/HeaderCard'
 
 const MainPage = ({ data }: {
   data: any
@@ -17,6 +18,7 @@ const MainPage = ({ data }: {
 
   return (
     <Layout pageTitle="Blog posts">
+      <HeaderCard />
       {markdownNodes.map((node: any, index: number) => (
         <GameCard
           node={node}

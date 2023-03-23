@@ -52,6 +52,10 @@ body {
 .markdown-area h1 { font-size: 2rem; }
 .markdown-area h2 { font-size: 1.5rem; }
 
+.markdown-area {
+  font-size: 1.18rem;
+}
+
 .markdown-area code {
   background-color: lightgray;
   border-radius: 0.2rem;
