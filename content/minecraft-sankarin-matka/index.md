@@ -13,4 +13,4 @@ links:
 ---
 
 
-Peli poikkeaa edellisistä Minecraft-harjoituksista sillä, että pelihahmoa liikutetaan nuolinäppäimillä (tai klikkaamalla) ja robottia ohjataan koodaamalla. Robotti osaa leijua veden päällä eli sitä voi käyttää esimerkiksi siltojen rakentamiseen veden yli.
+Peli poikkeaa edellisistä Minecraft-harjoituksista siten, että pelihahmoa liikutetaan nuolinäppäimillä (tai klikkaamalla) ja robottia ohjataan koodaamalla. Robotti osaa leijua veden päällä eli sitä voi käyttää esimerkiksi siltojen rakentamiseen veden yli.
