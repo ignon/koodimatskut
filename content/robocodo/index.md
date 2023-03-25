@@ -31,7 +31,7 @@ Pelin alussa pelaajan on valittava kummasta vaikeustasosta haluaa aloittaa. Suos
 
 
 # Part 1:n esimerkkiratkaisuja
-Robocodo on Pelipajassa listatuista peleistä haastavimpia hahmottaa, joten olen listannut tänne esimerkkiratkaisut haastavimpiin tehtäviin:
+Robocodo on sivuston listaamista koodauspeleistä haastavimpia hahmottaa, joten olen listannut tänne esimerkkiratkaisut haastavimpiin tehtäviin:
 
 
 ![Jumikenttä](robocodo/jumikentta.png)
