@@ -9,7 +9,7 @@ const HeaderCard = () => {
 
   return (
     <div className="flex flex-col justify-start align-center my-4 w-full px-2">
-      <h1 className="text-center mt-7 text-6xl font-extrabold text-gray-600">Pelipaja</h1>
+      <h1 className="text-center mt-7 text-6xl font-extrabold text-gray-600">Koodimatskut</h1>
       <p className="text-center mt-7 mb-5 mx-3 text-lg text-gray-800">
         Koodimatskut.fi on tarkkaan valikoitu lista ohjelmoinnin pelillisiä harjoituksia,<br/>jotka on organisoitu järkevään etenemisjärjestykseen.
       </p>
