@@ -1,7 +1,7 @@
 ---
 title: AlgoRun
 hero: hero2.jpg
-developer: bitcrumbs
+developer: Bitcrumbs
 time: "+60min"
 difficulty: Vaikea
 tags: [funktiot, lukutaidottomille]

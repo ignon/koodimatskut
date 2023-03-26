@@ -4,7 +4,7 @@ developer: "Code.org, Microsoft, Mojang"
 time: "+60min"
 difficulty: Keskivaikea
 hero: ./banner.png
-priority: 1200
+priority: 1100
 slug: minecraft-sankarin-matka
 tags: [toista-kunnes, funktiot]
 links:

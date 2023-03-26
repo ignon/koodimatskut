@@ -4,12 +4,17 @@ developer: Félicien Brochu
 time: +60min
 difficulty: Vaikea
 hero: banner.jpg
-priority: 1600
+priority: 1500
 slug: selfless-heroes
-tags: [jos-muuten, loogiset operaattorit, jump-to]
+tags: [jump-to, vertailuoperaattorit, jos-muuten]
 links:
 - title: Selfless Heroes
   url:   https://play.selflessheroes.fr/
+---
+
+
+`jump-to`-komentoa käytetään kun halutaan siirtyä suorittamaan tiettyä riviä koodissa. Pohjimmiltaan tietokoneet käyttävät tätä komentoa paljon mutta modernit ohjelmointikielet eivät juurikaan, sillä koodia jossa on paljon `jump-to`-käskyjä on hyvin vaikea hahmottaa (niinkuin tulette kohta huomaamaan)
+
 ---
 
 `jos` on englanniksi `if`
@@ -21,7 +26,8 @@ links:
 > **hero** - sankari \
 > **step** - askel \
 > **line** - (koodi)rivi \
-> **back** - takaisin
+> **back** - takaisin \
+> **jump** - hyppää
 >
 > **switch** - kytkin \
 > **floor** - lattia \

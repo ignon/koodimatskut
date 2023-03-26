@@ -4,7 +4,7 @@ developer: Toxicode
 time: +60min
 difficulty: Vaikea
 hero: path.png
-priority: 1600
+priority: 1620
 slug: compute-it
 tags: [sisäkkäiset silmukat, funktiot, argumentit]
 links:

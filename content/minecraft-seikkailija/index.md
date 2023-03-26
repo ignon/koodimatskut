@@ -3,7 +3,7 @@ title: "Minecraft: Seikkailija"
 developer: "Code.org, Microsoft, Mojang"
 time: "+60min"
 difficulty: Keskivaikea
-hero: ./hero.png
+hero: hero2.jpg
 priority: 1000
 slug: minecraft-seikkailija
 tags: [toista-x-kertaa, argumentit, jos-lauseke]

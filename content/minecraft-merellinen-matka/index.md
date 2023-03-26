@@ -4,7 +4,7 @@ developer: "Code.org, Microsoft, Mojang"
 time: "+60min"
 difficulty: Keskivaikea
 hero: ./hero.png
-priority: 1100
+priority: 1200
 slug: minecraft-merellinen-matka
 tags: [toista-kunnes, jos-lauseke]
 links:

@@ -4,9 +4,9 @@ developer: BBC, Microsoft
 time: +120min
 difficulty: Keskivaikea
 hero: microbit.png
-priority: 1700
+priority: 1250
 slug: microbit
-tags: [muuttujat, tapahtumat, jos-josmuuten-muuten]
+tags: [jos-muutenjos-muuten, muuttujat, tapahtumat]
 links:
 - title: "1. Sydänanimaatio"
   url:   https://makecode.microbit.org/#pub:94105-08146-83787-54034

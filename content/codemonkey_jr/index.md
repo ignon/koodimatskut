@@ -1,6 +1,7 @@
 ---
 hero: hero.png
 title: CodeMonkey Jr
+developer: CodeMonkey
 time: 50min
 difficulty: Helppo
 priority: 100
