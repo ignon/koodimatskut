@@ -13,7 +13,7 @@ links:
 ---
 
 
-`jump-to`-komentoa käytetään kun halutaan siirtyä suorittamaan tiettyä riviä koodissa. Pohjimmiltaan tietokoneet käyttävät tätä komentoa paljon mutta modernit ohjelmointikielet eivät juurikaan, sillä koodia jossa on paljon `jump-to`-käskyjä on hyvin vaikea hahmottaa (niinkuin tulette kohta huomaamaan)
+`jump-to`-komentoa käytetään kun halutaan hypätä suorittamaan tiettyä riviä koodissa. Pohjimmiltaan tietokoneet käyttävät tätä komentoa paljon mutta modernit ohjelmointikielet eivät juurikaan, sillä koodia jossa on paljon `jump-to`-käskyjä on hyvin vaikea hahmottaa (niinkuin tulette kohta huomaamaan)
 
 ---
 

@@ -92,6 +92,11 @@ body {
   box-shadow: rgba(0, 0, 0, 0.30) 0px 5px 5px;
 }
 
+.markdown-area a {
+  color: #0069c2;
+  text-decoration: underline;
+}
+
 body {
   background-color: #FFFFFF;
   /* background-color: #DDDDFF; */

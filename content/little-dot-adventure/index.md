@@ -14,9 +14,9 @@ links:
 
 Pelissä sinun on valittava kortti jossa on tilanteeseen sopiva koodi ja sitten tehtävä tietokoneen osuus eli suoritettava kortin koodi nuolinäppäimiä painelemalla. Kortit pitää osata valita oikeassa järjestyksessä.
 
-`toista-x-kertaa` on englanniksi `repeat`-silmukka
+`toista-x-kertaa` on englanniksi `repeat`.
 
-`toista-kunnes` on englanniksi `while`-silmukka
+`niin-kauan-kuin` on englanniksi `while`.
 
 
 > **left** - vasemmalle \

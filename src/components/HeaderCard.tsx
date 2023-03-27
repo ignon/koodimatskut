@@ -3,13 +3,24 @@ import { useState } from 'react'
 import Toggle from '../components/Toggle'
 import Card from '../components/Card'
 
+const TITLE = 'Koodimatskut';
 
 const HeaderCard = () => {
   const [isOpen, setIsOpen] = useState(false)
+  const [showDomain, setShowDomain] = useState(false);
+
+  const title = (!showDomain)
+    ? 'Koodimatskut'
+    : 'Koodimatskut.fi'
 
   return (
     <div className="flex flex-col justify-start align-center my-4 w-full px-2">
-      <h1 className="text-center mt-7 text-6xl font-extrabold text-gray-600">Koodimatskut</h1>
+      <h1
+        className="text-center mt-7 text-6xl font-extrabold text-gray-600"
+        onClick={() => setShowDomain(!showDomain)}
+      >
+        {title}
+      </h1>
       <p className="text-center mt-7 mb-5 mx-3 text-lg text-gray-800">
         Koodimatskut.fi on tarkkaan valikoitu lista ohjelmoinnin pelillisiä harjoituksia organisoituna järkevään etenemisjärjestykseen.
       </p>

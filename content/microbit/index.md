@@ -36,8 +36,6 @@ links:
   url:   https://makecode.microbit.org/#pub:18696-24769-37859-82092
 ---
 
-**Note for myself** Lisää taskulaskuri-projekti
-
 Tämän sivuston harjoitukset on pyritty rajaamaan harjoituksiin jotka ovat ilmaisia, toimivat nettiselaimessa eivätkä tarvi opettajatilejä tai fyysisten laitteiden ostamista. Teen Microbitin osalta poikkeuksen sillä se on halpa, helppo kuljettaa ja jakaa luokkahuoneiden välillä ja monella koululla tuntuu lähtökohtaisesti olevan näitä. Lisäksi koodia voi ajaa koodausympäristön Microbit-simulaattorissa eli laitetta ei välttämättä tarvitse edes ostaa.
 
 
