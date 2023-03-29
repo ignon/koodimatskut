@@ -10,4 +10,7 @@ tags: [sisäkkäiset silmukat, funktiot, argumentit]
 links:
 - title: Compute It
   url:   https://compute-it.toxicode.fr/
+- title: Compute It (Python)
+  url:   https://compute-it.toxicode.fr/?hour-of-code&progression=python
 ---
+

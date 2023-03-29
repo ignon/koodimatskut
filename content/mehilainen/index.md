@@ -13,3 +13,7 @@ links:
 ---
 
 `toista-x-kertaa` –silmukan kertausta. Tehtävän muuttuvat haastaviksi jos ne koittaa tehdä "kunnolla" mahdollisimman pienellä käskymäärällä.
+
+![](/mehilainen/tehtava_10.png)
+
+*10. tehtävän esimerkkiratkaisu:*

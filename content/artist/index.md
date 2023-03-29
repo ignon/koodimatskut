@@ -15,9 +15,6 @@ links:
 ---
 
 
-`toista-x-kertaa` -silmukan kertausta.
+Toisin kuin aiemmissa harjoituksissa, joissain tehtävissä `toista-x-kertaa`-silmukan sisään pitää laittaa useampi käsky:
 
-
-**Huom:** Jos jonkun toista-silmukan sisään ei laita ainuttakaan käskyä, koodi on virheellistä eikä sitä suoriteta ollenkaan. Jos *"Suorita"* nappia painaessa ei tapahdu mitään, se johtuu todennäköisimmin tästä.
-
-**Huom2:** Joskus Code.org ei päästä oppilasta seuraavaan tehtävään, vaikka hän olisi tehnyt tehtävän oikein. Tällöin kannattaa vain suorittaa koodi uudestaan.
+![](/artist/useampi_kasky_silmukassa.png)

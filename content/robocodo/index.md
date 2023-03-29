@@ -21,8 +21,7 @@ links:
 ---
 
 ![Part 1 ja Part 2](robocodo_selection.png)
-
-Pelin alussa pelaajan on valittava kummasta vaikeustasosta haluaa aloittaa. Suosittelen aloittamaan **Part 1**:llä (jonka loppupään tehtävissä on kyllä haastetta isommillekin). Nopeimmat saavat sen luultavimmin tehtyä ja voivat siirtyä **Part 2**:n tehtäviin. Jos kaikki aloittavat Part 2:sta, riskinä on että harjoitukset ovat osalle liian vaikeita ja nopeimmat saavat tehtyä ne hetkessä ja heille pitää keksiä lisätehtäviä.
+*Pelin alussa pelaajan on valittava kummasta vaikeustasosta haluaa aloittaa. Suosittelen aloittamaan **Part 1**:llä (jonka loppupään tehtävissä on kyllä haastetta isommillekin). Nopeimmat saavat sen luultavimmin tehtyä ja voivat siirtyä **Part 2**:n tehtäviin. Jos kaikki aloittavat Part 2:sta, riskinä on että harjoitukset ovat osalle liian vaikeita ja nopeimmat saavat tehtyä ne hetkessä ja heille pitää keksiä lisätehtäviä.*
 
 
 **Huom 2:** Pelin Part 2 -osiossa harjoitellaan myös funktioiden käyttöä. Harjoittelemme funktioiden käyttöä enemmän tulevissa harjoituksissa, joten ei haittaa jos/kun suurin osa oppilaista ei niihin saakka todennäköisimmin ehdi. Kannattaa varautua kuitenkin selittämään funktioiden konsepti nopeimmille oppilaille, lukemalla tämän ohjeistuksen alaotsikko **Part 2: Funktiot**.
@@ -35,33 +34,26 @@ Robocodo on sivuston listaamista koodauspeleistä haastavimpia hahmottaa, joten 
 
 
 ![Jumikenttä](robocodo/jumikentta.png)
+*Tähän kenttään jää jumiin suurin osa oppilaista. Tärkeintä on tajuta, että ensin on kerättävä kaksi lähintä kolikkoa ja sitten palattava puun viereiselle teleportille, ei alanurkassa olevalle.*
 
-Tähän kenttään jää jumiin suurin osa oppilaista. Tärkeintä on tajuta, että ensin on kerättävä kaksi lähintä kolikkoa ja sitten palattava puun viereiselle teleportille, ei alanurkassa olevalle.
 
-
-## Part 1: Buggy code
 ![Bugienkorjaus](robocodo/buggy_code.png)
-
-**Buggy code** (buginen koodi) -osuudessa oppilaalle annetaan valmiiksi tehtyä, virheellistä koodia, joka hänen on korjattava järjestelemällä käskyt oikein. Tämä on jonkin verran haastava osuus sillä oppilas voi vahingossa raahata tarvittavan käskyn pois koodialueelta, jolloin se tuhoutuu ja <u>kenttä on aloitettava alusta (painamalla roskiskuvaketta koodin oikealla puolella). Oppilas ei välttämättä tajua tätä.</u>
+***Buggy code** (buginen koodi) -osuudessa oppilaalle annetaan valmiiksi tehtyä, virheellistä koodia, joka hänen on korjattava järjestelemällä käskyt oikein. Tämä on jonkin verran haastava osuus sillä oppilas voi vahingossa raahata tarvittavan käskyn pois koodialueelta, jolloin se tuhoutuu ja <u>kenttä on aloitettava alusta (painamalla roskiskuvaketta koodin oikealla puolella). Oppilas ei välttämättä tajua tätä.</u>*
 
 
 ## Part 1: Silmukat
 
 ![Silmukat 1](robocodo/silmukat.png)
-
-Silmukkatehtävissä on tärkeää hahmottaa kentän toistuva osuus. Tässä kentässä pitää kolmesti kävellä ylös teleportilla (ja napata kolikko matkalla)
+*Silmukkatehtävissä on tärkeää hahmottaa kentän toistuva osuus. Tässä kentässä pitää kolmesti kävellä ylös teleportilla (ja napata kolikko matkalla)*
 
 ![Silmukat 2](robocodo/silmukat2.png)
-
-Tässä tehtävässä on kolme kahden kolikon rypästä eli koodin on toistettava kolmesti käyttäen `toista-x-kertaa`-silmukkaa.
+*Tässä tehtävässä on kolme kahden kolikon rypästä eli koodin on toistettava kolmesti käyttäen `toista-x-kertaa`-silmukkaa.*
 
 ![Silmukat 3](robocodo/silmukat3.png)
-
-Tässä tehtävässä on neljä identtistä saareketta, joten on käytettävä `toista` silmukkaa
+*Tässä tehtävässä on neljä identtistä saareketta, joten on käytettävä `toista` silmukkaa*
 
 ![Silmukat 4](robocodo/silmukat4.png)
-
-Tässä kentässä jokaisen silmukan alussa on käännyttävä. Kenttä koostuu kolmesta L-kirjaimen muotoisesta osasta, jotka pitää kulkea.
+*Tässä kentässä jokaisen silmukan alussa on käännyttävä. Kenttä koostuu kolmesta L-kirjaimen muotoisesta osasta, jotka pitää kulkea.*
 
 # Part 2: Funktiot
 

@@ -22,6 +22,7 @@ Tehtävät on mahdollista suorittaa käyttämättä toista-silmukoita. Täsmenn�
 
 ![Tyhjä toista-silmukka](tyhja_toista_silmukka.png)
 
+
 **Huom:** Jos jonkun toista-silmukan sisään ei laita ainuttakaan käskyä, koodi on virheellistä eikä sitä suoriteta ollenkaan. Jos *"Suorita"* nappia painaessa ei tapahdu mitään, se johtuu todennäköisimmin tästä.
 
 **Huom2:** Jos oppilas läpäisee kentän, mutta Code.org ei päästä häntä seuraavaan tehtävään, kannattaa vain koittaa suorittaa koodi uudestaan.

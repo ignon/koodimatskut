@@ -10,18 +10,18 @@ tags: [toista-x-kertaa, lukutaidottomille]
 links:
 - title: iPad/iPhone (ilmainen)
   url:   https://apps.apple.com/us/app/codemancer/id1385748933
+- title: Windows (ilmainen)
+  url:   https://importantlittlegames.itch.io/codemancer-ch-1
 - title: Android (maksullinen)
   url:   https://play.google.com/store/apps/details?id=air.com.importantlittlegames.codemancerch1&hl=en&gl=US
-
 ---
 
-- Pelin kartasta voi valita minkä kentän harjoituksen pelata, jokainen "kenttä" on oikeasti usemman kentän setti
-- Koodieditori jää joskus harvoin jumiin, ei auta muuta kuin poistua takaisin kenttäkarttaan ja käynnistää harjoitus uusiksi
-  * Tekee yksittäisten demonstroinnista luokan edessä vaikeampaa, koska joutuu pelaamaan edelliset kentät päästäkseen oikeaan
-- Valitaan lemmikki, vähän kuin Pokemonissa. Ohjelmoimaan lemmikille liikesarjoja.
-- Toista-silmukka näyttää erilaiselta kuin Code.orgin harjoituksissa, mutta toimii samalla tavalla
-- Noppa-ikonit, ei tarvitse osata edes numeroita
-- Sano että aina jos näkyy sininen "OK"-merkki niin sitä painetaan jotta päästään oppaassa eteenpäin
-- Pitää tehdä omat profiilit, voi jatkaa seuraavalla tunnilla jos haluaa ja samalla padilla voi eri oppilaat edetä omassa tahdissaan omilla profiileillaan
+Codemancerilla ei ole selainversiota vaan se on asennetteva oppilaiden iPadeille erikseen, joka tekee siitä opettajan kannalta melko työlään materiaalin. Oppilaat pärjäävät varmasti vaikka peli jätettäisiin välistä, mutta jos opettaja on halukas tekemään ylimääräistä työtä niin Codemancer on ehdottomasti hyvä koodauspeli.
+
+Suosittelen pelaamaan pelistä vain ensimmäisen maailman, josta riittää tekemistä yhdeksi oppitunniksi. Nopeimmat pääsevät mahdollisesti merimaailmaan, jossa peli alkaa muuttua huomattavasti vaikeammaksi.
+
+Pelin koodilohkot näyttää erilaiselta kuin Code.org:issa tai Scratchissa, mutta toimivat pohjimmiltaan samalla tavalla. Peli sisältää englanninkielisiä tarinakohtauksia, jotka voi kliksutella nopasti läpi; opettaja voi selittää nopeasti mitä juonessa tapahtuu.
+
+**Huom:** Koodieditori jää joskus jumiin, jolloin kannattaa poistua takaisin kenttäkarttaan ja käynnistää harjoitus uusiksi
 
 [Codemancerin pelivideo josta voi luntata ratkaisuja jos jää jumiin](https://www.youtube.com/watch?v=B8ecnXGwOIM&ab_channel=HauntedHawke)

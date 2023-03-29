@@ -14,6 +14,9 @@ links:
   url:   https://apps.apple.com/us/app/kidbot-start/id1090682359
 ---
 
+Pelin nettiversion toimii iPadeilla ja Chromebookeilla, joten suosittelen käyttämään sitä (testatkaa toki nettiversion toimivuus laitteillanne ennen tunnin alkua). Tähän mennessä olemme opetelleet pääasiassa `toista-x-kertaa`-silmukan käyttöä. Tässä pelissä opettelemme uuden konseption eli `funktion`
+
+
 - Funktiot
 - Rekursio
 - Rekursiosilmukka

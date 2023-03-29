@@ -85,12 +85,6 @@ body {
   margin-top: 0.5rem;
 }
 
-.markdown-area img {
-  max-width: 90%;
-  margin: 0 auto;
-  margin-top: 4rem;
-  box-shadow: rgba(0, 0, 0, 0.30) 0px 5px 5px;
-}
 
 .markdown-area a {
   color: #0069c2;
@@ -100,4 +94,25 @@ body {
 body {
   background-color: #FFFFFF;
   /* background-color: #DDDDFF; */
+}
+
+
+.markdown-area img {
+  margin: 0 auto;
+  margin-top: 4rem;
+  box-shadow: rgba(0, 0, 0, 0.30) 0px 5px 5px;
+}
+
+img + em {
+  margin: 0 auto;
+  display: block;
+  background-color: rgb(219 223 229);
+  color: rgb(31 41 55);
+  font-weight: 500;
+  padding-left: 0.3em;
+  box-shadow: rgba(0, 0, 0, 0.30) 0px 5px 5px;
+}
+
+em + img {
+  margin: 30px 30px;
 }

@@ -12,4 +12,8 @@ links:
   url:   https://studio.code.org/s/coursea-2022/lessons/9/levels/2
 ---
 
-`toista-x-kertaa` -silmukan kertausta.
+![](/laurel/exercise_14.png)
+*Viimeisen tehtävän esimerkkiratkaisu*
+
+
+
