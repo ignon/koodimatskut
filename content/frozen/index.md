@@ -4,7 +4,7 @@ hero: ./hero.png
 developer: Code.org, Disney
 time: "+60min"
 difficulty: Vaikea
-tags: ["sisäkkäiset silmukat", funktion argumentit]
+tags: ["sisäkkäiset silmukat", argumentit]
 slug: frozen
 priority: 1300
 links:

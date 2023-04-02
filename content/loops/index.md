@@ -8,7 +8,7 @@ priority: 1800
 slug: loops_js
 tags: [while, for-silmukka, koordinaatisto]
 links:
-- title: Loops
+- title: "Loops.js"
   url:   https://ignon.github.io/loops/
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Microbit: Meteoriittipeli"
 developer: Arttu Mäkinen
-time: +120min
+time: "+40min"
 difficulty: Keskivaikea
 hero: microbit.png
 priority: 1260
@@ -10,7 +10,7 @@ tags: [jos-muutenjos-muuten, muuttujat, tapahtumat]
 links:
 - title: "Osa 1: Hahmojen luominen"
   url:   https://makecode.microbit.org/#pub:41921-94413-79539-02780
-- title: "Osa 2: Pelaaja liikuttaminen"
+- title: "Osa 2: Pelaajan liikuttaminen"
   url:   https://makecode.microbit.org/#pub:26112-62502-21739-85673
 - title: "Osa 3: Meteorin tippuminen"
   url:   https://makecode.microbit.org/#pub:14477-19060-38049-82215

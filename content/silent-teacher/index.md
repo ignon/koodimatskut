@@ -14,6 +14,6 @@ links:
   url:   https://silentteacher.toxicode.fr/hourofcode
 ---
 
-Silent Teacher -harjoituksesta on eri versiot Python- ja Javascript ohjelmointikielille. Javascriptiä käytetään eniten nettisivujen ja sovellusten kehittämiseen, Pythonia taas käytetään esim. tilastotieteessä ja koneoppimisessa.
+Silent Teacher -harjoituksesta on eri versiot Python- ja Javascript-ohjelmointikielille. Javascriptiä käytetään eniten nettisivujen ja sovellusten kehittämiseen, Pythonia taas esim. tilastotieteessä ja koneoppimisessa.
 
 Voi olla hyvä testata molempia ja todeta että niiden toimintalogiikka on sama, vaikka ne näyttävätkin vähän erilaisilta.

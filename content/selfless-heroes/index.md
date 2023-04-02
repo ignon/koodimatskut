@@ -6,7 +6,7 @@ difficulty: Vaikea
 hero: banner.jpg
 priority: 1500
 slug: selfless-heroes
-tags: [jump-to, vertailuoperaattorit, jos-muuten]
+tags: [jump-to, "vertailuoperaattorit", jos-muuten (if-else)]
 links:
 - title: Selfless Heroes
   url:   https://play.selflessheroes.fr/

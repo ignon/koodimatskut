@@ -40,7 +40,7 @@ const HeaderCard = () => {
           <div className="text-lg text-gray-800 my-8 px-3 py-3">
             <p>Koodimatskut.fi on tarkkaan valikoitu lista ohjelmoinnin pelillisiä harjoituksia järkevässä etenemisjärjestyksessä.</ p>
             <p>Tehtävät alkavat lukutaidottomille sopivilla harjoituksilla ja etenevät tavoitteellisesti käsite kerrallaan eteenpäin. Listan tarkoitus on tarjota opettajille mahdollisimman valmiiksi jäsenneltyä oppimateriaalia, joka ohjaa ja tukee oppituntien kulkua kuten matematiikan kirjakin. Kaikki tehtävät toimivat ilman tilien luontia, joko iPadilla tai suoraan selaimessa.</ p>
-            <p>Materiaalia riittää ainakin 15 oppitunniksi. Microbit, Scratch ja muut projektilähtöisemmät ympäristöt ovat toki rinnalle suositeltavaa.</ p>
+            <p>Materiaalia riittää ainakin 15 oppitunniksi. Scratch ja muut projektilähtöisemmät ympäristöt ovat toki rinnalle suositeltavia.</ p>
           </div>
         </Card>
       )}

@@ -16,12 +16,12 @@ links:
   url:   https://play.google.com/store/apps/details?id=air.com.importantlittlegames.codemancerch1&hl=en&gl=US
 ---
 
-Codemancerilla ei ole selainversiota vaan se on asennetteva oppilaiden iPadeille erikseen, joka tekee siitä opettajan kannalta melko työlään materiaalin. Oppilaat pärjäävät varmasti vaikka peli jätettäisiin välistä, mutta jos opettaja on halukas tekemään ylimääräistä työtä niin Codemancer on ehdottomasti hyvä koodauspeli.
+Codemancerilla ei ole selainversiota vaan se on asennetteva oppilaiden iPadeille erikseen, mikä tekee siitä opettajan kannalta melko työlään materiaalin. Oppilaat pärjäävät varmasti vaikka peli jätettäisiin välistä, mutta jos opettaja on halukas tekemään ylimääräistä työtä niin Codemancer on ehdottomasti hyvä koodauspeli.
 
-Suosittelen pelaamaan pelistä vain ensimmäisen maailman, josta riittää tekemistä yhdeksi oppitunniksi. Nopeimmat pääsevät mahdollisesti merimaailmaan, jossa peli alkaa muuttua huomattavasti vaikeammaksi.
+Suosittelen pelaamaan pelistä vain ensimmäisen maailman, josta riittää tekemistä yhdeksi oppitunniksi. Nopeimmat pääsevät mahdollisesti merimaailmaan saakka, jossa peli alkaa muuttua huomattavasti vaikeammaksi.
 
 Pelin koodilohkot näyttää erilaiselta kuin Code.org:issa tai Scratchissa, mutta toimivat pohjimmiltaan samalla tavalla. Peli sisältää englanninkielisiä tarinakohtauksia, jotka voi kliksutella nopasti läpi; opettaja voi selittää nopeasti mitä juonessa tapahtuu.
 
-**Huom:** Koodieditori jää joskus jumiin, jolloin kannattaa poistua takaisin kenttäkarttaan ja käynnistää harjoitus uusiksi
+**Huom:** Koodieditori jää joskus jumiin, jolloin kannattaa poistua takaisin kenttävalikkoon ja käynnistää harjoitus uusiksi
 
 [Codemancerin pelivideo josta voi luntata ratkaisuja jos jää jumiin](https://www.youtube.com/watch?v=B8ecnXGwOIM&ab_channel=HauntedHawke)

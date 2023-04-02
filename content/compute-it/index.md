@@ -6,7 +6,7 @@ difficulty: Vaikea
 hero: path.png
 priority: 1620
 slug: compute-it
-tags: [sisäkkäiset silmukat, funktiot, argumentit]
+tags: ["funktio (function)", "jos-muuten (if-else)", niin-kauan-kuin (while)]
 links:
 - title: Compute It
   url:   https://compute-it.toxicode.fr/

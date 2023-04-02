@@ -1,7 +1,7 @@
 ---
 title: Mehiläinen 2
 hero: hero2.png
-time: 40min
+time: +60min
 difficulty: Haastava
 developer: Code.org
 tags: [jos-muuten, sisäkkäiset silmukat]
