@@ -52,17 +52,17 @@ links:
   url:   https://makecode.microbit.org/#pub:32596-64923-83972-76397
 - title: "Nukahtava lemmikki"
   url: https://makecode.microbit.org/#pub:93231-88129-87261-42214
-- title: "Taskulamppu 1 nappi pohjassa"
+- title: "Taskulamppu - nappi pohjassa"
   url:   https://makecode.microbit.org/#pub:48509-09363-14027-38955
-- title: "Taskulamppu 2: kaksinappinen" #kytkimellä
+- title: "Taskulamppu - kaksinappinen toteutus"
   url:   https://makecode.microbit.org/#pub:25726-29322-21131-58321
-- title: "Taskulamppu 3: toimintalogiikka" #kytkimellä2
+- title: "Taskulamppu - toimintalogiikka" #kytkimellä2
   url:   https://makecode.microbit.org/#pub:86999-69422-72323-88244
-- title: "Taskulamppu 4: yksinappinen" #kytkimellä4
+- title: "Taskulamppu - yksinappinen" #kytkimellä4
   url:   https://makecode.microbit.org/#pub:15938-83222-11438-65506
-- title: "Taskulamppu 5: negaatio"
+- title: "Taskulamppu - negaatio"
   url:   https://makecode.microbit.org/#pub:99778-45925-96510-37017
-- title: "Taskulamppu 6: vilkkumistila"
+- title: "Taskulamppu - vilkkumistila"
   url:   https://makecode.microbit.org/#pub:84158-12318-00697-75141
 ---
 
