@@ -19,7 +19,7 @@ const GameCard = ({ node, index, onClick, isOpen }: {
   onClick: any
 }) => {
 
-    const [divTopPosition, setDivTopPosition] = useState(0)
+    // const [divTopPosition, setDivTopPosition] = useState(0)
     const [showMarkdown, setShowMarkdown] = useState(false);
 
     const myRef = useRef<HTMLDivElement>(null);
@@ -63,6 +63,17 @@ const GameCard = ({ node, index, onClick, isOpen }: {
       setShowMarkdown(false)
     }
 
+    const links = node.frontmatter.links;
+    const numbered = node.frontmatter.slug == 'microbit'//node.frontmatter.numbered_links;
+    const cardLinks = (!numbered)
+      ? links
+      : links.map((link: any, i: number) => ({
+          ...link,
+          title: `${i+1}. ${link.title}`
+        }));
+
+
+
     return (
       <Card>
         <div ref={myRef} className="w-full">
@@ -86,7 +97,7 @@ const GameCard = ({ node, index, onClick, isOpen }: {
           <div className="flex flex-col justify-start align-center my-4 w-full px-2">
             <div className="text-lg text-center mb-2">{frontmatter.developer}</div>
 
-            {frontmatter.links?.map((link: any) => (
+            {cardLinks?.map((link: any) => (
               <LinkButton text={link.title} url={link.url} key={link.title}/>
             ))}
             <Toggle

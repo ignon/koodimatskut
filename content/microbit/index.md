@@ -7,38 +7,41 @@ hero: microbit.png
 priority: 1250
 slug: microbit
 tags: [jos-muutenjos-muuten, muuttujat, tapahtumat]
+numbered_links: true
 links:
-- title: "1. Sydänanimaatio"
+- title: "Sydänanimaatio"
   url:   https://makecode.microbit.org/#pub:94105-08146-83787-54034
-- title: "2. Timanttianimaatio" #toista-silmukka
+- title: "Timanttianimaatio" #toista-silmukka
   url:   https://makecode.microbit.org/#pub:72788-30636-89341-08119
-- title: "3. Hermostuva hymiö" #jos-muuten
+- title: "Hermostuva hymiö" #jos-muuten
   url:   https://makecode.microbit.org/#pub:14201-61918-09551-84579
-- title: "4. Ilostuva hymiö"  #tai, jos-muuten
+- title: "Ilostuva hymiö"  #tai, jos-muuten
   url:   https://makecode.microbit.org/#pub:26417-17349-69003-42599
 - title: "Aurinkosensori"
   url: https://makecode.microbit.org/#pub:10276-10604-21926-62648
 - title: "Nukahtelija"
   url: https://makecode.microbit.org/#pub:78582-52989-27431-39443
-- title: "5. Numeronoppa"  #muuttujat, satunnainen
+- title: "Numeronoppa"  #muuttujat, satunnainen
   url:   https://makecode.microbit.org/#pub:31737-44123-83915-24459
-- title: "6. Kuvanoppa"   #muuttujat, satunnainen, jos-muuten
+- title: "Kuvanoppa"   #muuttujat, satunnainen, jos-muuten
   url:   https://makecode.microbit.org/#pub:70503-31783-53794-24087
-- title: "7. Kyllä-ei-kone"
+- title: "Kyllä-ei-kone"
   url:   https://makecode.microbit.org/#pub:66857-19396-27326-93372
-- title: "8. Vastauskone"
+- title: "Vastauskone"
   url:   https://makecode.microbit.org/#pub:03155-90432-67225-19572
-- title: "9. Kivi-paperi-sakset"
+- title: "Kivi-paperi-sakset"
   url:   https://makecode.microbit.org/#pub:46784-77969-88084-16391
+- title: "Velmu"
+  url:   https://makecode.microbit.org/#pub:48655-56821-68312-16265
 - title: "Fiksu lämpömittari"
   url: https://makecode.microbit.org/#pub:99417-89790-78379-15792
-- title: "10. Askelmittari"
+- title: "Askelmittari"
   url:   https://makecode.microbit.org/#pub:06235-49467-80010-25551
-- title: "11. Laskuri"
+- title: "Laskuri"
   url:   https://makecode.microbit.org/#pub:92364-53382-37530-92747
-#- title: "12. Lämpömittari"
+#- title: "Lämpömittari"
 #  url:   https://makecode.microbit.org/#pub:52785-04419-53206-11240
-#- title: "13. Meteoriittipeli"
+#- title: "Meteoriittipeli"
 #  url:   https://makecode.microbit.org/#pub:18696-24769-37859-82092
 - title: "Aurinko – kirkkaus"
   url:   https://makecode.microbit.org/#pub:59523-81269-71321-86069

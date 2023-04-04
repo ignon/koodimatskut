@@ -1,0 +1,21 @@
+# Vuosiluokat 1-2
+- [] Robotiikka
+- [] Tietoteknisten laitteiden toimintaperiaatteet
+- [x] Toistuvia kaavoja ja säännönmukaisuuksia
+- [] Kerrotaan omista havainnoista ja valinnoista käsitteiden ja välineiden avulla
+- Puretaan arkisia ongelmia osiin ja kokeillaan niihin ratkaisuvaihtoehtoja
+- [x] Leikillisiä toimintaohjeita joita voidaan testata myös ohjelmoitavilla laitteilla, sekä harjoitellaan tunnistamaan virhetilanteita
+- [x] Välineitä käytetään luovasti, leikillisesti...
+- [] ...eri oppiaineiden sisältöjen käsittelyssä
+- [x] Toteutetaan tarinallisia tuotoksia käyttäen animointia ja ohjelmointia
+- WIP: Tekoäly
+- [] Havainnoidaan ohjelmointia ja robotiikkaa yhteiskunnassa
+- [] Pohditaan teknologisten sovelusten hyödyntämistapoja ja merkitystä oppilaiden elämässä.
+- Keskustellaan kohdennetuista digitaalisista sisällöistä sekä oppilaiden omasta toiminnasta digitaalisissa ympäristöissä.
+- [x] Ongelman ratkaisuun käytetään erilaisia ratkaisukaavoja joita luodaan myös itse.
+- [x] Arvioidaan ratkaisuja käyttäen jotakin kriteeriä
+- [x] Tietoa käsitellään ja esitellään käsitteiden ja symbolien avulla
+- [x] Laaditaan toimintaohjeita ja algoritmeja hyödyntäen ohjelmoinnin perusrakenteita sekä etsitään ja korjataan virheitä toimintaohjeissa
+- [x] Ohjelmoidaan graafisessa ohjelmointiympäristössä
+- [] Ehtorakenne, muuttuja, tekoäly, toistorakenne
+- [] debuggaus, vuokaavio, URL
