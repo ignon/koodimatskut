@@ -39,6 +39,8 @@ links:
   url:   https://makecode.microbit.org/#pub:06235-49467-80010-25551
 - title: "Laskuri"
   url:   https://makecode.microbit.org/#pub:92364-53382-37530-92747
+- title: "Salasana-lukko"
+  url:   https://makecode.microbit.org/#pub:91580-46307-77044-82320
 #- title: "Lämpömittari"
 #  url:   https://makecode.microbit.org/#pub:52785-04419-53206-11240
 #- title: "Meteoriittipeli"
