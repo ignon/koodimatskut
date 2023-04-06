@@ -9,7 +9,7 @@ slug: mehilainen
 priority: 280
 links:
 - title: Silmukat
-  url:   https://studio.code.org/s/course1/lessons/14/levels/1
+  url:   https://studio.code.org/s/course1/lessons/14/levels/1?lang=fi-FI
 ---
 
 `toista-x-kertaa` –silmukan kertausta. Tehtävän muuttuvat haastaviksi jos ne koittaa tehdä "kunnolla" mahdollisimman pienellä käskymäärällä.

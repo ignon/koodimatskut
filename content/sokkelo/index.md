@@ -11,11 +11,11 @@ categories: [alakoulu]
 link: https://studio.code.org/s/course1/lessons/4/levels/1
 links:
 - title: 1. Käskysarjat
-  url:   https://studio.code.org/s/course1/lessons/4/levels/1
+  url:   https://studio.code.org/s/course1/lessons/4/levels/1?lang=fi-FI
 - title: 2. Silmukat
-  url:   https://studio.code.org/s/course1/lessons/13/levels/1
+  url:   https://studio.code.org/s/course1/lessons/13/levels/1?lang=fi-FI
 ---
-
+lang=fi-FI
 Tehtävät on mahdollista suorittaa käyttämättä toista-silmukoita. Täsmennä oppilaille että tehtävien tarkoitus on harjoitella `toista-x-kertaa` silmukan käyttöä, joten sitä on hyvä käyttää aina kun mahdollista. Selitä että vaikka nyt tehtävät voisikin ratkaista ilman sitä, koodatessa tulee tilanteita, jolloin joitain käskyjä pitää toistaa jopa satoja tuhansia kertoja. Silloin on pakko osata käyttää silmukoita.
 
 ---

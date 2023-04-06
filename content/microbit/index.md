@@ -1,8 +1,8 @@
 ---
 title: Microbit MakeCode
 developer: BBC, Microsoft
-time: +120min
-difficulty: Keskivaikea
+time: 3h
+difficulty: 2. luokka
 hero: microbit.png
 priority: 1250
 slug: microbit
@@ -32,7 +32,7 @@ links:
 - title: "Kivi-paperi-sakset"
   url:   https://makecode.microbit.org/#pub:46784-77969-88084-16391
 - title: "Velmu"
-  url:   https://makecode.microbit.org/#pub:48655-56821-68312-16265
+  url:   https://makecode.microbit.org/#pub:61417-94026-52770-87966
 - title: "Fiksu lämpömittari"
   url: https://makecode.microbit.org/#pub:99417-89790-78379-15792
 - title: "Askelmittari"
@@ -40,7 +40,7 @@ links:
 - title: "Laskuri"
   url:   https://makecode.microbit.org/#pub:92364-53382-37530-92747
 - title: "Salasana-lukko"
-  url:   https://makecode.microbit.org/#pub:91580-46307-77044-82320
+  url:   https://makecode.microbit.org/#pub:81620-94974-86336-80516
 #- title: "Lämpömittari"
 #  url:   https://makecode.microbit.org/#pub:52785-04419-53206-11240
 #- title: "Meteoriittipeli"

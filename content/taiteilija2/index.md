@@ -9,5 +9,5 @@ slug: taiteilija
 tags: [sisäkkäiset silmukat, funktiot, funktion argumentit]
 links:
 - title: Taiteilija
-  url:   http://studio.code.org/s/artist/reset
+  url:   http://studio.code.org/s/artist/reset?lang=fi-FI
 ---

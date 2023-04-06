@@ -4,7 +4,7 @@ developer: Important Little Games
 hero: ./hero.jpg
 time: "+60min"
 difficulty: Haastava
-priority: 400
+priority: 300
 slug: codemancer
 tags: [toista-x-kertaa, lukutaidottomille]
 links:

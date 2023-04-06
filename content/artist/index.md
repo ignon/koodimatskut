@@ -9,9 +9,9 @@ slug: taiteilija
 tags: [toista-x-kertaa, lukutaidottomille]
 links:
 - title: 1. Käskysarjat
-  url:   https://studio.code.org/s/course1/lessons/10/levels/1
+  url:   https://studio.code.org/s/course1/lessons/10/levels/1?lang=fi-FI
 - title: 2. Silmukat
-  url:   https://studio.code.org/s/course1/lessons/18/levels/1
+  url:   https://studio.code.org/s/course1/lessons/18/levels/1?lang=fi-FI
 ---
 
 

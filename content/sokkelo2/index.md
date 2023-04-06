@@ -9,6 +9,6 @@ slug: sokkelo2
 priority: 1225
 links:
 - title: Sokkelo
-  url:   https://studio.code.org/hoc/8
+  url:   https://studio.code.org/hoc/8?lang=fi-FI
 ---
 

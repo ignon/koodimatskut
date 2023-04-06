@@ -9,7 +9,7 @@ slug: minecraft-sankarin-matka
 tags: [funktiot, toista-x-kertaa]
 links:
 - title: Sankarin matka
-  url:   https://studio.code.org/s/hero/reset
+  url:   https://studio.code.org/s/hero/reset?lang=fi-FI
 ---
 
 

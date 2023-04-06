@@ -3,7 +3,7 @@ title: RodoCodo
 developer: rodocodo Ltd
 time: "+60min"
 difficulty: Keskivaikea
-priority: 300
+priority: 400
 hero: hero.png
 tags: [toista-x-kertaa, funktiot, lukutaidottomille]
 slug: rodocodo

@@ -6,7 +6,7 @@ difficulty: Vaikea
 hero: hero.png
 priority: 1630
 slug: silent-teacher
-tags: [merkkijonot, listat, funktiot, argumentit, palautusarvot]
+tags: [merkkijonot, listat, funktion argumentit ja palautusarvot]
 links:
 - title: Python
   url:   https://silentteacher.toxicode.fr/hour_of_code.html?theme=basic_python

@@ -9,7 +9,7 @@ slug: minecraft-seikkailija
 tags: [toista-x-kertaa, argumentit, jos-lauseke]
 links:
 - title: "Seikkailija"
-  url:   https://studio.code.org/s/mc/reset
+  url:   https://studio.code.org/s/mc/reset?lang=fi-FI
 ---
 
 

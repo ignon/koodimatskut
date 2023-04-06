@@ -9,7 +9,7 @@ slug: minecraft-merellinen-matka
 tags: [toista-kunnes, jos-lauseke]
 links:
 - title: Merellinen matka
-  url:   https://studio.code.org/s/aquatic/reset
+  url:   https://studio.code.org/s/aquatic/reset?lang=fi-FI
 ---
 
 
