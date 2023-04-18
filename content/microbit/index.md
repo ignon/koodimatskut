@@ -19,8 +19,12 @@ links:
   url:   https://makecode.microbit.org/#pub:26417-17349-69003-42599
 - title: "Aurinkosensori"
   url: https://makecode.microbit.org/#pub:10276-10604-21926-62648
-- title: "Nukahtelija"
-  url: https://makecode.microbit.org/#pub:78582-52989-27431-39443
+- title: "Askelmittari"
+  url:   https://makecode.microbit.org/#pub:06235-49467-80010-25551
+- title: "Laskuri"
+  url:   https://makecode.microbit.org/#pub:92364-53382-37530-92747
+# - title: "Nukahtelija"
+#  url: https://makecode.microbit.org/#pub:78582-52989-27431-39443
 - title: "Numeronoppa"  #muuttujat, satunnainen
   url:   https://makecode.microbit.org/#pub:31737-44123-83915-24459
 - title: "Kuvanoppa"   #muuttujat, satunnainen, jos-muuten
@@ -35,10 +39,6 @@ links:
   url:   https://makecode.microbit.org/#pub:61417-94026-52770-87966
 - title: "Fiksu lämpömittari"
   url: https://makecode.microbit.org/#pub:99417-89790-78379-15792
-- title: "Askelmittari"
-  url:   https://makecode.microbit.org/#pub:06235-49467-80010-25551
-- title: "Laskuri"
-  url:   https://makecode.microbit.org/#pub:92364-53382-37530-92747
 - title: "Salasana-lukko"
   url:   https://makecode.microbit.org/#pub:81620-94974-86336-80516
 #- title: "Lämpömittari"
@@ -69,16 +69,24 @@ links:
   url:   https://makecode.microbit.org/#pub:99778-45925-96510-37017
 - title: "Taskulamppu - vilkkumistila"
   url:   https://makecode.microbit.org/#pub:84158-12318-00697-75141
+- title: "Tosi vai epätosi?"
+  url:   https://makecode.microbit.org/#pub:65805-74813-07567-02283
+- title: "Tosi vai epätosi: negaatiot"
+  url:   https://makecode.microbit.org/#pub:79559-20386-92721-77094
+- title: "Totuusarvomuuttuja käänteiseksi"
+  url:   https://makecode.microbit.org/#pub:40686-76316-00156-41087
 ---
 
 
 <!--
 **NOTE TO MYSELF**: Lisää
+- lisää "auringon kirkkauden muuttaminen" tehtvään puuttuvat
+  lohkot
+- selkeytä "nukahtava lemmikki" -tehtävää ja siirrä sen paikka tehtävälistauksessa
+- ajastin
+- ruletti
 - köydenvetopeli
 - kolikonheitto
-- salasana
-- älykäs säämittari (suosittelee pukeutumista)
-- taskulamppu + strobotila
 - kiihtyvyys (tauko-muuttuja)
 - kello-animaatio
 - tilt-peli https://www.youtube.com/watch?v=qiltLwkwsvo&pp=ygUObWljcm9iaXQgZ2FtZXM%3D
