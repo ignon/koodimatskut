@@ -11,7 +11,7 @@ links:
 - title: Nettiversio
   url:   https://game.rodocodo.com/hour-of-code/
 - title: iPad/iPhone
-  url:   https://game.rodocodo.com/hour-of-code/
+  url:   https://apps.apple.com/gb/app/rodocodo/id1450944869
 - title: Android
   url:   https://play.google.com/store/apps/details?id=com.rodocodo.game&hl=en&gl=US
 ---

@@ -4,7 +4,7 @@ hero: ./hero.png
 developer: Escape 2 Play
 time: "+60min"
 difficulty: Keskivaikea
-tags: [funktiot, ehtolauseet, lukutaidottomille]
+tags: [funktiot, lukutaidottomille]
 slug: kidbot
 priority: 500
 links:

@@ -6,7 +6,7 @@ difficulty: Keskivaikea
 hero: hero2.jpg
 priority: 1000
 slug: minecraft-seikkailija
-tags: [toista-x-kertaa, argumentit, jos-lauseke]
+tags: [toista-x-kertaa, jos-lauseke]
 links:
 - title: "Seikkailija"
   url:   https://studio.code.org/s/mc/reset?lang=fi-FI

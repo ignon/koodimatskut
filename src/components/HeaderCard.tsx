@@ -38,9 +38,10 @@ const HeaderCard = () => {
             <h1 className="text-center text-4xl font-extrabold text-gray-700">Opettajan materiaalit</h1>
           </div>
           <div className="text-lg text-gray-800 my-8 px-3 py-3">
-            <p>Koodimatskut.fi on tarkkaan valikoitu lista ohjelmoinnin pelillisiä harjoituksia järkevässä etenemisjärjestyksessä.</ p>
-            <p>Tehtävät alkavat lukutaidottomille sopivilla harjoituksilla ja etenevät tavoitteellisesti käsite kerrallaan eteenpäin. Listan tarkoitus on tarjota opettajille mahdollisimman valmiiksi jäsenneltyä oppimateriaalia, joka ohjaa ja tukee oppituntien kulkua kuten matematiikan kirjakin. Kaikki tehtävät toimivat ilman tilien luontia, joko iPadilla tai suoraan selaimessa.</ p>
-            <p>Materiaalia riittää ainakin 15 oppitunniksi. Scratch ja muut projektilähtöisemmät ympäristöt ovat toki rinnalle suositeltavia.</ p>
+            <p>Tehtävät alkavat lukutaidottomille sopivilla harjoituksilla ja etenevät tavoitteellisesti käsite kerrallaan eteenpäin. Listan tarkoitus on tarjota opettajille mahdollisimman valmiiksi jäsenneltyä oppimateriaalia, joka ohjaa ja tukee oppituntien kulkua kuten matematiikan kirjakin. Kaikki tehtävät toimivat ilman tilien luontia, joko iPadilla tai suoraan selaimessa.
+            Materiaalia riittää ainakin 15 oppitunniksi. Scratch ja muut projektilähtöisemmät ympäristöt ovat toki rinnalle suositeltavia.</ p>
+            <p><br /></p>
+            <p>Tähän on tulossa vielä laajempi selostus sivuston pedagogisista ratkaisuista, sekä selvitys materiaalien sopivuudesta ohjelmoinnin OPS:iin. Sivuston kehitys on vielä kesken vaikka onkin jo käyttökunnossa.</p>
           </div>
         </Card>
       )}

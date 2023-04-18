@@ -1,8 +1,8 @@
 # Vuosiluokat 1-2
 - [] Robotiikka
 - [] Tietoteknisten laitteiden toimintaperiaatteet
-- [x] Toistuvia kaavoja ja säännönmukaisuuksia
 - [] Kerrotaan omista havainnoista ja valinnoista käsitteiden ja välineiden avulla
+- [x] Toistuvia kaavoja ja säännönmukaisuuksia
 - Puretaan arkisia ongelmia osiin ja kokeillaan niihin ratkaisuvaihtoehtoja
 - [x] Leikillisiä toimintaohjeita joita voidaan testata myös ohjelmoitavilla laitteilla, sekä harjoitellaan tunnistamaan virhetilanteita
 - [x] Välineitä käytetään luovasti, leikillisesti...
@@ -17,5 +17,7 @@
 - [x] Tietoa käsitellään ja esitellään käsitteiden ja symbolien avulla
 - [x] Laaditaan toimintaohjeita ja algoritmeja hyödyntäen ohjelmoinnin perusrakenteita sekä etsitään ja korjataan virheitä toimintaohjeissa
 - [x] Ohjelmoidaan graafisessa ohjelmointiympäristössä
-- [] Ehtorakenne, muuttuja, tekoäly, toistorakenne
+- [x] Ehtorakenne, muuttuja, toistorakenne
+- [] tekoäly
 - [] debuggaus, vuokaavio, URL
+
