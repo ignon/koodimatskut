@@ -3,7 +3,7 @@ title: Frozen
 hero: ./hero.png
 developer: Code.org, Disney
 time: "+60min"
-difficulty: Vaikea
+difficulty: 5. luokka
 tags: ["sisäkkäiset silmukat", argumentit]
 slug: frozen
 priority: 1300

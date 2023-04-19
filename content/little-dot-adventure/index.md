@@ -2,9 +2,9 @@
 title: Little Dot Adventure
 developer: Toxicode
 time: +60min
-difficulty: Vaikea
+difficulty: 6. luokka
 hero: hero.png
-priority: 1600
+priority: 1620
 slug: little-dot-adventure
 tags: [niin-kauan-kuin (while), toista-x-kertaa (repeat), jos (if)]
 links:

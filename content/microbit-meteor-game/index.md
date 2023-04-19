@@ -2,7 +2,7 @@
 title: "Microbit: Meteoriittipeli"
 developer: Arttu Mäkinen
 time: "+40min"
-difficulty: Keskivaikea
+difficulty: 4. luokka
 hero: microbit.png
 priority: 1260
 slug: microbit-meteor-game
@@ -23,6 +23,7 @@ links:
 ---
 
 
+> Materiaali keskeneräinen!
 
 Tämän sivuston harjoitukset on pyritty rajaamaan harjoituksiin jotka ovat ilmaisia, toimivat nettiselaimessa eivätkä tarvi opettajatilejä tai fyysisten laitteiden ostamista. Teen Microbitin osalta poikkeuksen sillä se on halpa, helppo kuljettaa ja jakaa luokkahuoneiden välillä ja monella koululla tuntuu lähtökohtaisesti olevan näitä. Lisäksi koodia voi ajaa koodausympäristön Microbit-simulaattorissa eli laitetta ei välttämättä tarvitse edes ostaa.
 

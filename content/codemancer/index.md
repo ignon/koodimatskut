@@ -3,7 +3,7 @@ title: Codemancer
 developer: Important Little Games
 hero: ./hero.jpg
 time: "+60min"
-difficulty: Haastava
+difficulty: 1. luokka
 priority: 300
 slug: codemancer
 tags: [toista-x-kertaa, lukutaidottomille]

@@ -3,7 +3,7 @@ title: AlgoRun
 hero: hero2.jpg
 developer: Bitcrumbs
 time: "+60min"
-difficulty: Vaikea
+difficulty: 2. luokka
 tags: [funktiot, lukutaidottomille]
 slug: algorun
 priority: 550

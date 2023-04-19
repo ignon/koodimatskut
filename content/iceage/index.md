@@ -2,7 +2,7 @@
 title: Ice Age
 developer: Code.org, Disney
 time: 20min
-difficulty: Helppo
+difficulty: 1. luokka
 hero: ./hero.png
 tags: [toista-x-kertaa, lukutaidottomille]
 slug: iceage

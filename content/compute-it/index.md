@@ -2,9 +2,9 @@
 title: Compute It
 developer: Toxicode
 time: +60min
-difficulty: Vaikea
+difficulty: 6. luokka
 hero: path.png
-priority: 1620
+priority: 1600
 slug: compute-it
 tags: ["funktio (function)", "jos-muuten (if-else)", niin-kauan-kuin (while)]
 links:

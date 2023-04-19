@@ -3,7 +3,7 @@ title: Kidbot
 hero: ./hero.png
 developer: Escape 2 Play
 time: "+60min"
-difficulty: Keskivaikea
+difficulty: 2. luokka
 tags: [funktiot, lukutaidottomille]
 slug: kidbot
 priority: 500

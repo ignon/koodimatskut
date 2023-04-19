@@ -2,7 +2,7 @@
 title: Laurel
 developer: Code.org
 time: 30min
-difficulty: Keskivaikea
+difficulty: 1. luokka
 hero: ./laurel_banner.png
 tags: [toista-x-kertaa, lukutaidottomille]
 slug: laurel

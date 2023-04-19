@@ -2,7 +2,7 @@
 title: Microbit MakeCode
 developer: BBC, Microsoft
 time: 3h
-difficulty: 2. luokka
+difficulty: 3.- 4. luokka
 hero: microbit.png
 priority: 1250
 slug: microbit

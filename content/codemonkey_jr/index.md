@@ -3,7 +3,7 @@ hero: hero.png
 title: CodeMonkey Jr
 developer: CodeMonkey
 time: 50min
-difficulty: Helppo
+difficulty: 1. luokka
 priority: 100
 slug: codemonkey_jr
 tags: [käskysarjat, toista-ikuisesti, lukutaidottomille]

@@ -2,7 +2,7 @@
 title: Silent Teacher
 developer: Toxicode
 time: +60min
-difficulty: Vaikea
+difficulty: 6. luokka
 hero: hero.png
 priority: 1630
 slug: silent-teacher

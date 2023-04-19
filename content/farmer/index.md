@@ -2,7 +2,7 @@
 title: Farmari
 hero: hero.png
 time: 40min
-difficulty: Haastava
+difficulty: 5. luokka
 developer: Code.org
 tags: [toista-kunnes, niin-kauan-kuin]
 slug: farmer

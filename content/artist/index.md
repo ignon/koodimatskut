@@ -2,7 +2,7 @@
 title: Taiteilija
 developer: Code.org
 time: 30min
-difficulty: Keskivaikea
+difficulty: 1. luokka
 hero: ./hero.jpg
 priority: 250
 slug: taiteilija

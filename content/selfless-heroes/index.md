@@ -2,7 +2,7 @@
 title: Selfless Heroes
 developer: Félicien Brochu
 time: +60min
-difficulty: Vaikea
+difficulty: 6. luokka
 hero: banner.jpg
 priority: 1500
 slug: selfless-heroes

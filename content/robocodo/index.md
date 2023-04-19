@@ -2,7 +2,7 @@
 title: RodoCodo
 developer: rodocodo Ltd
 time: "+60min"
-difficulty: Keskivaikea
+difficulty: 2. luokka
 priority: 400
 hero: hero.png
 tags: [toista-x-kertaa, funktiot, lukutaidottomille]

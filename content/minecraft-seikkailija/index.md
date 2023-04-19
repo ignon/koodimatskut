@@ -2,7 +2,7 @@
 title: "Minecraft: Seikkailija"
 developer: "Code.org, Microsoft, Mojang"
 time: "+60min"
-difficulty: Keskivaikea
+difficulty: 2. luokka
 hero: hero2.jpg
 priority: 1000
 slug: minecraft-seikkailija

@@ -2,7 +2,7 @@
 title: "Minecraft: Sankarin matka"
 developer: "Code.org, Microsoft, Mojang"
 time: "+60min"
-difficulty: Keskivaikea
+difficulty: 2. luokka
 hero: banner.png
 priority: 1100
 slug: minecraft-sankarin-matka

@@ -2,7 +2,7 @@
 title: Sokkelo
 hero: hero.png
 time: 40min
-difficulty: Haastava
+difficulty: 3. luokka
 developer: Code.org
 tags: [toista-kunnes, jos-muuten]
 slug: sokkelo2

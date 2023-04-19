@@ -2,7 +2,7 @@
 title: Mehiläinen
 hero: ./hero.png
 time: 40min
-difficulty: Haastava
+difficulty: 1. luokka
 developer: Code.org
 tags: [toista-x-kertaa, lukutaidottomille]
 slug: mehilainen
