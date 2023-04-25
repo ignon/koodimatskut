@@ -3,7 +3,9 @@ import type { GatsbyConfig } from "gatsby";
 const config: GatsbyConfig = {
   siteMetadata: {
     title: `Koodimatskut`,
-    siteUrl: `https://www.koodimatskut.fi`
+    siteUrl: `https://www.koodimatskut.fi`,
+    description: 'Ohjelmoinnin pelillisiä harjoituksia alakouluille',
+    siteLanguage: 'fi-FI'
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
   // If you use VSCode you can also use the GraphQL plugin

@@ -1,6 +1,7 @@
 import * as React from 'react'
 import { useState } from 'react'
 import { graphql } from 'gatsby'
+import { SEO } from '../components/seo'
 
 import Layout from '../components/Layout'
 
@@ -51,6 +52,13 @@ const MainPage = ({ data }: {
 //
 export const query = graphql`
   query {
+    site {
+      siteMetadata {
+        title
+        description
+        siteUrl
+      }
+    }
     allMarkdownRemark(sort: { frontmatter: { priority: ASC }}) {
       nodes {
         frontmatter {
@@ -81,3 +89,7 @@ export const query = graphql`
 //export const Head = () => <Seo title="My Blog Posts" />
 
 export default MainPage
+
+export const Head = () => (
+  <SEO />
+)
