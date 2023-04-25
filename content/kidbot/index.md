@@ -17,6 +17,7 @@ links:
 Pelin nettiversion toimii iPadeilla ja Chromebookeilla, joten suosittelen käyttämään sitä (testatkaa toki nettiversion toimivuus laitteillanne ennen tunnin alkua). Tähän mennessä olemme opetelleet pääasiassa `toista-x-kertaa`-silmukan käyttöä. Tässä pelissä opettelemme uuden konseption eli `funktion`
 
 
+<!--
 - Funktiot
 - Rekursio
 - Rekursiosilmukka
@@ -24,3 +25,4 @@ Pelin nettiversion toimii iPadeilla ja Chromebookeilla, joten suosittelen käytt
 
 - Web-versio toimii mobiililaitteillakin, iOS-versio on maksullinen
 - Pelatkaa niin paljon mitä yhdellä tunnilla ehditte
+-->

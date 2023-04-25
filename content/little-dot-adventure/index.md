@@ -27,4 +27,4 @@ Pelissä sinun on valittava kortti jossa on tilanteeseen sopiva koodi ja sitten 
 > **repat** - toista \
 > **again** - uudestaan (edellinen käsky)
 
-**Huom:** Peli muuttuu nopeasti hyvin vaikeaksi. Jos oppilas jää jumiin, kannattaa hänen kertauksen takia aloittaa uudestaan ensimmäisestä tehtävästi, samalla hän huomaa kehittyneensä. Jos jää vieläkin samaan kohtaan, voi siirtyä seuraavaan Compute It -peliin. Sekin on tosin vaikea eli kannattaa siinäkin aloittaa alusta kertauksen vuoksi jäädessään jumiin.
+**Huom:** Peli muuttuu nopeasti hyvin vaikeaksi. Jos oppilas jää jumiin, kannattaa hänen kertauksen takia aloittaa uudestaan ensimmäisestä tehtävästi, jolloin hän myös huomaa kehittyneensä.

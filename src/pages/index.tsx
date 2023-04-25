@@ -18,7 +18,13 @@ const MainPage = ({ data }: {
 
   return (
     <Layout pageTitle="Blog posts">
-      <HeaderCard />
+      <HeaderCard>
+          <p>Tehtävät alkavat lukutaidottomille sopivilla harjoituksilla ja etenevät tavoitteellisesti käsite kerrallaan eteenpäin. Listan tarkoitus on tarjota opettajille mahdollisimman valmiiksi jäsenneltyä oppimateriaalia, joka ohjaa ja tukee oppituntien kulkua kuten matematiikan kirjakin. Kaikki tehtävät toimivat ilman tilien luontia, joko iPadilla tai suoraan selaimessa.
+          Materiaalia riittää ainakin 25 oppitunniksi. Scratch ja muut projektilähtöisemmät ympäristöt ovat toki rinnalle suositeltavia.</ p>
+          <p><br /></p>
+          <p>Tähän on tulossa vielä laajempi selostus sivuston pedagogisista ratkaisuista, sekä selvitys materiaalien sopivuudesta ohjelmoinnin OPS:iin. Sivuston kehitys on vielä kesken vaikka onkin jo käyttökunnossa. Sivuston on kehittänyt Arttu Mäkinen</p>
+      </ HeaderCard>
+
       {markdownNodes.map((node: any, index: number) => (
         <GameCard
           node={node}
@@ -36,10 +42,13 @@ const MainPage = ({ data }: {
           }}
         />
       ))}
+
+      <p className="text-center text-gray-600 mb-10 text-2xl whitespace-nowrap p-1 mt-5">Arttu Mäkinen - 2023</p>
     </Layout>
   )
 }
-
+// text-center mt-7 mb-5 mx-3 text-lg text-gray-800
+//
 export const query = graphql`
   query {
     allMarkdownRemark(sort: { frontmatter: { priority: ASC }}) {

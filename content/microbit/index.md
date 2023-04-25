@@ -1,7 +1,7 @@
 ---
 title: Microbit MakeCode
 developer: BBC, Microsoft
-time: 3h
+time: ~4h
 difficulty: 3.- 4. luokka
 hero: microbit.png
 priority: 1250
@@ -108,21 +108,24 @@ Osa 1: https://makecode.microbit.org/_XtWLM37LA6gR
 LEMMIKKIPELI
 https://makecode.microbit.org/_fwc9WL2h1dHv
 
-
 -->
 
 Tämän sivuston harjoitukset on pyritty rajaamaan harjoituksiin jotka ovat ilmaisia, toimivat nettiselaimessa eivätkä tarvi opettajatilejä tai fyysisten laitteiden ostamista. Teen Microbitin osalta poikkeuksen sillä se on halpa, helppo kuljettaa ja jakaa luokkahuoneiden välillä sekä monella koululla tuntuu lähtökohtaisesti olevan näitä. Lisäksi koodia voi ajaa koodausympäristön Microbit-simulaattorissa eli laitetta ei välttämättä tarvitse edes ostaa.
 
 
 ## Harjoitukset
-Harjoituksista pitäisi riittää tekemistä useammallekin tunnille. Harjoitukset on pyritty tekemään siten, että oppilaat voivat edetä niitä omalla vauhdillaan, opettajan tukemana.
+Harjoitusten tekemiseen menee 3 - 5 oppituntia. Harjoitukset on pyritty tekemään siten, että oppilaat voivat tehdä niitä itsenäisesti omalla tahdillaan, opettajan tukemana. Suosittelen vahvasti että paikalla on yksi opettaja jokaista 10 oppilasta kohden.
+
+Jos oppilaiden itseohjautuvuus ei riitä itsenäiseen työskentelyyn, voidaan tehtäviä käydä läpi myös yhdessä (mahdollistaa myös isommat ryhmäkoot kun oppilaita tai ei tarvi ohjeistaa yksitellen). Jos luokassa on kosketusnäytöllinen älytaulu, voivat oppilaat tulla laittamaan käskyjä paikoilleen yksi kerrallaan.
 
 Harjoituksissa on annettu koodilohkot valmiiksi joten oppilaiden on vain osattava järjestää ne oikein. Ei ole varmasti pahitteeksi koodata jokin harjoituksista täysin tyhjältä pöydältä opettajajohtoisesti, jolloin oppilaat oppivat miltä välilehdeltä mikäkin käsky löytyy ja minkälaisiin kategorioihin ne on jaoteltu.
 
-**Huom:** Varoita oppilaita että jos koodilohkon raahaa vasemman reunan valikon kohdalle, se joutuu roskiin ja häviää. Tämän tapahtuessa harjoituksen voi kuitenkin avata tämän sivun linkistä uudestaan jolloin saa alkuperäiset palikat takaisin.
+**Huom:** Varoita oppilaita että jos koodilohkon raahaa vasemman reunan valikon kohdalle, se joutuu roskiin ja häviää. Tämän tapahtuessa harjoituksen voi kuitenkin avata tämän sivun linkistä uudestaan jolloin saa alkuperäiset palikat takaisin (tai painaa "undo"-nappia tai pikanäppäintä `Ctrl + Z`).
 
 **Huom:** Kuten useimmissa graafisissa ohjelmointiympäristöissä, koodipalikat on värikoodattu eli punaiset koodilohkot löytyvät punaiselta välilehdeltä ja siniset siniseltä välilehdeltä jne.
 
+**Huom:** Ainakin Chromebookeja käyttäessä Microbitit lakkaavat välillä toimimasta, jolloin itsellä on aina auttanut johdon irroittaminen ja takaisin laittaminen.
 
+**Huom:** Oppilaat koittavat laittaa Microbittien USB-johtoja tietokoneeseen voimalla väärinpäin, vaikka selvästi sanoisi että ne menevät sisään vain oikein päin ja niiden laittamisessa ei saa käyttää voimaa. Jos haluatte varmistaa että tietokoneiden USB-paikkoja ei hajoa (todennäköisesti hajoaa), laittakaa johdot oppilaiden puolesta.
 
 

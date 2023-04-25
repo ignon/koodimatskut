@@ -14,3 +14,12 @@ links:
   url:   https://compute-it.toxicode.fr/?hour-of-code&progression=python
 ---
 
+> **if-else** jos-muuten \
+> **function** funktio \
+> **while** niin-kauan-kuin
+
+> **right** oikealle \
+> **left** vasemmalle \
+> **up** ylös \
+> **down** alas
+

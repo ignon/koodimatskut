@@ -11,7 +11,7 @@
 - WIP: Tekoäly
 - [] Havainnoidaan ohjelmointia ja robotiikkaa yhteiskunnassa
 - [] Pohditaan teknologisten sovelusten hyödyntämistapoja ja merkitystä oppilaiden elämässä.
-- Keskustellaan kohdennetuista digitaalisista sisällöistä sekä oppilaiden omasta toiminnasta digitaalisissa ympäristöissä.
+- [] Keskustellaan kohdennetuista digitaalisista sisällöistä sekä oppilaiden omasta toiminnasta digitaalisissa ympäristöissä.
 - [x] Ongelman ratkaisuun käytetään erilaisia ratkaisukaavoja joita luodaan myös itse.
 - [x] Arvioidaan ratkaisuja käyttäen jotakin kriteeriä
 - [x] Tietoa käsitellään ja esitellään käsitteiden ja symbolien avulla
