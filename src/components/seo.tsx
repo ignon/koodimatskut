@@ -2,10 +2,11 @@ import React from "react"
 import Helmet from 'react-helmet'
 import { useSiteMetadata } from "../hooks/useSiteMetadata"
 
-export const SEO = ({ title, description, pathname, children, siteLanguage }: {
+export const SEO = ({ title, image, description, pathname, children, siteLanguage }: {
   title?: string,
   description?: string,
   pathname?: string,
+  image?: string,
   siteLanguage?: string
   children?: any,
 }) => {
@@ -13,7 +14,6 @@ export const SEO = ({ title, description, pathname, children, siteLanguage }: {
     title: defaultTitle,
     description: defaultDescription,
     siteLanguage: defaultLanguage,
-    // image,
     siteUrl,
     // twitterUsername
   } = useSiteMetadata()
@@ -23,7 +23,8 @@ export const SEO = ({ title, description, pathname, children, siteLanguage }: {
     description: description || defaultDescription,
     siteLanguage: siteLanguage || defaultLanguage || '',
     // image: `${siteUrl}${image}`,
-    url: `${siteUrl}${pathname || ''}`
+    url: `${siteUrl}${pathname || ''}`,
+    image: `${siteUrl}${image}`,
     // twitterUsername,
   }
 
@@ -50,7 +51,7 @@ export const SEO = ({ title, description, pathname, children, siteLanguage }: {
       <meta name="twitter:title" content={seo.title} />
       <meta name="twitter:url" content={seo.url} />
       <meta name="twitter:description" content={seo.description} />
-      {/* <meta name="twitter:image" content={seo.image} /> */}
+      <meta name="twitter:image" content={seo.image} />
       {/* <meta name="twitter:creator" content={seo.twitterUsername} /> */}
       {/* <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>👤</text></svg>" /> */}
 

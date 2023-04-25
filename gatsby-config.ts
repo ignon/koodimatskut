@@ -5,6 +5,7 @@ const config: GatsbyConfig = {
     title: `Koodimatskut`,
     siteUrl: `https://www.koodimatskut.fi`,
     description: 'Ohjelmoinnin pelillisiä harjoituksia alakouluille',
+    image: '/logo.jpg',
     siteLanguage: 'fi-FI'
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
@@ -16,7 +17,7 @@ const config: GatsbyConfig = {
     "gatsby-plugin-sitemap",
     {
       resolve: 'gatsby-plugin-manifest',
-      options: { "icon": "src/images/icon.png" }
+      options: { "icon": "static/logo.jpg" }
     },
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
