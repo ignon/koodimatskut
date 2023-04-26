@@ -44,7 +44,9 @@ const MainPage = ({ data }: {
         />
       ))}
 
-      <p className="text-center text-gray-600 mb-10 text-2xl whitespace-nowrap p-1 mt-5">Arttu Mäkinen - 2023</p>
+      <p className="text-center text-gray-600 mb-10 text-2xl whitespace-nowrap p-1 mt-5">
+        Arttu Mäkinen – 2023
+      </p>
     </Layout>
   )
 }
