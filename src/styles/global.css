@@ -12,17 +12,18 @@ body {
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+
 @media print {
   @page {
-    size: calc(210px * 5) calc(297px * 6);
+    size: A4;
     /* padding: 5em 20%; */
     margin: 5em 0;
   }
   html, body {
     overflow: visible;
     position: absolute;
-    left: 5em;
-    right: 5em;
+    left: 1em;
+    right: 1em;
   }
 }
 

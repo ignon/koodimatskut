@@ -2,7 +2,7 @@
 title: "Angry Birds: Sokkelo"
 developer: Code.org, Rovio
 time: 30min
-difficulty: 3. luokka
+difficulty: 1. luokka
 priority: 200
 slug: angry-birds-maze
 hero: banner.png

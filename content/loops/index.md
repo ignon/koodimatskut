@@ -6,7 +6,7 @@ difficulty: 6. luokka
 hero: hero.png
 priority: 1800
 slug: loops_js
-tags: [while, for-silmukka, koordinaatisto]
+tags: [while, for-silmukka, koordinaatisto (matematiikka)]
 links:
 - title: "Loops.js"
   url:   https://ignon.github.io/loops/

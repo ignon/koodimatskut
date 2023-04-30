@@ -12,7 +12,7 @@ links:
   url:   https://little-dot.toxicode.fr/
 ---
 
-Pelissä sinun on valittava kortti jossa on tilanteeseen sopiva koodi ja sitten tehtävä tietokoneen osuus eli suoritettava kortin koodi nuolinäppäimiä painelemalla. Kortit pitää osata valita oikeassa järjestyksessä.
+Pelissä on valittava kortti jossa on tilanteeseen sopiva koodi ja sitten tehtävä tietokoneen osuus eli suoritettava kortin koodi nuolinäppäimiä painelemalla. Kortit pitää osata valita oikeassa järjestyksessä. Peli on pelattavissa ilman näppäimistöäkin, mutta se on melko hankalaa.
 
 `toista-x-kertaa` on englanniksi `repeat`.
 

@@ -11,7 +11,7 @@ const Card = ({ children, ref }: {
         className={`
           flex flex-col items-center
           mb-6 min-w-full
-          rounded-2xl
+          rounded-3xl
           md:rounded-3xl
           shadow-xl shadow-black/40 overflow-hidden
           bg-white
