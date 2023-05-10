@@ -120,6 +120,11 @@ Jos oppilaiden itseohjautuvuus ei riitä itsenäiseen työskentelyyn, voidaan te
 
 Harjoituksissa on annettu koodilohkot valmiiksi joten oppilaiden on vain osattava järjestää ne oikein. Ei ole varmasti pahitteeksi koodata jokin harjoituksista täysin tyhjältä pöydältä opettajajohtoisesti, jolloin oppilaat oppivat miltä välilehdeltä mikäkin käsky löytyy ja minkälaisiin kategorioihin ne on jaoteltu.
 
+
+**Kyllä-ei-kone** ja **Vastauskone** -tehtävien projekteissa oppilaat voivat kysyä Microbitiltä kysymyksiä ja Microbit vastaa ravistettaessa satunnaisesti "Kyllä", "Ei" tai "Ehkä". Kysymysten esittäminen on koettu useassa ryhmässä hauskoimmaksi asiaksi ikinä ja lopputunti onkin mennyt kokonaisuudessaan siihen, kun muiden tehtävien tekemisestä ei ole enää tullut mitään. Kyseiset tehtävät kannattaa jättää tästä syystä lopputuntiin. Näitä projekteja voisi mahdollisesti myös soveltaa kielten opiskeluun, kun Microbitille voisi esittää kysymyksiä vieraalla kielellä, oppilailla olisi ainakin hauskaa.
+
+
+
 **Huom:** Varoita oppilaita että jos koodilohkon raahaa vasemman reunan valikon kohdalle, se joutuu roskiin ja häviää. Tämän tapahtuessa harjoituksen voi kuitenkin avata tämän sivun linkistä uudestaan jolloin saa alkuperäiset palikat takaisin (tai painaa "undo"-nappia tai sen pikanäppäintä `Ctrl + Z`).
 
 **Huom:** Kuten useimmissa graafisissa ohjelmointiympäristöissä, koodipalikat on värikoodattu eli punaiset koodilohkot löytyvät punaiselta välilehdeltä ja siniset siniseltä välilehdeltä jne.
@@ -127,5 +132,4 @@ Harjoituksissa on annettu koodilohkot valmiiksi joten oppilaiden on vain osattav
 **Huom:** Ainakin Chromebookeja käyttäessä Microbitit lakkaavat välillä toimimasta, jolloin itsellä on aina auttanut johdon irroittaminen ja takaisin laittaminen.
 
 **Huom:** Oppilaat koittavat laittaa Microbittien (ja hiirien) USB-johtoja tietokoneeseen voimalla väärinpäin, vaikka selvästi sanoisi että ne menevät sisään vain oikein päin ja niiden laittamisessa ei saa käyttää voimaa. Jos haluatte varmistaa että tietokoneiden USB-paikkoja ei hajoa (todennäköisesti hajoaa), laittakaa johdot oppilaiden puolesta.
-
 

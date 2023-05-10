@@ -34,3 +34,6 @@ links:
 > **hole** - reikä \
 > **nothing** - ei mitään \
 > **bonfire** - kokko, iso nuotio
+
+
+**Huom:** Oppilaan koodi arvostellaan pelissä sekä käskymäärän että koodin suoritusnopeuden perusteella. Ei kannata priorisoida näitä juurikaan, vaan panostaa mahdollisimman selkeän ja luettavan koodin kirjoittamiseen. Monesti kentissä mahdollisimman hyvän pisteytyksen saaminen vaatii epäselvän koodin kirjoittamista.

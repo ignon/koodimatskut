@@ -4,6 +4,7 @@ import { graphql } from 'gatsby'
 import { SEO } from '../components/seo'
 
 import Layout from '../components/Layout'
+import MarkdownArea from '../components/MarkdownArea'
 
 
 import GameCard from '../components/GameCard'
@@ -12,7 +13,11 @@ import HeaderCard from '../components/HeaderCard'
 const MainPage = ({ data }: {
   data: any
 }) => {
-  const markdownNodes = data.allMarkdownRemark.nodes;
+  const { nodes } = data.allMarkdownRemark;
+  const markdownNodes = nodes.filter((node: any) => node.fields.collection == 'content');
+  const teacherNodes = nodes.filter((node: any) => node.fields.collection != 'content');
+
+  console.log('TEACHER: ', nodes);
 
   const [activeCard, setActiveCard] = useState<null|string>(null)
 
@@ -20,10 +25,9 @@ const MainPage = ({ data }: {
   return (
     <Layout pageTitle="Blog posts">
       <HeaderCard>
-          <p>Tehtävät alkavat lukutaidottomille sopivilla harjoituksilla ja etenevät tavoitteellisesti käsite kerrallaan eteenpäin. Listan tarkoitus on tarjota opettajille mahdollisimman valmiiksi jäsenneltyä oppimateriaalia, joka ohjaa ja tukee oppituntien kulkua kuten matematiikan kirjakin. Kaikki tehtävät toimivat ilman tilien luontia, joko iPadilla tai suoraan selaimessa.
-          Materiaalia riittää ainakin 25 oppitunniksi. Scratch ja muut projektilähtöisemmät ympäristöt ovat toki rinnalle suositeltavia.</ p>
-          <p><br /></p>
-          <p>Tähän on tulossa vielä laajempi selostus sivuston pedagogisista ratkaisuista, sekä selvitys materiaalien sopivuudesta ohjelmoinnin OPS:iin. Sivuston kehitys on vielä kesken vaikka onkin jo käyttökunnossa. Sivuston on kehittänyt Arttu Mäkinen</p>
+        {teacherNodes.map((node: any) => (
+          <MarkdownArea html={node.html} />
+        ))}
       </ HeaderCard>
 
       {markdownNodes.map((node: any, index: number) => (
@@ -63,6 +67,9 @@ export const query = graphql`
     }
     allMarkdownRemark(sort: { frontmatter: { priority: ASC }}) {
       nodes {
+        fields {
+          collection
+        }
         frontmatter {
           title
           developer
