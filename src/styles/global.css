@@ -123,11 +123,18 @@ body {
 img + em {
   margin: 0 auto;
   display: block;
-  background-color: rgb(219 223 229);
+  background-color: lightgray;
+  /* border-bottom: 0.25rem solid gray; */
   color: rgb(31 41 55);
   font-weight: 500;
   padding-left: 0.3em;
-  box-shadow: rgba(0, 0, 0, 0.30) 0px 5px 5px;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  box-shadow: rgba(128, 128, 128, 0.60) 0px 5px 5px;
+}
+
+.markdown-area img + em  code {
+  background: #999999;
 }
 
 em + img {

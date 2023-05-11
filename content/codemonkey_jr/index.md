@@ -33,7 +33,7 @@ Opettajan kannattaa korostaa <u>ettei kaikkia käskyjä kannata aina edes yritt�
 
 ---
 
-Pelin viimeinen puolisko sisältää yksinkertaisten käskysarjojen lisäksi myös `toista ikuisesti` -silmukan käyttöä. Ei kuitenkaan haittaa vaikka oppilaat eivät ehtisi näihin tehtäviin saakka, sillä silmukan konseptin opettelun voi jättää tuleville tunneille. Jos oppilaat ehtivät silmukoihin saakka, voi opettaja selittää että ikuisesti-silmukan sisään voi raahata yhden tai useamman käskyn joita toistetaan ikuisesti.
+Pelin viimeinen puolisko sisältää yksinkertaisten käskysarjojen lisäksi myös `toista-ikuisesti` -silmukan käyttöä. Ei kuitenkaan haittaa vaikka oppilaat eivät ehtisi näihin tehtäviin saakka, sillä silmukan konseptin opettelun voi jättää tuleville tunneille. Jos oppilaat ehtivät silmukoihin saakka, voi opettaja selittää että ikuisesti-silmukan sisään voi raahata yhden tai useamman käskyn joita toistetaan ikuisesti.
 
 > **Koodi**: IKUISESTI: oikealle\
 > **suoritetaan näin:** oikealle, oikealle, oikealle, oikealle...
@@ -43,6 +43,7 @@ Pelin viimeinen puolisko sisältää yksinkertaisten käskysarjojen lisäksi my�
 
 
 ![Silmukan sisällä voi olla useampi käsky](kaskysarja_silmukassa.png)
+*Silmukan sisälle voi raahata useamman käskynpalikan*
 
 ---
 
