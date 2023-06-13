@@ -42,6 +42,7 @@ Pelin viimeinen puolisko sisältää yksinkertaisten käskysarjojen lisäksi my�
 > **suoritetaan näin:** oikealle, vasemmalle, oikealle, vasemmalle...
 
 
+
 ![Silmukan sisällä voi olla useampi käsky](kaskysarja_silmukassa.png)
 *Silmukan sisälle voi raahata useamman käskynpalikan*
 
