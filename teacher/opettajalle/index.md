@@ -31,7 +31,7 @@ Konseptit esitellään erillään muista konsepteista, aloittaen yksinkertaisimm
 ## Siirtymä tekstipohjaiseen ohjelmointiin
 Kuudennen vuoden harjoituksissa aletaan hiljalleen siirtymään graafisesta lohko-ohjelmoinnista tekstipohjaiseen ohjelmointiin ja opettelemaan keskeisiä ohjelmoinnin termejä `function (funktio)`, `if-else (jos-muuten)`, `while (niin-kauan-kuin)`, `variable (muuttuja)` englanniksi. Nämä tehtävät eivät vaadi laajaa englannin kielen osaamista tai hyvää näppäimistön hallintaa, vaan painottuvat koodin lukemiseen ja tulkitsemiseen. Materiaali pyrkii siihen että oppilaat kokisivat siirtymän lohko-ohjelmoinnista tekstipohjaiseen ohjelmointiin luontevana ja hahmottaisivat niiden välisen yhteyden.
 
-# In English
+## In English
 Koodimatskut.fi is a carefully curated and arrenged list of high-quality coding learning materials for primary schools (in Finnish).
 
 The games listed on this website are the property of their respective owners and provided with the name of their creator. The screenshots or pictures used for each game are for non-profit, educational, and informational purposes. If you are the owner of any game and wish to have it removed from this website, just contact me at arttu.b.makinen (át) gmail.com and I'll remove it as soon as possible. This website does not claim any ownership or affiliation with the games listed in here.
