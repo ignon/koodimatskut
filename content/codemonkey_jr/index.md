@@ -13,8 +13,7 @@ links:
   url:   https://app.codemonkey.com/junior/chapters/sequencing/challenges/1
 ---
 
-**CodeMonkey Jr** toimii hyvänä ensikosketuksena ohjelmointiin *"kaverini on robotti"* tyylisen tietokoneettoman harjoituksen ohella. Peli on täysin symbolinen eli lukutaitoa ei vaadita.
-
+**CodeMonkey Jr** toimii hyvänä ensikosketuksena ohjelmointiin ja on täysin symbolinen eli lukutaitoa ei vaadita.
 
 Omalla kokemuksellani kahden ensimmäisen tehtävän läpikäynti luokan edessä riittää, tämän jälkeen oppilaat pärjäävät melko hyvin omillaan; opettaja voi keskittyä opettajajohtoisen opettamisen sijasta oppilaiden henkilökohtaiseen opastamiseen (ihan  kuten matematiikan tunneilla, kysymyksillä johdattamalla)
 

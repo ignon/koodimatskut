@@ -73,6 +73,8 @@ const GameCard = ({ node, index, onClick, isOpen }: {
         }));
 
 
+  const cardVisibility = cardIsOpen ? 'visible' : 'hidden'
+  const markdonVisibility = showMarkdown ? 'visible' : 'hidden'
 
     return (
       <Card>
@@ -93,35 +95,34 @@ const GameCard = ({ node, index, onClick, isOpen }: {
             </div>
           </button>
 
-          {!cardIsOpen ||
-          <div className="flex flex-col justify-start align-center my-4 w-full px-2">
-            <div className="text-lg text-center mb-2">{frontmatter.developer}</div>
+          <div className={cardVisibility}>
+            <div className="flex flex-col justify-start align-center my-4 w-full px-2">
+              <div className="text-lg text-center mb-2">{frontmatter.developer}</div>
 
-            {cardLinks?.map((link: any) => (
-              <LinkButton text={link.title} url={link.url} key={link.title}/>
-            ))}
-            <Toggle
-              text="Opettajalle"
-              className="pt-4"
-              onClick={() => setShowMarkdown(!showMarkdown)}
-              isOpen={showMarkdown}
-            />
-            {/* <div>{frontmatter.priority}</div> */}
+              {cardLinks?.map((link: any) => (
+                <LinkButton text={link.title} url={link.url} key={link.title}/>
+              ))}
+              <Toggle
+                text="Opettajalle"
+                className="pt-4"
+                onClick={() => setShowMarkdown(!showMarkdown)}
+                isOpen={showMarkdown}
+              />
 
-            {!showMarkdown || <div>
-              <div className="text-xl text-center mb-2 text-gray-700 mt-10">
-                {!frontmatter.time || <MdAccessTime className="inline mb-1" size={23}/>}
-                <div className="inline mx-2 mt-8">{frontmatter.time}</div>
+              <div className={`${markdonVisibility}`}>
+                <div className={`text-xl text-center mb-2 text-gray-700 mt-10`}>
+                  {!frontmatter.time || <MdAccessTime className="inline mb-1" size={23}/>}
+                  <div className="inline mx-2 mt-8">{frontmatter.time}</div>
 
-                <div className="ml-10 inline text-xl text-center text-gray-700">
-                  {frontmatter.difficulty}
+                  <div className="ml-10 inline text-xl text-center text-gray-700">
+                    {frontmatter.difficulty}
+                  </div>
                 </div>
-              </div>
 
-              <MarkdownArea html={node.html} />
-            </div>}
+                <MarkdownArea html={node.html} />
+              </div>
+            </div>
           </div>
-          }
         </div>
       </Card>
     )

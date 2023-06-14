@@ -2,13 +2,12 @@ import * as React from 'react'
 import { useState } from 'react'
 import { graphql } from 'gatsby'
 import { SEO } from '../components/seo'
+import Modal, { ToggleModal } from '../components/Modal'
 
 import Layout from '../components/Layout'
-import MarkdownArea from '../components/MarkdownArea'
-
-
 import GameCard from '../components/GameCard'
 import HeaderCard from '../components/HeaderCard'
+import MarkdownArea from '../components/MarkdownArea'
 
 const MainPage = ({ data }: {
   data: any
@@ -17,13 +16,19 @@ const MainPage = ({ data }: {
   const markdownNodes = nodes.filter((node: any) => node.fields.collection == 'content');
   const teacherNodes = nodes.filter((node: any) => node.fields.collection != 'content');
 
-  console.log('TEACHER: ', nodes);
-
   const [activeCard, setActiveCard] = useState<null|string>(null)
 
 
   return (
     <Layout pageTitle="Blog posts">
+      <Modal isOpen={false} onClose={() => {}}>
+        {teacherNodes.map((node: any) => (
+          <MarkdownArea html={node.html} />
+        ))}
+      </Modal>
+      <ToggleModal toggleText="Modaali">
+        Modaali-kontsa
+      </ToggleModal>
       <HeaderCard>
         {teacherNodes.map((node: any) => (
           <MarkdownArea html={node.html} />
