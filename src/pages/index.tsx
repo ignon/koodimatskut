@@ -26,9 +26,9 @@ const MainPage = ({ data }: {
           <MarkdownArea html={node.html} />
         ))}
       </Modal>
-      <ToggleModal toggleText="Modaali">
-        Modaali-kontsa
-      </ToggleModal>
+      {/* <ToggleModal toggleText="Modaali"> */}
+      {/*   Modaali-kontsa */}
+      {/* </ToggleModal> */}
       <HeaderCard>
         {teacherNodes.map((node: any) => (
           <MarkdownArea html={node.html} />
