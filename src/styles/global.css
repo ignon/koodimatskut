@@ -27,11 +27,19 @@ body {
   }
 }
 
-.markdown-area ol {
-  list-style-type: decimal !important;
+.markdown-area ol,
+.markdown-area ul
+{
+  list-style-type: disc !important;
+  padding-left: 2rem;
+}
+
+.markdown-area ol
+{
   padding-left: 2rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  list-style-type: decimal !important;
 }
 
 .markdown-area li {
@@ -81,6 +89,14 @@ body {
   font-weight: 600;
 }
 
+.markdown-area pre code {
+  background-color: #888888;
+  border-radius: 0.2rem;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+  font-weight: 400;
+}
+
 .markdown-area u {
   text-decoration: underline solid;
   text-decoration-color: #AAAAAA;
@@ -117,6 +133,7 @@ body {
 .markdown-area img {
   margin: 0 auto;
   margin-top: 4rem;
+  max-height: 50vh;
   box-shadow: rgba(0, 0, 0, 0.30) 0px 5px 5px;
 }
 
@@ -136,6 +153,7 @@ img + em {
 .markdown-area img + em  code {
   background: #999999;
 }
+
 
 em + img {
   margin: 30px 30px;
