@@ -19,7 +19,7 @@ Peli poikkeaa edellisistä Minecraft-harjoituksista siten, että pelihahmoa liik
 ![](/hero/exercise-1.png)
 ***Tehtävä 1**: Robottia on liikutettava ruutu eteenpäin, jotta se astuu painelaatalle, joka on johdotettu avaamaan oven.*
 ![](/hero/exercise-2.png)
-***Tehtävä 2**: Jos pelaaja haluaa kerätä molempien ovien takana olevat esineet, on robotti koodattava liikkumaan vasemmalle painelaatalle (sillä siitä menee johdotus molemmille oville)*
+***Tehtävä 2**: Jos pelaaja haluaa kerätä molempien ovien takana olevat esineet, on robotti koodattava liikkumaan vasemmalle painelaatalle (sillä laatasta menee johdotus molemmille oville)*
 <!--![](/hero/exercise-5.jpg)-->
 <!--![](/hero/exercise-6.jpg)-->
 ![](/hero/exercise-8.jpg)

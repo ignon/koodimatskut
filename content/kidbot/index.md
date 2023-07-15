@@ -38,10 +38,10 @@ Pelin nettiversion toimii iPadeilla ja Chromebookeilla, joten suosittelen käytt
 *Esimerkkikoodissa robotti liikkuu kaksi ruutua eteepäin, kääntyy oikealle ja liikkuu taas kaksi ruutua eteenpäin*
 
 ![](/kidbot/funktio.png)
-*Tehtävässä 6 käytetään kahdesti B-aliohjelmaa (eli funktiota)*
+***Tehtävä 6:** Kentässä käytetään kahdesti B-aliohjelmaa (eli funktiota)*
 
 ![](/kidbot/funktio2.png)
-*Tehtävän 8 esimerkkiratkaisu*
+***Tehtävän 8:** esimerkkiratkaisu*
 
 ## Rekursio
 ![](/kidbot/rekursio.png)
@@ -54,7 +54,7 @@ Pelin nettiversion toimii iPadeilla ja Chromebookeilla, joten suosittelen käytt
 *B-laatikon viimeinen käsky on B-käsky, joten B-laatikon käskyjä toistetaan ikuisesti. Myös A-laatikossa on oltava B-käsky, jotte B-laatikon **ikuinen silmukka** *("infinite loop")* käynnistyy*.
 
 ![](/kidbot/jos-lause.png)
-*Kentässä 17 opitaan uusi käsite eli `jos-lause`, jota on tarkoitus opetella vasta tulevilla tunneilla. Jos joku oppilaista sattuisi tänne saakka pääsemään, voi selittää että nuoli tarkoittaa <u>"JOS eteenpäin ei voi liikkua"</u>. Ylläoleva koodi tarkoittaa siis: </br></br> 1) Mene eteenpäin </br> 2) JOS eteenpäin ei voi liikkua NIIN käänny vasemmalle </br> 3) Suorita A-käsky uudestaan </br></br> (robotti kulkee ikuisesti eteenpäin, kääntyen vasemmalle aina kun seinä tulee vastaan)*
+***Tehtävä 17**: Kentässä opitaan uusi käsite eli `jos-lause`, jota on tarkoitus opetella vasta tulevilla tunneilla. Jos joku oppilaista sattuisi tänne saakka pääsemään, voi selittää että nuoli tarkoittaa <u>"JOS eteenpäin ei voi liikkua"</u>. Ylläoleva koodi tarkoittaa siis: </br></br> 1) Mene eteenpäin </br> 2) JOS eteenpäin ei voi liikkua NIIN käänny vasemmalle </br> 3) Suorita A-käsky uudestaan </br></br> (robotti kulkee ikuisesti eteenpäin, kääntyen vasemmalle aina kun seinä tulee vastaan)*
 
 
 <!--
