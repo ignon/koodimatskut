@@ -1,11 +1,13 @@
 import * as React from 'react'
 import { useState, useEffect, useRef } from 'react'
 import {  getImage } from 'gatsby-plugin-image'
-
+import Modal from '../components/Modal'
 import Tag from '../components/Tag'
 import Toggle from '../components/Toggle'
 import HeroImage from '../components/HeroImage'
 import LinkButton from '../components/LinkButton'
+import ToggleChildren from '../components/ToggleChildren'
+import Comments from '../components/Comments'
 import { MdAccessTime } from 'react-icons/md'
 
 import Card from '../components/Card'
@@ -110,6 +112,7 @@ const GameCard = ({ node, index, onClick, isOpen }: {
               />
 
               <div className={`${markdonVisibility}`}>
+
                 <div className={`text-xl text-center mb-2 text-gray-700 mt-10`}>
                   {!frontmatter.time || <MdAccessTime className="inline mb-1" size={23}/>}
                   <div className="inline mx-2 mt-8">{frontmatter.time}</div>
@@ -120,6 +123,24 @@ const GameCard = ({ node, index, onClick, isOpen }: {
                 </div>
 
                 <MarkdownArea html={node.html} />
+
+                {showMarkdown &&
+                <div className='text-center text-lg pt-5'>
+                  <ToggleChildren
+                    text={'Kommentit'}
+                    className='text-center pb-5'
+                  >
+                    <p className="italic">
+                      Esitä harjoitukseen ja sen ohjeisiin liittyviä kysymyksiä, havaintoja tai parannusehdotuksia <br />(tai kerro vain miten tunti meni!)
+                    </p>
+                    <Comments
+                      id={frontmatter.slug}
+                      title={frontmatter.slug}
+                      className='pt-10'
+                    />
+                  </ToggleChildren>
+                </div>
+                }
               </div>
             </div>
           </div>

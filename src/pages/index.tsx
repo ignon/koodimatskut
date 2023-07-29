@@ -8,6 +8,8 @@ import Layout from '../components/Layout'
 import GameCard from '../components/GameCard'
 import HeaderCard from '../components/HeaderCard'
 import MarkdownArea from '../components/MarkdownArea'
+import CommentBox from '../components/CommentBox'
+import Comments from '../components/Comments'
 
 const MainPage = ({ data }: {
   data: any
@@ -23,15 +25,17 @@ const MainPage = ({ data }: {
     <Layout pageTitle="Blog posts">
       <Modal isOpen={false} onClose={() => {}}>
         {teacherNodes.map((node: any) => (
-          <MarkdownArea html={node.html} />
+          <MarkdownArea html={node.html} key={node.id} />
         ))}
+      {/* <CommentBox boxId='opettajalle' /> */}
+
       </Modal>
       {/* <ToggleModal toggleText="Modaali"> */}
       {/*   Modaali-kontsa */}
       {/* </ToggleModal> */}
       <HeaderCard>
         {teacherNodes.map((node: any) => (
-          <MarkdownArea html={node.html} />
+          <MarkdownArea html={node.html} key={node.id} />
         ))}
       </ HeaderCard>
 
