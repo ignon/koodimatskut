@@ -7,6 +7,7 @@ difficulty: 1. luokka
 priority: 300
 slug: codemancer
 tags: [toista-x-kertaa, lukutaidottomille]
+numbered_links: false
 links:
 - title: iPad/iPhone (ilmainen)
   url:   https://apps.apple.com/us/app/codemancer/id1385748933

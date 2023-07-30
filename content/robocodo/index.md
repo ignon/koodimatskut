@@ -7,6 +7,7 @@ priority: 400
 hero: hero.png
 tags: [toista-x-kertaa, funktiot, lukutaidottomille]
 slug: rodocodo
+numbered_links: false
 links:
 - title: Nettiversio
   url:   https://game.rodocodo.com/hour-of-code/

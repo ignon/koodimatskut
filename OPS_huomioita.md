@@ -7,7 +7,7 @@
 - [x] Leikillisiä toimintaohjeita joita voidaan testata myös ohjelmoitavilla laitteilla, sekä harjoitellaan tunnistamaan virhetilanteita
 - [x] Välineitä käytetään luovasti, leikillisesti...
 - [] ...eri oppiaineiden sisältöjen käsittelyssä
-- [x] Toteutetaan tarinallisia tuotoksia käyttäen animointia ja ohjelmointia
+- [ ] Toteutetaan tarinallisia tuotoksia käyttäen animointia ja ohjelmointia
 - WIP: Tekoäly
 - [] Havainnoidaan ohjelmointia ja robotiikkaa yhteiskunnassa
 - [] Pohditaan teknologisten sovelusten hyödyntämistapoja ja merkitystä oppilaiden elämässä.

@@ -5,12 +5,13 @@ time: +60min
 difficulty: 5. luokka
 developer: Code.org
 tags: [jos-muuten, sisäkkäiset silmukat]
-slug: sokkelo2
+slug: mehilainen2
 priority: 1450
+numbered_links: true
 links:
-- title: 1. Jos-muuten
+- title: Jos-muuten
   url:   https://studio.code.org/s/coursed-2022/lessons/14/levels/4?lang=fi-FI
-- title: 2. Sisäkkäiset silmukat
+- title: Sisäkkäiset silmukat
   url:   https://studio.code.org/s/coursed-2022/lessons/11/levels/1?lang=fi-FI
 ---
 

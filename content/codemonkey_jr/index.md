@@ -8,6 +8,7 @@ priority: 100
 slug: codemonkey_jr
 tags: [käskysarjat, toista-ikuisesti, lukutaidottomille]
 categories: [alakoulu]
+numbered_links: false
 links:
 - title: Code Monkey Jr
   url:   https://app.codemonkey.com/junior/chapters/sequencing/challenges/1

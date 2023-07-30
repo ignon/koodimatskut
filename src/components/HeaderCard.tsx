@@ -2,6 +2,7 @@ import * as React from 'react'
 import { useState } from 'react'
 import Toggle from '../components/Toggle'
 import Card from '../components/Card'
+import analytics from '../analytics'
 
 const TITLE = 'Koodimatskut';
 
@@ -30,7 +31,12 @@ const HeaderCard = ({ children }: {
       <Toggle
         text="Opettajalle"
         isOpen={false}
-        onClick={() => setIsOpen(!isOpen)}
+        onClick={() => {
+          if (!isOpen) {
+            analytics.sendEvent('ForTeacher', { cardSlug: 'opettajalle' })
+          }
+          setIsOpen(!isOpen)
+        }}
         className="py-3 text-gray-500"
       />
 

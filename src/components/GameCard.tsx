@@ -9,6 +9,8 @@ import LinkButton from '../components/LinkButton'
 import ToggleChildren from '../components/ToggleChildren'
 import Comments from '../components/Comments'
 import { MdAccessTime } from 'react-icons/md'
+import type { ILinkButtonProp } from '../components/LinkButton'
+import analytics from '../analytics'
 
 import Card from '../components/Card'
 
@@ -65,18 +67,30 @@ const GameCard = ({ node, index, onClick, isOpen }: {
       setShowMarkdown(false)
     }
 
-    const links = node.frontmatter.links;
-    const numbered = node.frontmatter.slug == 'microbit'//node.frontmatter.numbered_links;
-    const cardLinks = (!numbered)
-      ? links
-      : links.map((link: any, i: number) => ({
+    interface ILink {
+      title: string,
+      link: string,
+      cardSlug?: string,
+      linkSlug?: string
+    }
+
+    const links = frontmatter.links;
+    const numbered = frontmatter.slug == 'microbit'//node.frontmatter.numbered_links;
+    const slugifiedLinks = links.map((link: ILink): ILinkButtonProp => ({
+      ...link,
+      linkSlug: link.title.toLowerCase(),
+      cardSlug: frontmatter.slug
+    }))
+    const cardLinks = ((!numbered)
+      ? slugifiedLinks
+      : slugifiedLinks.map((link: ILink, i: number): ILink => ({
           ...link,
-          title: `${i+1}. ${link.title}`
-        }));
+          title: `${i+1}. ${link.title}`,
+        })))
 
 
-  const cardVisibility = cardIsOpen ? 'visible' : 'hidden'
-  const markdonVisibility = showMarkdown ? 'visible' : 'hidden'
+    const cardVisibility = cardIsOpen ? 'visible' : 'hidden'
+    const markdonVisibility = showMarkdown ? 'visible' : 'hidden'
 
     return (
       <Card>
@@ -102,12 +116,17 @@ const GameCard = ({ node, index, onClick, isOpen }: {
               <div className="text-lg text-center mb-2">{frontmatter.developer}</div>
 
               {cardLinks?.map((link: any) => (
-                <LinkButton text={link.title} url={link.url} key={link.title}/>
+                <LinkButton title={link.title} link={link.url} key={link.title} cardSlug={link.cardSlug} linkSlug={link.linkSlug}/>
               ))}
               <Toggle
                 text="Opettajalle"
                 className="pt-4"
-                onClick={() => setShowMarkdown(!showMarkdown)}
+                onClick={() => {
+                  if (!showMarkdown) {
+                    analytics.sendEvent('ForTeacher', { cardSlug: frontmatter.slug })
+                  }
+                  setShowMarkdown(!showMarkdown)
+                }}
                 isOpen={showMarkdown}
               />
 

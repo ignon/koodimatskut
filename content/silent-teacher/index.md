@@ -7,6 +7,7 @@ hero: hero.png
 priority: 1630
 slug: silent-teacher
 tags: [funktion argumentit ja palautusarvot, merkkijonot, listat]
+numbered_links: false
 links:
 - title: Javascript
   url:   https://silentteacher.toxicode.fr/hourofcode

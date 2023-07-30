@@ -7,6 +7,7 @@ hero: hero.png
 priority: 1400
 slug: taiteilija
 tags: [sisäkkäiset silmukat, funktiot, "kulmat (matematiikka)"]
+numbered_links: false
 links:
 - title: Taiteilija
   url:   http://studio.code.org/s/artist/reset?lang=fi-FI

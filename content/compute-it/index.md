@@ -7,6 +7,7 @@ hero: path.png
 priority: 1600
 slug: compute-it
 tags: ["funktio (function)", "jos-muuten (if-else)", niin-kauan-kuin (while)]
+numbered_links: false
 links:
 - title: Compute It
   url:   https://compute-it.toxicode.fr/

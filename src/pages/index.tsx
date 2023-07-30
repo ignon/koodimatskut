@@ -8,8 +8,9 @@ import Layout from '../components/Layout'
 import GameCard from '../components/GameCard'
 import HeaderCard from '../components/HeaderCard'
 import MarkdownArea from '../components/MarkdownArea'
-import CommentBox from '../components/CommentBox'
+import analytics from '../analytics'
 import Comments from '../components/Comments'
+
 
 const MainPage = ({ data }: {
   data: any
@@ -23,16 +24,6 @@ const MainPage = ({ data }: {
 
   return (
     <Layout pageTitle="Blog posts">
-      <Modal isOpen={false} onClose={() => {}}>
-        {teacherNodes.map((node: any) => (
-          <MarkdownArea html={node.html} key={node.id} />
-        ))}
-      {/* <CommentBox boxId='opettajalle' /> */}
-
-      </Modal>
-      {/* <ToggleModal toggleText="Modaali"> */}
-      {/*   Modaali-kontsa */}
-      {/* </ToggleModal> */}
       <HeaderCard>
         {teacherNodes.map((node: any) => (
           <MarkdownArea html={node.html} key={node.id} />
@@ -46,12 +37,14 @@ const MainPage = ({ data }: {
           key={node.id}
           isOpen={node.frontmatter.slug === activeCard}
           onClick={() => {
-            const cardIsAlreadyActive = (node.frontmatter.slug === activeCard)
+            const cardSlug = node.frontmatter.slug
+            const cardIsAlreadyActive = (cardSlug === activeCard)
             if (cardIsAlreadyActive) {
               setActiveCard(null)
             }
             else {
               setActiveCard(node.frontmatter.slug)
+              analytics.sendEvent('OpenCard', { cardSlug })
             }
           }}
         />

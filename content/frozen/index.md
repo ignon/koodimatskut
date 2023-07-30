@@ -7,6 +7,7 @@ difficulty: 5. luokka
 tags: ["sisäkkäiset silmukat", "kulmat (matematiikka)"]
 slug: frozen
 priority: 1300
+numbered_links: false
 links:
 - title: Frozen
   url:   http://studio.code.org/s/frozen/reset?lang=fi-FI

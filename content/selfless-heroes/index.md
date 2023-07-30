@@ -7,6 +7,7 @@ hero: banner.jpg
 priority: 1500
 slug: selfless-heroes
 tags: [jump-to, "vertailuoperaattorit", jos-muuten (if-else)]
+numbered_links: false
 links:
 - title: Selfless Heroes
   url:   https://play.selflessheroes.fr/

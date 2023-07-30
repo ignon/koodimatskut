@@ -7,6 +7,7 @@ developer: Code.org
 tags: [toista-kunnes, jos-muuten]
 slug: sokkelo2
 priority: 1225
+numbered_links: false
 links:
 - title: Sokkelo
   url:   https://studio.code.org/hoc/8?lang=fi-FI

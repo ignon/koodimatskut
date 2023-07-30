@@ -6,7 +6,7 @@ difficulty: 3. luokka
 hero: ./hero.png
 priority: 1200
 slug: minecraft-merellinen-matka
-tags: [toista-kunnes, jos-lauseke]
+tags: [toista-kunnes, jos-lause]
 links:
 - title: Merellinen matka
   url:   https://studio.code.org/s/aquatic/reset?lang=fi-FI

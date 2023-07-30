@@ -7,10 +7,11 @@ hero: ./hero.jpg
 priority: 250
 slug: taiteilija
 tags: [toista-x-kertaa, lukutaidottomille]
+numbered_links: true
 links:
-- title: 1. Käskysarjat
+- title: Käskysarjat
   url:   https://studio.code.org/s/course1/lessons/10/levels/1?lang=fi-FI
-- title: 2. Silmukat
+- title: Silmukat
   url:   https://studio.code.org/s/course1/lessons/18/levels/1?lang=fi-FI
 ---
 

@@ -7,6 +7,7 @@ difficulty: 2. luokka
 tags: [funktiot, lukutaidottomille]
 slug: algorun
 priority: 550
+numbered_links: false
 links:
 - title: iPad/iPhone
   url:   https://apps.apple.com/us/app/algorun-learn-to-code/id1517210466
