@@ -1,5 +1,6 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
+import { MDXProvider } from "@mdx-js/react"
 
 const Layout = ({ pageTitle, children }: {
   pageTitle: string,
@@ -7,14 +8,7 @@ const Layout = ({ pageTitle, children }: {
 }) => {
   return (
     <div>
-      {/* <nav> */}
-      {/*   <ul> */}
-      {/*     <li><Link to="/">Home</Link></li> */}
-      {/*     <li><Link to="/about">About</Link></li> */}
-      {/*   </ul> */}
-      {/* </nav> */}
       <main className="max-w-3xl mx-auto flex flex-col">
-        {/* <h1>{pageTitle}</h1> */}
         {children}
       </main>
     </div>

@@ -46,6 +46,8 @@ Pelin viimeinen puolisko sisältää yksinkertaisten käskysarjojen lisäksi my�
 ![Silmukan sisällä voi olla useampi käsky](kaskysarja_silmukassa.png)
 *Silmukan sisälle voi raahata useamman käskynpalikan*
 
+![Silmukan sisällä voi olla useampi käsky](kaskysarja_silmukassa.png)
+
 ---
 
 Jos oppilaat saavat kaikki tehtävät tehtyä tunnin aikana, pyydä heitä tarkistamaan saivatko he kaikista tehtävistä kolme tähteä (eli läpäisivät tehtävät pienimmällä mahdollisella käskymäärällä). Toki seuraaviinkiin tehtäviin voi jo päästää.

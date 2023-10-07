@@ -1,6 +1,6 @@
 ---
 title: Ice Age
-developer: Code.org, Disney
+developer: Code.org, 20th Century Fox
 time: 20min
 difficulty: 1. luokka
 hero: ./hero.png
@@ -10,7 +10,7 @@ priority: 225
 numbered_links: false
 links:
 - title: Silmukat
-  url:   https://studio.code.org/s/coursea-2022/lessons/8/levels/1?lang=fi-FI
+  url:   https://studio.code.org/s/coursea-2023/lessons/8/levels/1?lang=fi-FI
 ---
 
 `toista-x-kertaa` -silmukan kertausta.

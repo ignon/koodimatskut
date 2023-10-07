@@ -23,30 +23,17 @@ const config: GatsbyConfig = {
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     {
-      resolve: "gatsby-plugin-mdx",
+      resolve: `gatsby-transformer-remark`,
       options: {
-        extensions: [".mdx", ".md"],
-        gatsyRemarkPlugins: [{
+        gfm: true,
+        plugins: [{
           resolve: 'gatsby-remark-images',
           options: {
             maxWidth: 1200
           }
         }]
-      }
-    },
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        gfm: true,
-        plugins: [{
-          resolve: 'gatsby-transformer-remark',
-          options: {
-            maxWidth: 600
-          }
-        }]
       },
     },
-    // "gatsby-remark-images",
     "gatsby-remark-autolink-headers",
     {
       resolve: 'gatsby-source-filesystem',

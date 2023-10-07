@@ -130,14 +130,17 @@ body {
 }
 
 
-.markdown-area img {
-  margin: 0 auto;
-  margin-top: 4rem;
-  max-height: 50vh;
+/* .gatsby-resp-image-wrapper */
+.gatsby-resp-image-wrapper:only-child {
   box-shadow: rgba(0, 0, 0, 0.30) 0px 5px 5px;
 }
 
-img + em {
+.gatsby-resp-image-wrapper {
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+
+.gatsby-resp-image-wrapper + em {
   margin: 0 auto;
   display: block;
   background-color: lightgray;
@@ -150,11 +153,10 @@ img + em {
   box-shadow: rgba(128, 128, 128, 0.60) 0px 5px 5px;
 }
 
-.markdown-area img + em  code {
+.gatsby-resp-image-wrapper + em  code {
   background: #999999;
 }
 
-
-em + img {
-  margin: 30px 30px;
-}
+/* em + .gatsby-resp-image-wrapper { */
+/*   margin: 30px 30px; */
+/* } */

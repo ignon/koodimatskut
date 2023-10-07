@@ -21,7 +21,7 @@ links:
 
 ---
 
-![Part 1 ja Part 2](robocodo_selection.png)
+![Part 1 ja Part 2](./robocodo_selection.png)
 *Pelin alussa pelaajan on valittava kummasta vaikeustasosta haluaa aloittaa. Suosittelen aloittamaan **Part 1**:llä (jonka loppupään tehtävissä on kyllä haastetta isommillekin). Nopeimmat saavat sen luultavimmin tehtyä ja voivat siirtyä **Part 2**:n tehtäviin. Jos kaikki aloittavat Part 2:sta, riskinä on että harjoitukset ovat osalle liian vaikeita ja nopeimmat saavat tehtyä ne hetkessä ja heille pitää keksiä lisätehtäviä.*
 
 
@@ -34,26 +34,26 @@ links:
 Robocodo on sivuston listaamista koodauspeleistä haastavimpia hahmottaa, joten olen listannut tänne esimerkkiratkaisut vaikeimpiin tehtäviin:
 
 
-![Jumikenttä](robocodo/jumikentta.png)
+![Jumikenttä](./jumikentta.png)
 *Tähän kenttään jää jumiin suurin osa oppilaista. Tärkeintä on tajuta, että ensin on kerättävä kaksi lähintä kolikkoa ja sitten palattava puun viereiselle teleportille, ei alanurkassa olevalle.*
 
 
-![Bugienkorjaus](robocodo/buggy_code.png)
+![Bugienkorjaus](./buggy_code.png)
 ***Buggy code** (buginen koodi) -osuudessa oppilaalle annetaan valmiiksi tehtyä, virheellistä koodia, joka hänen on korjattava järjestelemällä käskyt oikein. Tämä on jonkin verran haastava osuus sillä oppilas voi vahingossa raahata tarvittavan käskyn pois koodialueelta, jolloin se tuhoutuu ja <u>kenttä on aloitettava alusta (painamalla roskiskuvaketta koodin oikealla puolella). Oppilas ei välttämättä tajua tätä.</u>*
 
 
 ## Part 1: Silmukat
 
-![Silmukat 1](robocodo/silmukat.png)
+![Silmukat 1](./silmukat.png)
 *Silmukkatehtävissä on tärkeää hahmottaa kentän toistuva osuus. Tässä kentässä pitää kolmesti kävellä ylös teleportilla (ja napata kolikko matkalla)*
 
-![Silmukat 2](robocodo/silmukat2.png)
+![Silmukat 2](./silmukat2.png)
 *Tässä tehtävässä on kolme kahden kolikon rypästä eli koodin on toistettava kolmesti käyttäen `toista-x-kertaa`-silmukkaa.*
 
-![Silmukat 3](robocodo/silmukat3.png)
+![Silmukat 3](./silmukat3.png)
 *Tässä tehtävässä on neljä identtistä saareketta, joten on käytettävä `toista` silmukkaa*
 
-![Silmukat 4](robocodo/silmukat4.png)
+![Silmukat 4](./silmukat4.png)
 *Tässä kentässä jokaisen silmukan alussa on käännyttävä. Kenttä koostuu kolmesta L-kirjaimen muotoisesta osasta, jotka pitää kulkea.*
 
 # Part 2: Funktiot
@@ -65,7 +65,7 @@ Robocodo on sivuston listaamista koodauspeleistä haastavimpia hahmottaa, joten 
 >
 > Jos halutaan toistaa tietty käskysarja <u>useissa eri vaiheissa ohjelman aikana</u>, ja toistojen välillä tehdä jotain muita juttuja, on tehtävä oma pikakomento eli <u>funktio</u>.
 
-![Funktiot 1](robocodo/funktiot.png)
+![Funktiot 1](./funktiot.png)
 
 Tässä tehtävässä on toistettava kahdesti komennot: <u>eteen, eteen, kolikko.</u>
 
@@ -74,11 +74,12 @@ Tässä tehtävässä on toistettava kahdesti komennot: <u>eteen, eteen, kolikko
 Ensimmäisen toiston jälkeen on käännyttävä <u>vasemmalle</u>, mutta toisen toiston jälkeen on käännyttävä <u>oikealle</u>. Tällaista ei voi ratkaista silmukalla.
 
 Koska emme halua toistaa samaa koodia useasti, on määriteltävä oma <u>pikakomento eli funktio</u>:
-![Funktiomäärittely](/robocodo/funktiomaarittelu.jpg)
+
+![Funktiomäärittely](./funktiomaarittelu.jpg)
 
 Ylläolevan funktionmäärittelyn käskyjä ei suoriteta automaattisesti, vaan ainoastaan jos käytämme `F` käskyä (eli funktiokutsua):
 
-![funktiokutsu](/robocodo/funktiokutsut.jpg)
+![funktiokutsu](./funktiokutsut.jpg)
 
 Nyt jokaisen `F`-käskyn kohdalla suoritetaan `Function` laatikon käskyt eli <u>eteen, eteen, kolikko</u>
 
@@ -86,9 +87,10 @@ Nyt jokaisen `F`-käskyn kohdalla suoritetaan `Function` laatikon käskyt eli <u
 
 ## Part2: Lisää funktiotehtävien ratkaisuita
 
-![Funktiot 2](robocodo/funktiot2.png)
-![Funktiot 3](robocodo/funktiot3.png)
+![Funktiot 2](./funktiot2.png)
+
+![Funktiot 3](./funktiot3.png)
 
 ---
 ## Part 2: Monimutkainen silmukkatehtävä
-![part2 silmukat](robocodo/part2_silmukat.png)
+![part2 silmukat](./part2_silmukat.png)

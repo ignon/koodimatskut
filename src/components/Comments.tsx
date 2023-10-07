@@ -1,11 +1,16 @@
 import React from 'react'
 import { ReactCusdis as Cusdis } from 'react-cusdis'
 
-const Comments = ({ id, title, className }: {
+const Comments = ({ id, title, className, visible=true }: {
   title: string,
   id: string,
-  className: string
+  className: string,
+  visible?: boolean
 }) => {
+  if (!visible) {
+    return null
+  }
+
   return (
       <div className={className}>
         <Cusdis

@@ -6,8 +6,7 @@ import Tag from '../components/Tag'
 import Toggle from '../components/Toggle'
 import HeroImage from '../components/HeroImage'
 import LinkButton from '../components/LinkButton'
-import ToggleChildren from '../components/ToggleChildren'
-import Comments from '../components/Comments'
+import CommentSection from '../components/CommentSection'
 import { MdAccessTime } from 'react-icons/md'
 import type { ILinkButtonProp } from '../components/LinkButton'
 import analytics from '../analytics'
@@ -74,8 +73,10 @@ const GameCard = ({ node, index, onClick, isOpen }: {
       linkSlug?: string
     }
 
+    console.log({ node })
+
     const links = frontmatter.links;
-    const numbered = frontmatter.slug == 'microbit'//node.frontmatter.numbered_links;
+    const numbered = node.frontmatter.numbered_links;
     const slugifiedLinks = links.map((link: ILink): ILinkButtonProp => ({
       ...link,
       linkSlug: link.title.toLowerCase(),
@@ -144,21 +145,10 @@ const GameCard = ({ node, index, onClick, isOpen }: {
                 <MarkdownArea html={node.html} />
 
                 {showMarkdown &&
-                <div className='text-center text-lg pt-5'>
-                  <ToggleChildren
-                    text='Kommentit'
-                    className='text-center pb-5'
-                  >
-                    <p className="italic">
-                      Esitä harjoitukseen ja sen ohjeisiin liittyviä kysymyksiä, havaintoja tai parannusehdotuksia <br />(tai kerro vain miten tunti meni!)
-                    </p>
-                    <Comments
-                      id={frontmatter.slug}
-                      title={frontmatter.slug}
-                      className='pt-10'
-                    />
-                  </ToggleChildren>
-                </div>
+                  <CommentSection
+                    id={frontmatter.slug}
+                    title={frontmatter.slug}
+                  />
                 }
               </div>
             </div>

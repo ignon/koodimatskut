@@ -1,6 +1,6 @@
 ---
 title: "Angry Birds: Sokkelo"
-developer: Code.org, Rovio
+developer: Code.org, Rovio Entertainment Ltd.
 time: 30min
 difficulty: 1. luokka
 priority: 200
@@ -19,7 +19,7 @@ Tehtävät on mahdollista suorittaa käyttämättä toista-silmukoita. Täsmenn�
 
 ---
 
-![Tyhjä toista-silmukka](tyhja_toista_silmukka.png)
+![Tyhjä toista-silmukka](./tyhja_toista_silmukka.png)
 
 
 **Huom:** Jos jonkun toista-silmukan sisään ei laita ainuttakaan käskyä, koodi on virheellistä eikä sitä suoriteta ollenkaan. Jos *"Suorita"* nappia painaessa ei tapahdu mitään, se johtuu todennäköisimmin tästä.

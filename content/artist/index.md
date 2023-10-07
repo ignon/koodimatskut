@@ -18,4 +18,4 @@ links:
 
 Toisin kuin aiemmissa harjoituksissa, joissain tehtävissä `toista-x-kertaa`-silmukan sisään pitää laittaa useampi käsky:
 
-![](/artist/useampi_kasky_silmukassa.png)
+![](./useampi_kasky_silmukassa.png)

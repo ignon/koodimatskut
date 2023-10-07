@@ -10,8 +10,7 @@ import HeaderCard from '../components/HeaderCard'
 import MarkdownArea from '../components/MarkdownArea'
 import ToggleChildren from '../components/ToggleChildren'
 import analytics from '../analytics'
-import Comments from '../components/Comments'
-
+import CommentSection from '../components/CommentSection'
 
 const MainPage = ({ data }: {
   data: any
@@ -29,6 +28,11 @@ const MainPage = ({ data }: {
         {teacherNodes.map((node: any) => (
           <MarkdownArea html={node.html} key={node.id} />
         ))}
+        <CommentSection
+          id={'opettajalle'}
+          title={'opettajalle'}
+          visible={activeCard == ''}
+        />
       </ HeaderCard>
 
       {markdownNodes.map((node: any, index: number) => (
@@ -63,8 +67,7 @@ const MainPage = ({ data }: {
     </Layout>
   )
 }
-// text-center mt-7 mb-5 mx-3 text-lg text-gray-800
-//
+
 export const query = graphql`
   query {
     site {
@@ -87,6 +90,7 @@ export const query = graphql`
           priority
           tags
           slug
+          numbered_links
           links {
             title
             url

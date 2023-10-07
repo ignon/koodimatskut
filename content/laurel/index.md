@@ -9,10 +9,10 @@ slug: laurel
 priority: 270
 links:
 - title: Silmukat
-  url:   https://studio.code.org/s/coursea-2022/lessons/9/levels/2?lang=fi-FI
+  url:   https://studio.code.org/s/coursea-2023/lessons/9/levels/2?lang=fi-FI
 ---
 
-![](/laurel/exercise_14.png)
+![](./exercise_14.png)
 *Viimeisen tehtävän esimerkkiratkaisu*
 
 

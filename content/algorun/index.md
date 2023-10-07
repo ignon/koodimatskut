@@ -10,7 +10,7 @@ priority: 550
 numbered_links: false
 links:
 - title: iPad/iPhone
-  url:   https://apps.apple.com/us/app/algorun-learn-to-code/id1517210466
+  url:   https://apps.apple.com/us/app.-learn-to-code/id1517210466
 - title: Android
   url: https://play.google.com/store/apps/details?id=com.bitcrumbs.AlgoRunFree&hl=en&gl=US
 ---
@@ -26,46 +26,54 @@ Youtubesta löytyy [esimerkkiratkaisut rekursio-osion tehtäviin](https://www.yo
 NOTES: Rekursio-osiossa on mahdotonta selittää käytännön esimerkeillä rekursin ja infinite loopin eroa, sillä pelissä ei ole lopetusehtoja rekursiolle.
 -->
 
-<!-- ![](/algorun/aliohjelma_4.jpg)
-![](/algorun/kaskysarjat.jpg)
+<!-- ![](./aliohjelma_4.jpg)
+![](./kaskysarjat.jpg)
 ---
 
 # Aliohjelmat eli funktiot
 
-![](/algorun/paaohjelma.jpg)
+![](./paaohjelma.jpg)
 ***F1**-rivi on `pääohjelma` eli sen sisään laitetut käskyt suoritetaan aina automaattisesti kun koodi suoritetaan (robotti liikkuu kaksi ruutua eteenpäin)*
 
-![](/algorun/aliohjelma.jpg)
+![](./aliohjelma.jpg)
 ***F2**-rivi on `aliohjelma` eli sen sisään laitettuja käskyjä ei suoriteta automaattisesti (kuvan koodi ei tee mitään)*
 
-![](/algorun/aliohjelmakutsu.jpg)
+![](./aliohjelmakutsu.jpg)
 ***F2**-rivin käskyt suoritetaan ainoastaan kun käytetään **F2**-käskyä (kuvan koodi liikuttaa robottia kahdesti eteenpäin)*
 
-![](/algorun/aliohjelmakutsu-2.jpg)
+![](./aliohjelmakutsu-2.jpg)
 *Pääohjelmassa on kaksi **F2**-käskyä eli **F2**-rivillä olevat käskyt suoritetaan kahdesti (robotti liikkuu neljä ruutua eteenpäin)*
 
-![](/algorun/aliohjelmakutsu-3.jpg)
+![](./aliohjelmakutsu-3.jpg)
 *Esimerkkikoodissa robotti liikkuu kaksi ruutua eteepäin, kääntyy oikealle ja liikkuu taas kaksi ruutua eteenpäin*
 
-![](/algorun/functions-1.jpg)
+![](./functions-1.jpg)
 *Functions-maailman 1. tehtävä*
 
-<!-- ![](/algorun/functions-3.jpg) -->
-![](/algorun/functions-3-uncomplete.jpg)
+<!-- ![](./functions-3.jpg) -->
+![](./functions-3-uncomplete.jpg)
 *Jos opettajalla on kiire usean oppilaan auttamisessa, joskus on nopeinta koodata aliohjelmat oppilaan puolesta ja palata myöhemmin katsomaan onko oppilas saanut kentän läpäistyä aliohjelmia käyttäen. Miten **F1**- ja **F2**-aliohjelmia pitäisi käyttää kentän läpäisemiseksi?*
 
 # Rekursio-osion ratkaisut
-![](/algorun/recursion-1.jpg)
+
+![](./recursion-1.jpg)
 *Jos **F1**-rivin lopussa on **F1**-käsky, suoritetaan **F1**-rivin käskyjä ikuisesti uudestaan. Tällaista kursutaan **ikuiseksi silmukaksi** *(infinite loop)*. Kuvan robotti liikkuu ikuisesti eteenpäin.*
-![](/algorun/recursion-2.jpg)
+
+![](./recursion-2.jpg)
 *Robotti mutkittelee eteenpäin yksi "porras" kerrallaan rekursion avulla.*
-![](/algorun/recursion-3.jpg)
-![](/algorun/recursion-4.jpg)
-<!--![](/algorun/recursion-5.jpg)-->
-![](/algorun/recursion-5-uncomplete.jpg)
+
+![](./recursion-3.jpg)
+
+![](./recursion-4.jpg)
+<!--![](./recursion-5.jpg)-->
+![](./recursion-5-uncomplete.jpg)
 *Mitenköhän `F1` ja `F2`-käskyjä pitäisi käyttää kentän läpäisemiseksi?*
-![](/algorun/recursion-6.jpg)
-![](/algorun/recursion-7.jpg)
-![](/algorun/recursion-8.jpg)
+
+![](./recursion-6.jpg)
+
+![](./recursion-7.jpg)
+
+![](./recursion-8.jpg)
 *<u>Rekursio-osan 9. kenttä</u> on jo hyvin kryptinen eikä kukaan oppilaistani ole läpäissyt tätä itsenäisesti.*
-![](/algorun/recursion-9.jpg)
+
+![](./recursion-9.jpg)

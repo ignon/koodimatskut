@@ -21,3 +21,29 @@
 - [] tekoäly
 - [] debuggaus, vuokaavio, URL
 
+# Ohjelmoinnillinen ajattelu
+**LOOGINEN AJATTELU JA TIEDON KÄSITTELY**
+**1-2 luokka**
+- [x] Loogisia operaatioita ("ja", tai ei, Microbit-tehtävät)
+- [x] Sanallistaminen (jää opettajan vastuulle)
+
+**3-6 luokka**
+- [ ] Osaa järjestää, vertailla ja esittää informaatioita käyttäen teknologiaan liittyviä käsitteitä ja symboleja (loogiset ja vertailuoperaattorit??)
+- [ ] Osaa hahmottaa yhteyksiä kokonaisuuksien välillä
+- [ ] Löytää ja kuvaa asioiden välisiä syy-seuraussuhteita
+
+**ONGELMIEN RATKAISEMINEN JA MALLINTAMINEN**
+**1-2 luokka**
+- [/] Arjen ilmiöiden purkaminen osiin ja ratkaisuvaihtoehtojen etsiminen. Oppilas osaa kertoa ratkaisutavoistaan
+**3-6 luokka**
+- [x] Osaa käyttää ongelman ratkaisuun erilaisia tapoja ja ratkaisukaavoja, sekä kokeilee luoda niitä myös itse.
+- [x] Osaa arvioida ratkaisuja hyödyntäen kriteereitä kuten toimivuus, luettavuus ja tehokkuus.
+
+**OHJELMOINTIIN LIITTYVÄ TOIMINTA, KÄSITTEET JA PERUSRAKENTEET**
+**1-2 luokka**
+- [x] Osaa laatia vaiheittaisia toimintaohjeita käyttäen yksinkertaisia komentoja ja toistorakennetta.
+- [x] Oppilas tunnistaa ohjeiden tuottamia virhetilanteita ja kokeilee ratkaisuja niiden korjaamiseen.
+**3-6 luokka**
+- [x] Osaa laatia täsmällisiä ja yksityiskohtaisia toimintaohjeita käyttäen toisto- ja valintarakenteita.
+- [x] Oppilas etsii ja korjaa virheitä toimintaohjeissa sekä ohjelmakoodissa
+

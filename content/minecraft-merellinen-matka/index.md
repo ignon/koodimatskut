@@ -25,17 +25,17 @@ links:
 > 2) **JOS** oikealle voi kääntyä **NIIN** käänny oikealle
 
 
-![](/minecraft-ocean/ex5.jpg)
+![](./ex5.jpg)
 ***Tehtävä 5**: Hahmo pitää liikuttaa arkulle.*
-![](/minecraft-ocean/ex6.jpg)
+![](./ex6.jpg)
 ***Tehtävä 6**: On liikuttava alareunaa jos haluaa kerätä myös kilpikonnan.*
-![](/minecraft-ocean/ex7.jpg)
+![](./ex7.jpg)
 ***Tehtävä 7**: Jos-lauseiden järjestyksellä on väliä.*
-![](/minecraft-ocean/ex8.jpg)
+![](./ex8.jpg)
 ***Tehtävä 8**: Jos-lauseiden järjestyksellä on taas merkitystä.*
-![](/minecraft-ocean/ex9.jpg)
+![](./ex9.jpg)
 ***Tehtävä 9**: Siniset ja punaiset korallit merkitsevät milloin hahmon on käännyttävä minnekin. Värisokeille ei kovin saavutettava tehtävä...*
-![](/minecraft-ocean/ex10.jpg)
+![](./ex10.jpg)
 ***Tehtävä 10**: Merilyhdyillä on aina käännyttävä oikealle.*
-![](/minecraft-ocean/ex11.jpg)
+![](./ex11.jpg)
 ***Tehtävä 11**: Rakennetaan neliön muotoinen rakennus, jonka kulmat tulevat merilyhtyjen kohdalle*
