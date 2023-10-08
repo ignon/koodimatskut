@@ -24,6 +24,9 @@ links:
 > - JOS on kesä NIIN syö jäätelöä
 > - JOS on kylmä NIIN hae villapaita
 
+![](./argumentit.png)
+***Argumentit** ovat käskyille annettavia lisätietoja. <u>Aseta</u> -käskylle annetaan lisätietona (argumenttina) tieto siitä millainen lankku halutaan asettaa. <u>Käänny</u>-käskylle annetaan lisätietona (argumenttina) tieto siitä mihin suuntaan halutaan kääntyä. Näin vältytään tekemästä kahta erillistä <u>Käänny oikealle</u> ja <u>Käänny vasemmalle</u> käskyä.*
+
 ![](./if.jpg)
 ***Tehtävä 11**: Kentän tavoite on tuhota seitsemän hahmon edessä olevaa kivikuutiota, sillä osa niistä on pilkullisia (niissä on hiiltä ja rautaa jotka pelihahmo haluaa). Tuhottujen kivikuutioiden alta saattaa kuitenkin ilmestyä laavaa. Haluammekin asettaa pelaajan eteen mukulakivilohkon JOS edessä on laavaa ja vasta sitten siirtä eteenpäin. </br></br>**Toista seitsemän kertaa:**</br>1) Tuhoa edessä oleva kivikuutio </br> 2) **JOS** edessä on laavaa **NIIN** aseta mukulakivi eteen</br> 3) Siirry eteenpäin*
 

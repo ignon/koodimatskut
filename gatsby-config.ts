@@ -26,12 +26,16 @@ const config: GatsbyConfig = {
       resolve: `gatsby-transformer-remark`,
       options: {
         gfm: true,
-        plugins: [{
-          resolve: 'gatsby-remark-images',
-          options: {
-            maxWidth: 1200
+        plugins: [
+          {
+            resolve: 'gatsby-remark-images',
+            options: { maxWidth: 1200 }
+          },
+          {
+            resolve: "gatsby-remark-external-links",
+            options: { target: "_blank" }
           }
-        }]
+        ]
       },
     },
     "gatsby-remark-autolink-headers",
