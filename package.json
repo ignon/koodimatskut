@@ -17,7 +17,6 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@mdx-js/react": "^2.3.0",
     "commentbox.io": "^2.1.0",
     "gatsby": "^5.6.1",
     "gatsby-plugin-image": "^3.6.0",

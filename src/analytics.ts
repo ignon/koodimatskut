@@ -8,9 +8,9 @@ const loadPosthog = async () =>
 const init = async () => {
   const posthog = await loadPosthog()
   posthog?.init(
-    'phc_2SLjm4aa2jlGn5vbQ8kJRrKV5D3An9SS8931qxSb23U',
+    'phc_4uAPt8VrJceprv64DF10bPVxwDeiI075LuqXhScqYyL',
     {
-      api_host: 'https://app.posthog.com',
+      api_host: 'https://eu.posthog.com',
       persistence: 'memory',
       autocapture: false,
       capture_pageview: true

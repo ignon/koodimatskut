@@ -6,7 +6,7 @@ slug: opettajalle
 ---
 
 ## Yleistä
-Sivuston tehtävät alkavat lukutaidottomille sopivilla koodausharjoituksilla ja etenevät tavoitteellisesti käsite kerrallaan eteenpäin. Listan tarkoitus on tarjota opettajille mahdollisimman valmiiksi jäsenneltyä oppimateriaalia, joka tukee ja ohjaa oppituntien kulkua kuten matematiikan kirjakin. Kaikki tehtävät toimivat ilman tilien luontia, joko iPadilla tai suoraan selaimessa. Materiaalia riittää ainakin 20 oppitunniksi.
+Sivuston tehtävät alkavat lukutaidottomille sopivilla koodausharjoituksilla ja etenevät tavoitteellisesti käsite kerrallaan eteenpäin. Listan tarkoitus on tarjota opettajille mahdollisimman valmiiksi jäsenneltyä oppimateriaalia, joka tukee ja ohjaa oppituntien kulkua kuten matematiikan kirjakin. Kaikki tehtävät toimivat ilman tilien luontia, joko iPadilla tai suoraan selaimessa. Materiaalia riittää noin 25 oppitunniksi.
 
 Materiaali suosii harjoituksia, jotka antavat oppilaille selkeät tavoitteet sekä koodilohkot, joita soveltaa tavoitteiden saavuttamiseksi – näin ne ohjaavat ja tukevat myös opettajan tekemistä. Tällaiset harjoitukset minimoivat tarvetta opettajajohtoiselle opetukselle ja vapauttavat opettajan aikaa oppilaiden henkilökohtaiseen ohjeistamiseen kysymyksillä johdattaen. Valmiiden koodauspelien lisäksi sivustolla on suomenkielisiä Scratch- ja Microbit-harjoituksia jotka treenaavat pelien ja animaatioiden ohjelmointia.
 
@@ -30,7 +30,7 @@ Konseptit pyritään esittelemään erillään muista konsepteista, aloittaen yk
 
 
 ## Siirtymä tekstipohjaiseen ohjelmointiin
-Kuudennen vuoden harjoituksissa aletaan hiljalleen siirtymään graafisesta lohko-ohjelmoinnista tekstipohjaiseen ohjelmointiin ja opettelemaan keskeisiä ohjelmoinnin termejä `function (funktio)`, `if-else (jos-muuten)`, `while (niin-kauan-kuin)`, `variable (muuttuja)` englanniksi. Nämä tehtävät eivät vaadi laajaa englannin kielen osaamista tai hyvää näppäimistön hallintaa, vaan painottuvat koodin lukemiseen ja tulkitsemiseen. Materiaali pyrkii siihen että oppilaat kokisivat siirtymän lohko-ohjelmoinnista tekstipohjaiseen ohjelmointiin luontevana ja hahmottaisivat niiden välisen yhteyden.
+Kuudennen vuoden harjoituksissa aletaan hiljalleen siirtymään graafisesta lohko-ohjelmoinnista tekstipohjaiseen ohjelmointiin ja opettelemaan keskeisiä ohjelmoinnin termejä `function (funktio)`, `if-else (jos-muuten)`, `while (niin-kauan-kuin)`, `variable (muuttuja)` englanniksi. Nämä tehtävät eivät vaadi laajaa englannin kielen osaamista tai näppäimistön hallintaa, vaan painottuvat koodin lukemiseen ja tulkitsemiseen. Oikeastihan nämä alkavat jo kuulumaan yläkoulun OPS:in puolelle, mutta materiaali pyrkii siihen että oppilaat kokisivat siirtymän lohko-ohjelmoinnista tekstipohjaiseen ohjelmointiin luontevana ja hahmottaisivat niiden välisen yhteyden. Tällöin olisi hyvä jos alakoulun puolella saataisiin jo kevyt ensikosketus tekstipohjaisen koodin lukemiseen.
 
 ## Opettamisesta
 Ohjelmoinnin opettamisessa alakoululaisille on mielestäni haastavinta isot ryhmäkoot, opettajan rajallinen aika oppilasta kohden sekä luokanhallinta.
@@ -44,6 +44,7 @@ Innokkailta eka-tokaluokkalaisilta on joskus vaikeaa saada puheenvuoroa, helpoin
 Jos oppilas toistuvasti käyttää tietokonetta opettajan puhuessa, voi opettaja ottaa oppilaalta tietokoneen hetkeksi talteen. Selitä oppilaille, että autat heitä ainoastaan jos he pyytävät apua viittaamalla. Pieni melu kuuluu mielestäni innokkaaseen tekemiseen, mutta luokkahuoneen melutason noustessa liian korkeaksi, voi opettaja käyttää esim. [äänitasomittaria](https://bouncyballs.org/).
 
 Pääasiassa suosittelen että oppilaat saisivat edetä harjoituksissa itsenäisesti omalla vauhdillaan; joidenkin ryhmien ja harjoitusten kohdalla olen joskus kokenut tuen tarpeen liian korkeaksi tähän ja käynyt harjoituksia läpi yhdessä koko luokan kanssa. Tällöin hyvä tapa pysyä tietoisena siitä missä vaiheessa oppilaat ovat on pyytää heitä siirtämään läppärinsä pulpetin päätyyn kun he ovat valmiita tehtävässä (ja muussa tapauksessa vetämään sen kohti itseään).
+
 
 ## OPS-vastaavuus
 
@@ -107,6 +108,9 @@ Ohjelmoinnin OPS on puolestaan hyvin laaja,
 
 sisältäen kolme osa-aluetta: 1) ohjelmoinnillinen ajattelu 2) tutkiva työskentely ja tuottaminen 3) ohjelmoitujen ympäristöjen tunteminen ja niissä toimiminen. ePerusteet sanoo
 -->
+
+## Tekijästä
+Hei! Olen Arttu Mäkinen, tietotekniikan opiskelija Jyväskylästä (toivottavasti jossain välissä myös koulutusteknologian maisteri), jolla on taustaa pelikehityksestä ja noin 400 oppitunnin kokemus peruskoululaisten ohjelmoinnin opettamisesta iltapäiväkerhoissa, joissa on opetettu sekä graafista että tekstipohjaista ohjelmointia.  Jos satut istumaan rahakirstun päällä, jolla voisi rahoittaa ohjelmoinnin avointen oppimateriaalien kehittämistä lukioiden ja yläkoulujen käyttöön, minuun saa ottaa yhteyttä osoitteeseen arttu.b.makinen (át) gmail.com. Muissakin merkeissä saa toki olla yhteyksissä (:
 
 ## In English
 Koodimatskut.fi is a carefully curated and arrenged list of high-quality coding learning materials for primary schools (in Finnish).

@@ -49,26 +49,17 @@ const config: GatsbyConfig = {
     },
     {
       resolve: 'gatsby-source-filesystem',
-      options: {
-        "name": "pages",
-        "path": "./src/pages/"
-      },
+      options: { "name": "pages", "path": "./src/pages/" },
       __key: "pages"
     },
     {
       resolve: 'gatsby-source-filesystem',
-      options: {
-        "name": "teacher",
-        "path": "./teacher/"
-      },
+      options: { "name": "teacher", "path": "./teacher/" },
       __key: "content"
     },
     {
       resolve: 'gatsby-source-filesystem',
-      options: {
-        "name": "content",
-        "path": "./content/",
-      },
+      options: { "name": "content", "path": "./content/", },
       __key: "content"
     },
   ]
