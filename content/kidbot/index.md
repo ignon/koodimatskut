@@ -14,7 +14,7 @@ links:
   url:   https://apps.apple.com/us/app.-start/id1090682359
 ---
 
-Pelin nettiversion toimii iPadeilla ja Chromebookeilla, joten suosittelen käyttämään sitä (testatkaa toki nettiversion toimivuus laitteillanne ennen tunnin alkua). Tähän mennessä olemme opetelleet pääasiassa `toista-x-kertaa`-silmukan käyttöä. Tässä pelissä opettelemme uuden konseption eli `funktion`.
+Pelin nettiversion toimii iPadeilla ja Chromebookeilla, joten suosittelen käyttämään sitä (testatkaa toki nettiversion toimivuus laitteillanne ennen tunnin alkua). Tähän mennessä olemme opetelleet pääasiassa `toista`-silmukan käyttöä. Tässä pelissä opettelemme uuden konseption eli `funktion`.
 
 <u>Käytämme sanoja funktio ja aliohjelma toistensa synonyymeinä.</u>
 

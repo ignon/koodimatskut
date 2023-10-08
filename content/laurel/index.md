@@ -4,7 +4,7 @@ developer: Code.org
 time: 30min
 difficulty: 1. luokka
 hero: ./laurel_banner.png
-tags: [toista-x-kertaa, lukutaidottomille]
+tags: [toista, lukutaidottomille]
 slug: laurel
 priority: 270
 links:

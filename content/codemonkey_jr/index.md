@@ -46,7 +46,6 @@ Pelin viimeinen puolisko sisältää yksinkertaisten käskysarjojen lisäksi my�
 ![Silmukan sisällä voi olla useampi käsky](kaskysarja_silmukassa.png)
 *Silmukan sisälle voi raahata useamman käskynpalikan*
 
-![Silmukan sisällä voi olla useampi käsky](kaskysarja_silmukassa.png)
 
 ---
 
@@ -56,6 +55,4 @@ Jos oppilailla on käytössä kosketusnäytöttömät tietokoneet, <u>on CodeMon
 
 Jos pidätte iltapäiväkerhoa koulun ulkopuolella, älkää olettako että oppilaat osaisivat käyttää hiirtä - kouluista suuri osa käyttää vain iPadeja tai kosketusnäytöllisiä Chromebookeja. Näppäimistön ja kymmensormijärjestelmän käyttöä onneksi harjoitellaan useimmissa kouluissa esim. Näppistaiturin avulla.
 
-
-
-
+**Huom:** Suosittelen laittamaan selaimen fullscreen-tilaan, jotta pelille jää enemmän pinta-alaa näytöllä. Chromen oikeasta yläkuolmasta löytyy kolme pistettä, joita painamalla avautuu valikko josta löytyy fullscreen-ikoni.

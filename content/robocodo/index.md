@@ -5,7 +5,7 @@ time: "+60min"
 difficulty: 2. luokka
 priority: 400
 hero: hero.png
-tags: [toista-x-kertaa, funktiot, lukutaidottomille]
+tags: [toista, funktiot, lukutaidottomille]
 slug: rodocodo
 numbered_links: false
 links:
@@ -48,7 +48,7 @@ Robocodo on sivuston listaamista koodauspeleistä haastavimpia hahmottaa, joten 
 *Silmukkatehtävissä on tärkeää hahmottaa kentän toistuva osuus. Tässä kentässä pitää kolmesti kävellä ylös teleportilla (ja napata kolikko matkalla)*
 
 ![Silmukat 2](./silmukat2.png)
-*Tässä tehtävässä on kolme kahden kolikon rypästä eli koodin on toistettava kolmesti käyttäen `toista-x-kertaa`-silmukkaa.*
+*Tässä tehtävässä on kolme kahden kolikon rypästä eli koodin on toistettava kolmesti käyttäen `toista`-silmukkaa.*
 
 ![Silmukat 3](./silmukat3.png)
 *Tässä tehtävässä on neljä identtistä saareketta, joten on käytettävä `toista` silmukkaa*
@@ -56,32 +56,24 @@ Robocodo on sivuston listaamista koodauspeleistä haastavimpia hahmottaa, joten 
 ![Silmukat 4](./silmukat4.png)
 *Tässä kentässä jokaisen silmukan alussa on käännyttävä. Kenttä koostuu kolmesta L-kirjaimen muotoisesta osasta, jotka pitää kulkea.*
 
-# Part 2: Funktiot
+---
+
+# Part 2: Funktiot eli aliohjelmat
 
 ---
 
 > ### Funktiot
-> Kun halutaan toistaa käskysarja <u>useasti peräkkäin</u>, voidaan käyttää <u>toista-silmukkaa</u>.
->
-> Jos halutaan toistaa tietty käskysarja <u>useissa eri vaiheissa ohjelman aikana</u>, ja toistojen välillä tehdä jotain muita juttuja, on tehtävä oma pikakomento eli <u>funktio</u>.
+> Käy katsomassa seuraavien <u>Kidbot</u> ja <u>AlgoRun</u> pelien opettajan materiaalit, jos haluat yksityiskohtaisemman selityksen miten funktiot (eli aliohjelmat) toimivat.
 
 ![Funktiot 1](./funktiot.png)
-
-Tässä tehtävässä on toistettava kahdesti komennot: <u>eteen, eteen, kolikko.</u>
-
-**Koodi:** <br/><u>eteen, eteen, kolikko</u>, vasemmalle<br/><u>eteen, eteen, kolikko,</u> oikealle
-
-Ensimmäisen toiston jälkeen on käännyttävä <u>vasemmalle</u>, mutta toisen toiston jälkeen on käännyttävä <u>oikealle</u>. Tällaista ei voi ratkaista silmukalla.
-
-Koska emme halua toistaa samaa koodia useasti, on määriteltävä oma <u>pikakomento eli funktio</u>:
+*Aina kun `F`-käsky suoritetaan, <u>Function</u>-laatikon sisällä olevat käskyt suoritetaan. Tässä esimerkissä `F`-käsky liikuttaa kissaa kaksi ruutua eteenpäin ja kerää kolikon.*
 
 ![Funktiomäärittely](./funktiomaarittelu.jpg)
+*Funktiolaatikon sisällä on käskyt <u>eteen, eteen, kolikko</u>*
 
-Ylläolevan funktionmäärittelyn käskyjä ei suoriteta automaattisesti, vaan ainoastaan jos käytämme `F` käskyä (eli funktiokutsua):
 
 ![funktiokutsu](./funktiokutsut.jpg)
-
-Nyt jokaisen `F`-käskyn kohdalla suoritetaan `Function` laatikon käskyt eli <u>eteen, eteen, kolikko</u>
+*Nyt jokaisen `F`-käskyn kohdalla suoritetaan <u>Function</u>-laatikon käskyt eli <u>eteen, eteen, kolikko</u>*
 
 
 

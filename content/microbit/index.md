@@ -11,7 +11,7 @@ numbered_links: true
 links:
 - title: "Sydänanimaatio"
   url:   https://makecode.microbit.org/#pub:94105-08146-83787-54034
-- title: "Timanttianimaatio" #toista-silmukka
+- title: "Timanttianimaatio" #toista
   url:   https://makecode.microbit.org/#pub:72788-30636-89341-08119
 - title: "Hermostuva hymiö" #jos-muuten
   url:   https://makecode.microbit.org/#pub:14201-61918-09551-84579

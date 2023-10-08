@@ -6,7 +6,7 @@ time: "+60min"
 difficulty: 1. luokka
 priority: 300
 slug: codemancer
-tags: [toista-x-kertaa, lukutaidottomille]
+tags: [toista, lukutaidottomille]
 numbered_links: false
 links:
 - title: iPad/iPhone (ilmainen)

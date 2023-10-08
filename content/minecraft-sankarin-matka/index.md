@@ -6,7 +6,7 @@ difficulty: 2. luokka
 hero: banner.png
 priority: 1100
 slug: minecraft-sankarin-matka
-tags: [funktiot, toista-x-kertaa]
+tags: [funktiot, toista]
 links:
 - title: Sankarin matka
   url:   https://studio.code.org/s./reset?lang=fi-FI

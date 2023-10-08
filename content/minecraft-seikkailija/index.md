@@ -6,7 +6,7 @@ difficulty: 2. luokka
 hero: hero2.jpg
 priority: 1000
 slug: minecraft-seikkailija
-tags: [toista-x-kertaa, jos-lause]
+tags: [toista, jos-lause]
 links:
 - title: "Seikkailija"
   url:   https://studio.code.org/s/mc/lessons/1/levels/1?lang=fi-FI
@@ -32,4 +32,4 @@ links:
 
 
 ![](./exercise-12.jpg)
-***Tehtävä 12**: Tehtävän tavoite on kerätä kolme punapilkullista kiveä (punakiveä). Kentässä toistuu kolmesti samanlainen osuus, joten voimme käyttää `toista-x-kertaa`-silmukkaa. Punakivien alta saattaa ilmestyä laavaa, joten käytämmä `jos-lausetta`*
+***Tehtävä 12**: Tehtävän tavoite on kerätä kolme punapilkullista kiveä (punakiveä). Kentässä toistuu kolmesti samanlainen osuus, joten voimme käyttää `toista`-silmukkaa. Punakivien alta saattaa ilmestyä laavaa, joten käytämmä `jos-lausetta`*

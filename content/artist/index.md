@@ -6,7 +6,7 @@ difficulty: 1. luokka
 hero: ./hero.jpg
 priority: 250
 slug: taiteilija
-tags: [toista-x-kertaa, lukutaidottomille]
+tags: [toista, lukutaidottomille]
 numbered_links: true
 links:
 - title: Käskysarjat
@@ -16,6 +16,6 @@ links:
 ---
 
 
-Toisin kuin aiemmissa harjoituksissa, joissain tehtävissä `toista-x-kertaa`-silmukan sisään pitää laittaa useampi käsky:
+Toisin kuin aiemmissa harjoituksissa, joissain tehtävissä `toista`-silmukan sisään pitää laittaa useampi käsky:
 
 ![](./useampi_kasky_silmukassa.png)

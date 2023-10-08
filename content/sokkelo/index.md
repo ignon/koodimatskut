@@ -6,7 +6,7 @@ difficulty: 1. luokka
 priority: 200
 slug: angry-birds-maze
 hero: banner.png
-tags: [käskysarjat, toista-x-kertaa, lukutaidottomille]
+tags: [käskysarjat, toista, lukutaidottomille]
 categories: [alakoulu]
 numbered_links: true
 links:
@@ -15,11 +15,11 @@ links:
 - title: Silmukat
   url:   https://studio.code.org/s/course1/lessons/13/levels/1?lang=fi-FI
 ---
-Tehtävät on mahdollista suorittaa käyttämättä toista-silmukoita. Täsmennä oppilaille että tehtävien tarkoitus on harjoitella `toista-x-kertaa` silmukan käyttöä, joten sitä on hyvä käyttää aina kun mahdollista. Selitä että vaikka nyt tehtävät voisikin ratkaista ilman sitä, koodatessa tulee tilanteita, jolloin joitain käskyjä pitää toistaa jopa satoja tuhansia kertoja. Silloin on pakko osata käyttää silmukoita.
+Tehtävät on mahdollista suorittaa käyttämättä toista-silmukoita. Täsmennä oppilaille että tehtävien tarkoitus on harjoitella `toista` silmukan käyttöä, joten sitä on hyvä käyttää aina kun mahdollista. Selitä että vaikka nyt tehtävät voisikin ratkaista ilman sitä, koodatessa tulee tilanteita, jolloin joitain käskyjä pitää toistaa jopa satoja tuhansia kertoja. Silloin on pakko osata käyttää silmukoita.
 
 ---
 
-![Tyhjä toista-silmukka](./tyhja_toista_silmukka.png)
+![Tyhjä toista](./tyhja_toista_silmukka.png)
 
 
 **Huom:** Jos jonkun toista-silmukan sisään ei laita ainuttakaan käskyä, koodi on virheellistä eikä sitä suoriteta ollenkaan. Jos *"Suorita"* nappia painaessa ei tapahdu mitään, se johtuu todennäköisimmin tästä.

@@ -6,7 +6,7 @@ difficulty: 6. luokka
 hero: hero.png
 priority: 1620
 slug: little-dot-adventure
-tags: [niin-kauan-kuin (while), toista-x-kertaa (repeat), jos (if)]
+tags: [niin-kauan-kuin (while), toista (repeat), jos (if)]
 links:
 - title: Little Dot Adventure
   url:   https://little-dot.toxicode.fr/
@@ -14,7 +14,7 @@ links:
 
 Pelissä on valittava kortti jossa on tilanteeseen sopiva koodi ja sitten tehtävä tietokoneen osuus eli suoritettava kortin koodi nuolinäppäimiä painelemalla. Kortit pitää osata valita oikeassa järjestyksessä. Peli on pelattavissa ilman näppäimistöäkin, mutta se on melko hankalaa.
 
-`toista-x-kertaa` on englanniksi `repeat`.
+`toista` on englanniksi `repeat`.
 
 `niin-kauan-kuin` on englanniksi `while`.
 
