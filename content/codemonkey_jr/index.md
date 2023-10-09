@@ -14,9 +14,21 @@ links:
   url:   https://app.codemonkey.com/junior/chapters/sequencing/challenges/1
 ---
 
-**CodeMonkey Jr** toimii hyvänä ensikosketuksena ohjelmointiin ja on täysin symbolinen eli lukutaitoa ei vaadita.
+Ensimmäisen koodaustunnin voi aloittaa tietokoneettomasti harjoittelemalla <u>kaveria ohjelmointia</u>:
 
-Omalla kokemuksellani kahden ensimmäisen tehtävän läpikäynti luokan edessä riittää, tämän jälkeen oppilaat pärjäävät melko hyvin omillaan; opettaja voi keskittyä opettajajohtoisen opettamisen sijasta oppilaiden henkilökohtaiseen opastamiseen (ihan  kuten matematiikan tunneilla, kysymyksillä johdattamalla)
+> ### Kaverin ohjelmointi
+> *Oppilas vie esim. istumatyynyn valitsemaansa paikkaan luokassa ja palaa sitten alkuperäiselle paikalleen. Hänen parinsa tehtäväksi jää koodata oppilas liikkumaan istumatyynyn luokse antamalla käskyjä kuten "Astu 3 askelta eteen", "Käänny vasemmalle", "Käänny oikealle". Viimeisenä annetaan käsky "Nosta tyyny".*
+>
+> (Täydellä luokalla kannattaa varmaan tyytyä yhden henkilön koodaamiseen luokan edessä tai laittaa osa käytävälle)
+
+---
+
+**CodeMonkey Jr** toimii hyvänä ensikosketuksena ohjelmointiin ja on täysin symbolinen eli lukutaitoa ei vaadita. Pelin loppupään tehtävät voivat olla hiukan hankalia ekaluokkalaisille, joten suosittelen että harjoitusten tekemiseen varataan vain puoli tuntia. Alkupuolisko meneekin helposti edellämainittuun  <u>kaverin ohjelmointiin</u>.
+
+Omalla kokemuksellani CodeMonkey Jr pelin kahden ensimmäisen tehtävän läpikäynti luokan edessä riittää, tämän jälkeen oppilaat pärjäävät melko hyvin omillaan; opettaja voi keskittyä opettajajohtoisen opettamisen sijasta oppilaiden henkilökohtaiseen opastamiseen (ihan  kuten matematiikan tunneilla, kysymyksillä johdattamalla).
+
+
+
 
 
 > ### Kysymyksillä johdattaminen
@@ -33,7 +45,7 @@ Opettajan kannattaa korostaa <u>ettei kaikkia käskyjä kannata aina edes yritt�
 
 ---
 
-Pelin viimeinen puolisko sisältää yksinkertaisten käskysarjojen lisäksi myös `toista-ikuisesti` -silmukan käyttöä. Ei kuitenkaan haittaa vaikka oppilaat eivät ehtisi näihin tehtäviin saakka, sillä silmukan konseptin opettelun voi jättää tuleville tunneille. Jos oppilaat ehtivät silmukoihin saakka, voi opettaja selittää että ikuisesti-silmukan sisään voi raahata yhden tai useamman käskyn joita toistetaan ikuisesti.
+Pelin viimeinen puolisko sisältää yksinkertaisten käskysarjojen lisäksi myös `toista-ikuisesti` -silmukan käyttöä. Ei kuitenkaan haittaa vaikka oppilaat eivät ehtisi näihin tehtäviin saakka, sillä silmukan konsepti opetetaan paremmin seuraavalla tunnilla. Jos oppilaat ehtivät silmukoihin saakka, voi opettaja selittää että ikuisesti-silmukan sisään voi raahata yhden tai useamman käskyn joita toistetaan ikuisesti.
 
 > **Koodi**: IKUISESTI: oikealle\
 > **suoritetaan näin:** oikealle, oikealle, oikealle, oikealle...

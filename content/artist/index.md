@@ -16,6 +16,5 @@ links:
 ---
 
 
-Toisin kuin aiemmissa harjoituksissa, joissain tehtävissä `toista`-silmukan sisään pitää laittaa useampi käsky:
-
 ![](./useampi_kasky_silmukassa.png)
+*Toisin kuin aiemmissa harjoituksissa, joissain tehtävissä `toista`-silmukan sisään pitää laittaa useampi käsky.*

@@ -5,7 +5,28 @@ const loadPosthog = async () =>
     ? (await import('posthog-js')).default
     : null
 
+// This site should never use cookies or local storage
+// but we'll make sure about that in case Posthog
+// or Cusdis start doing something weird
+const clearEverything = () => {
+  localStorage.clear();
+  deleteAllCookies()
+}
+
+function deleteAllCookies() {
+    const cookies = document.cookie.split(";");
+
+    for (let i = 0; i < cookies.length; i++) {
+        const cookie = cookies[i];
+        const eqPos = cookie.indexOf("=");
+        const name = eqPos > -1 ? cookie.substr(0, eqPos) : cookie;
+        document.cookie = name + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT";
+    }
+}
+
 const init = async () => {
+  clearEverything()
+
   const posthog = await loadPosthog()
   posthog?.init(
     'phc_4uAPt8VrJceprv64DF10bPVxwDeiI075LuqXhScqYyL',

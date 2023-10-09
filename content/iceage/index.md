@@ -14,3 +14,10 @@ links:
 ---
 
 `toista` -silmukan kertausta.
+
+---
+
+**Huomioitavaa**
+- Sivuston kieli on vaihdettava suomeksi vasemman alakulman kielivalikosta.
+- Jos oppilas läpäisee kentän, mutta Code.org ei päästä häntä seuraavaan tehtävään, kannattaa vain koittaa suorittaa koodi uudestaan.
+

@@ -48,18 +48,20 @@ Pääasiassa suosittelen että oppilaat saisivat edetä harjoituksissa itsenäis
 
 ## OPS-vastaavuus
 
-[Ohjelmoinnin opetussuunnitelma](https://eperusteet.opintopolku.fi/#/fi/digiosaaminen/8706410/osaamiskokonaisuus/8709075) on jaettu kolmeen osa-alueeseen: 1) Ohjelmoinnillinen ajattalu 2) Tutkiva työskentely ja tuottaminen 3) Ohjelmoitujen ympäristöjen tuntemus ja niissä toimiminen. Käsittelen seuraavien alaotsikoiden alla katerogioiden OPS-vastaavuuksia yksi kerrallaan.
+[Ohjelmoinnin opetussuunnitelma](https://eperusteet.opintopolku.fi/#/fi/digiosaaminen/8706410/osaamiskokonaisuus/8709075) on jaettu kolmeen osa-alueeseen: 1) Ohjelmoinnillinen ajattelu 2) Tutkiva työskentely ja tuottaminen 3) Ohjelmoitujen ympäristöjen tuntemus ja niissä toimiminen. Käsittelen seuraavien alaotsikoiden alla katerogioiden OPS-vastaavuuksia yksi kerrallaan.
+
+> **Huomioitavaa:** Allekirjoittanut ei omista (vielä) minkään tason pedagogista tutkintoa, joten OPS-analyysit ovat vain omaa pohdintaa. Alta löytää kommenttiosio, johon voi lisätä omia näkemyksiään.
 
 ### 1) Ohjelmointiin liittyvät käsitteet ja perusrakenteet
 
 Koodimatskut.fi sivustolla listatut harjoitukset opettavat ohjelmointia taitona, käyden läpi ohjelmoinnin käsitteitä ja rakenteita pelillisissä ympäristöissä. Näissä opitaan algoritmillista ajattelua luomalla, uudelleenjärjestämällä ja lukemalla erilaisia käskysarjoja. Opitaan käyttämään toistorakenteita (silmukat) ja valintarakenteita (mm. jos-lause), tunnistetaan ja ratkaistaan virhetilanteita, vertaillaan asioita muuttujien ja vertailuoperaattorien (pienempi, suurempi, yhtäsuuri, epäsuuri) avulla, syvennetään käsitystä loogisista operaatioista (kuten "ja", "tai" ja "ei"), sekä opitaan ohjelmoimaan erilaisia animaatioita ja pelejä. Opetellaan ohjaamaan pelihahmoa koodaten, joka antaa hyvän pohjan robottien ohjelmoimiseen. Materiaali kannustaa ja ohjeistaa opettamaan kysymyksillä johdattelemalla, jonka seurauksena oppilaat oppivat sanoittamaan oppimaansa ohjelmoinnin käsitteitä käyttäen.
 
-Nykyisissä matematiikan oppikirjoista löytyy myös hyviä tietojenkäsittelytiedettä sivuavia tietokoneettomia harjoituksia mm. tiedon järjestelystä, dekoodauksesta ja enkoodauksesta, jollaisia ei näistä harjoituksista löydy. Suosittelisinkin että teette kirjoista ne, mutta jätätte välistä tehtävät missä harjoitellaan koodin (käskysarjojen, silmukoiden ja ehtolauseiden) kirjoittamista ja teette niiden sijasta täällä listattuja digitaalisia harjoituksia, sillä toisin kuin kirjat, ne antavat välitöntä palautetta siitä onko oppilas on ymmärtänyt asian oikein tai väärin.
+Nykyisissä matematiikan oppikirjoista löytyy myös hyviä tietojenkäsittelytiedettä sivuavia tietokoneettomia harjoituksia mm. tiedon järjestelystä, dekoodauksesta ja enkoodauksesta, jollaisia ei näistä harjoituksista löydy. Suosittelisinkin että teette kirjoista ne, mutta jätätte välistä tehtävät missä harjoitellaan koodin (käskysarjojen, silmukoiden ja ehtolauseiden) kirjoittamista ja teette niiden sijasta täällä listattuja digitaalisia harjoituksia, sillä toisin kuin kirjat, ne antavat välitöntä palautetta siitä onko oppilas ymmärtänyt asian oikein tai väärin.
 
 <u>OPS-vastaavuus:</u> Hyvä
 
 ### 2) Tutkiva työskentely ja tuottaminen
-OPS listaa tavoitteiksi sosiaalisten- ja ryhmätyöskentelytaitojen kehittämistä kuten omien ideoiden esittämistä, kaverien kuuntelua, sekä eri roolien ottamistan ohjelmointiin liittyvissä ryhmätyöskentelyprojekteissa, sekä toivoo 3.-6. -luokkalaiselta kykyä luoda itse iteratiivisesti omia ohjelmointiprojektejaan kuten animaatioita ja pelejä. Nämä vaatimukset eroavat huomattavasti Koodimatskut.fi:n listaamista harjoituksista, jotka ovat pääsääntöisesti itsenäisesti tehtäviä harjoitteita, joissa on tehtävänanto ja selkeä tavoite. Näkisin kuitenkin että harjoitteilla on välinearvo OPS:n listaamien tavoitteiden saavuttamisessa. Oppiakseen ohjelmoimaan pelejä ja animaatioita itsenäisesti, on oppilaan ensin päästävä lukemaan, muokkaamaan ja uudelleenjärjestelemään valmiiksi annettua koodia. Vasta tämän jälkeen voi kyetä itsenäiseen (ja lopulta ryhmässä) työskentelyyn ja tuottamiseen. Suosittelisinkin että Microbit- ja Scratch-osioiden jälkeen opettajat päästävät oppilaat ohjelmoimaan ryhmissä tai pareittain, harjoituksissa opittuja taitoja soveltaen vapaamuotoisemman tavoitteen saavuttamaksi. Myös harjoitusten tekeminen parityöskentelynä on mahdollista, mutta tällöin oppilas ei välttämättä etene itselleen ideaalilla vauhdilla, jos vieruskaveri kannattelee kaveriaan mukanaan ja ratkaisee tehtävät hänen puolestaan.
+OPS listaa ohjelmoinnin tavoitteiksi sosiaalisten- ja ryhmätyöskentelytaitojen kehittämistä kuten omien ideoiden esittämistä, kaverien kuuntelua, sekä eri roolien ottamista ohjelmointiin liittyvissä ryhmätyöskentelyprojekteissa, sekä toivoo 3.-6. -luokkalaiselta kykyä luoda itse iteratiivisesti omia ohjelmointiprojektejaan kuten animaatioita ja pelejä. Nämä vaatimukset eroavat huomattavasti Koodimatskut.fi:n listaamista harjoituksista, jotka ovat pääsääntöisesti itsenäisesti tehtäviä harjoitteita, joissa on tehtävänanto ja selkeä tavoite. Näkisin kuitenkin että harjoitteilla on välinearvo OPS:n listaamien tavoitteiden saavuttamisessa. Oppiakseen ohjelmoimaan pelejä ja animaatioita itsenäisesti, on oppilaan ensin päästävä lukemaan, muokkaamaan ja uudelleenjärjestelemään valmiiksi annettua koodia. Vasta tämän jälkeen voi kyetä itsenäiseen (ja lopulta ryhmässä) työskentelyyn ja tuottamiseen. Suosittelisinkin että Microbit- ja Scratch-osioiden jälkeen opettajat päästävät oppilaat ohjelmoimaan ryhmissä tai pareittain, harjoituksissa opittuja taitoja soveltaen vapaamuotoisemman tavoitteen saavuttamaksi. Myös harjoitusten tekeminen parityöskentelynä on mahdollista, mutta tällöin on riskinä että oppilas ei välttämättä etene itselleen ideaalilla vauhdilla jos vieruskaveri kannattelee kaveriaan mukanaan ja ratkaisee tehtävät hänen puolestaan.
 
 OPS toivoo 3. - 6. luokkalaistelta oppilaalta kykyä käyttää mittauksia ja antureita ja yhdistää niihin robotiikkaa. Microbit-haroituksissa käytämme antuneita kuten gyroskooppia sekä valo- ja lämpötilasensoria. Fyysisiä robotteja emme ohjelmoi, mutta harjoittelemme pelihahmon liikuttamista koodaten, joka antaa hyvän pohjan robottien ohjelmoimiseen.
 
@@ -71,7 +73,6 @@ Robotiikka, tekoäly, tietoturva, erilaiset digitaaliset sovellukset, sisällöt
 
 <u>OPS-vastaavuus:</u> Olematon
 
-> **Huomioitavaa:** Allekirjoitanut ei omista (vielä) minkään tason pedagogista tutkintoa, joten OPS-analyysit ovat vain omaa pohdintaa. Alta löytää kommenttiosio, johon voi lisätä omia näkemyksiään.
 
 <!--
 Oppilaat voivat toki tehdä tehtäviä parityöskentelyinä (kunhan ollaan varoillaan ettei päädytä tilanteeseen missä oppilas ratkaisee tehtävät kärryiltä tippuneen kaverinsa puolesta)
@@ -111,6 +112,9 @@ sisältäen kolme osa-aluetta: 1) ohjelmoinnillinen ajattelu 2) tutkiva työsken
 
 ## Tekijästä
 Hei! Olen Arttu Mäkinen, tietotekniikan opiskelija Jyväskylästä (toivottavasti jossain välissä myös koulutusteknologian maisteri), jolla on taustaa pelikehityksestä ja noin 400 oppitunnin kokemus peruskoululaisten ohjelmoinnin opettamisesta iltapäiväkerhoissa, joissa on opetettu sekä graafista että tekstipohjaista ohjelmointia.  Jos satut istumaan rahakirstun päällä, jolla voisi rahoittaa ohjelmoinnin avointen oppimateriaalien kehittämistä lukioiden ja yläkoulujen käyttöön, minuun saa ottaa yhteyttä osoitteeseen arttu.b.makinen (át) gmail.com. Muissakin merkeissä saa toki olla yhteyksissä (:
+
+## Tietosuoja
+Sivusto kerää anonyymiä analytiikkaa, joka säilötään EU-alueella. Sivulatausten yhteydessä lähetettäviä tietoja ovat kellonaika, käyttöjärjestelmä, nettiselain, sekä maa ja kaupunki. Analytiikkaa kerätään siitä mitä harjoituksia, opettajanmateriaaleja ja harjoituslinkkejä on klikattu.  Sivusto ei säilö selaimen pitkäkestoiseen muistiin mitään (cookies, local storage yms), joten kerätty analytiikka ei ole jäljitettävissä käyttäjään tai selaimeen (IP-osoitettakaan ei säilytetä).
 
 ## In English
 Koodimatskut.fi is a carefully curated and arrenged list of high-quality coding learning materials for primary schools (in Finnish).
