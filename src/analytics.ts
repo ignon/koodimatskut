@@ -9,11 +9,14 @@ const loadPosthog = async () =>
 // but we'll make sure about that in case Posthog
 // or Cusdis start doing something weird
 const clearEverything = () => {
-  localStorage.clear();
+  if (typeof window == 'undefined') return;
+  window.localStorage.clear();
   deleteAllCookies()
 }
 
 function deleteAllCookies() {
+    if (typeof document == 'undefined') return;
+
     const cookies = document.cookie.split(";");
 
     for (let i = 0; i < cookies.length; i++) {
