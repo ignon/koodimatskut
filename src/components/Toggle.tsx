@@ -23,7 +23,7 @@ const Toggle = ({ text, onClick, isOpen, className }: {
     <button
       onClick={onClick}
       className={`
-        text-xl text-gray-700
+        text-2xl text-gray-700
         hover:text-gray-400
         flex-none
         ${className ?? ''}

@@ -2,7 +2,6 @@ import * as React from 'react'
 import { useState } from 'react'
 import { graphql } from 'gatsby'
 import { SEO } from '../components/seo'
-import Modal, { ToggleModal } from '../components/Modal'
 
 import Layout from '../components/Layout'
 import GameCard from '../components/GameCard'
