@@ -24,7 +24,7 @@ Pelissä on valittava kortti jossa on tilanteeseen sopiva koodi ja sitten tehtä
 > **up** - ylös \
 > **down** - alas
 >
-> **repat** - toista \
+> **repeat** - toista \
 > **again** - uudestaan (edellinen käsky)
 
 **Huom:** Peli muuttuu nopeasti hyvin vaikeaksi. Jos oppilas jää jumiin, kannattaa hänen kertauksen takia aloittaa uudestaan ensimmäisestä tehtävästi, jolloin hän myös huomaa kehittyneensä.

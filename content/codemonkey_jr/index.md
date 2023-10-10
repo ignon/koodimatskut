@@ -14,7 +14,7 @@ links:
   url:   https://app.codemonkey.com/junior/chapters/sequencing/challenges/1
 ---
 
-Ensimmäisen koodaustunnin voi aloittaa tietokoneettomasti harjoittelemalla <u>kaveria ohjelmointia</u>:
+Ensimmäisen koodaustunnin voi aloittaa tietokoneettomasti harjoittelemalla <u>kaverin ohjelmointia</u>:
 
 > ### Kaverin ohjelmointi
 > *Oppilas vie esim. istumatyynyn valitsemaansa paikkaan luokassa ja palaa sitten alkuperäiselle paikalleen. Hänen parinsa tehtäväksi jää koodata oppilas liikkumaan istumatyynyn luokse antamalla käskyjä kuten "Astu 3 askelta eteen", "Käänny vasemmalle", "Käänny oikealle". Viimeisenä annetaan käsky "Nosta tyyny".*
