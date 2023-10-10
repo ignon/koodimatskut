@@ -8,7 +8,7 @@
     "gatsby"
   ],
   "scripts": {
-    "develop": "gatsby develop",
+    "develop": "gatsby develop -H 0.0.0.0",
     "github-deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "dev": "gatsby develop",
     "build": "gatsby build",

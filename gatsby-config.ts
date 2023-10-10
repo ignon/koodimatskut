@@ -5,7 +5,7 @@ const config: GatsbyConfig = {
     title: `Koodimatskut`,
     siteUrl: `https://www.koodimatskut.fi`,
     description: 'Ohjelmoinnin pelillisiä harjoituksia alakouluille',
-    image: '/logo.jpg',
+    image: '/thumbnail.png',
     siteLanguage: 'fi-FI'
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.

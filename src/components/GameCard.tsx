@@ -120,7 +120,7 @@ const GameCard = ({ node, index, onClick, isOpen }: {
               ))}
               <Toggle
                 text="Opettajalle"
-                className="pt-4 pl-6 text-xl"
+                className="pt-4 pl-6"
                 onClick={() => {
                   if (!showMarkdown) {
                     analytics.sendEvent('ForTeacher', { cardSlug: frontmatter.slug })

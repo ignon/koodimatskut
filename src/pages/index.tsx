@@ -44,7 +44,7 @@ const MainPage = ({ data }: {
             const cardSlug = node.frontmatter.slug
             const cardIsAlreadyActive = (cardSlug === activeCard)
             if (cardIsAlreadyActive) {
-              setActiveCard(null)
+              setActiveCard('')
             }
             else {
               setActiveCard(node.frontmatter.slug)

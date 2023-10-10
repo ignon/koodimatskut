@@ -14,6 +14,7 @@ export const SEO = ({ title, image, description, pathname, children, siteLanguag
     title: defaultTitle,
     description: defaultDescription,
     siteLanguage: defaultLanguage,
+    image: defaultImage,
     siteUrl,
     // twitterUsername
   } = useSiteMetadata()
@@ -24,7 +25,7 @@ export const SEO = ({ title, image, description, pathname, children, siteLanguag
     siteLanguage: siteLanguage || defaultLanguage || '',
     // image: `${siteUrl}${image}`,
     url: `${siteUrl}${pathname || ''}`,
-    image: `${siteUrl}${image}`,
+    image: `${siteUrl}${image || defaultImage}`,
     // twitterUsername,
   }
 

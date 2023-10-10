@@ -23,7 +23,7 @@ Ensimmäisen koodaustunnin voi aloittaa tietokoneettomasti harjoittelemalla <u>k
 
 ---
 
-**CodeMonkey Jr** toimii hyvänä ensikosketuksena ohjelmointiin ja on täysin symbolinen eli lukutaitoa ei vaadita. Pelin loppupään tehtävät voivat olla hiukan hankalia ekaluokkalaisille, joten suosittelen että harjoitusten tekemiseen varataan vain puoli tuntia. Alkupuolisko meneekin helposti edellämainittuun  <u>kaverin ohjelmointiin</u>.
+**CodeMonkey Jr** toimii hyvänä ensikosketuksena ohjelmointiin ja on täysin symbolinen eli lukutaitoa ei vaadita. Pelin loppupään tehtävät voivat olla hiukan hankalia ekaluokkalaisille, joten suosittelen että harjoitusten tekemiseen varataan vain puoli tuntia (jotteivat oppilaat ehdi niihin saakka). Alkupuolisko meneekin helposti edellämainittuun  <u>kaverin ohjelmointiin</u>, sekä tietokoneen avaamiseen ja sivulle navigointiin.
 
 Omalla kokemuksellani CodeMonkey Jr pelin kahden ensimmäisen tehtävän läpikäynti luokan edessä riittää, tämän jälkeen oppilaat pärjäävät melko hyvin omillaan; opettaja voi keskittyä opettajajohtoisen opettamisen sijasta oppilaiden henkilökohtaiseen opastamiseen (ihan  kuten matematiikan tunneilla, kysymyksillä johdattamalla).
 
