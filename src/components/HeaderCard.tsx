@@ -19,7 +19,7 @@ const HeaderCard = ({ children }: {
   return (
     <div className="flex flex-col justify-start align-center my-4 w-full px-2">
       <h1
-        className="text-center mt-7 text-6xl font-extrabold text-gray-600"
+        className="text-center mt-7 text-5xl sm:text-6xl font-extrabold text-gray-600 overflow-hidden"
         onClick={() => setShowDomain(!showDomain)}
       >
         {title}

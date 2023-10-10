@@ -18,7 +18,7 @@ Ohjelmoinnissa uuden oppiminen ei perustu niin vahvasti aiemmin opitun varaan ku
 
 1. `käskysarjat`
 2. toistorakenteet (eli `silmukat`):
-    - `toista-ikuisesti`, `toista`, </br>`toista-kunnes`, `niin-kauan-kuin`
+    - `toista`, `toista-ikuisesti`, </br>`toista-kunnes`, `niin-kauan-kuin`
 3. aliohjelmat (eli `funktiot`)
 4. ehtolauseet (mm. `jos-lause`)
 5. `tapahtumat`
