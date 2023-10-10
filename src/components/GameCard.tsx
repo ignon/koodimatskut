@@ -96,13 +96,12 @@ const GameCard = ({ node, index, onClick, isOpen }: {
     return (
       <Card>
         <div ref={myRef} className="w-full">
-          {/* <h2>{node.frontmatter.title}</h2> */}
           <button onClick={onHeroImageClick} className="w-full">
             <HeroImage heroImage={heroImage} altText="featured image" />
 
             <div className="bg-gray-20">
                 <div className="flex max-h-10 flex-row justify-start align-center w-full pl-4 mt-0">
-                    <h1 className="font-bold  text-gray-700 text-lg whitespace-nowrap p-1 mt-0.5">
+                    <h1 className="font-bold  text-gray-700 text-lg whitespace-nowrap p-1  mt-0.5">
                       {index+1}. {title}
                     </h1>
                     <div className="flex ml-4 mt-1.5">

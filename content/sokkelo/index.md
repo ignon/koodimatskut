@@ -1,6 +1,6 @@
 ---
 title: "Angry Birds: Sokkelo"
-developer: Code.org, Rovio Entertainment Ltd.
+developer: Code.org, Rovio
 time: 30min
 difficulty: 1. luokka
 priority: 200

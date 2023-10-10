@@ -11,7 +11,7 @@ Sivuston tehtävät alkavat lukutaidottomille sopivilla koodausharjoituksilla ja
 Materiaali suosii harjoituksia, jotka antavat oppilaille selkeät tavoitteet sekä koodilohkot, joita soveltaa tavoitteiden saavuttamiseksi – näin ne ohjaavat ja tukevat myös opettajan tekemistä. Tällaiset harjoitukset minimoivat tarvetta opettajajohtoiselle opetukselle ja vapauttavat opettajan aikaa oppilaiden henkilökohtaiseen ohjeistamiseen kysymyksillä johdattaen. Valmiiden koodauspelien lisäksi sivustolla on suomenkielisiä Scratch- ja Microbit-harjoituksia jotka treenaavat pelien ja animaatioiden ohjelmointia.
 
 ## Miksi sivuston on tehty?
-Tietääkseni saatavilla ei ole ilmaisia suomenkielisiä materiaaleja joita tehdessä olisi pidetty mielessä suurempi pedagoginen kuva, kuten mitä eri koodauskäsitteitä kannattaisi opetella, missä järjestyksessä tai millä harjoitteilla ne kannattaisi opetella.
+Tietääkseni saatavilla ei ole ilmaisia suomenkielisiä materiaaleja, joita tehdessä olisi pidetty mielessä suurempi pedagoginen kuva, kuten mitä eri koodauskäsitteitä kannattaisi opetella, missä järjestyksessä tai millä harjoitteilla ne kannattaisi opetella. Scratch- ja Microbit-harjoituksia lukuunottamatta kaikki harjoitukset ovat siis muiden tekemiä, sivusto vain kokoaa ne helposti navigoitavan käyttöliittymän alle.
 
 ## Pedagogiikka ja etenemisjärjestys
 Ohjelmoinnissa uuden oppiminen ei perustu niin vahvasti aiemmin opitun varaan kuin esim. matematiikassa, vaan käsitteet voi periaatteessa käydä läpi haluamassaan järjestyksessä. Aloitamme kuitenkin helpoimmista ja konkreettisimmista käsitteistä ja etenemme niistä eteenpäin:

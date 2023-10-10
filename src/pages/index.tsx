@@ -19,7 +19,7 @@ const MainPage = ({ data }: {
   const markdownNodes = nodes.filter((node: any) => node.fields.collection == 'content');
   const teacherNodes = nodes.filter((node: any) => node.fields.collection != 'content');
 
-  const [activeCard, setActiveCard] = useState<null|string>(null)
+  const [activeCard, setActiveCard] = useState<string>('')
 
 
   return (
