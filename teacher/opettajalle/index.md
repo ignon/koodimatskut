@@ -115,6 +115,7 @@ Hei! Olen Arttu Mäkinen, tietotekniikan opiskelija Jyväskylästä (toivottavas
 
 ## Analytiikka
 Sivusto kerää anonyymiä analytiikkaa, joka säilötään EU-alueella. Sivulatausten yhteydessä lähetettäviä tietoja ovat kellonaika, käyttöjärjestelmä, nettiselain, sekä maa ja kaupunki. Analytiikkaa kerätään siitä mitä harjoituksia, opettajanmateriaaleja ja harjoituslinkkejä on klikattu.  Sivusto ei säilö mitään selaimen pitkäkestoiseen muistiin mitään (cookies, local storage yms), joten kerätty analytiikka ei ole jäljitettävissä käyttäjään tai käytettyyn selaimeen (IP-osoitettakaan ei säilytetä). Jos sattuisin tietämään, että olet ainoa, joka käyttää Linux-käyttöjärjestelmällä Opera-nettiselainta Keravalla, voisin teoriassa selvittää mitkä koodausharjoitukset olet avannut.
+<!-- Juupajoki -->
 
 ## In English
 Koodimatskut.fi is a carefully curated and arrenged list of high-quality coding learning materials for primary schools (in Finnish).
