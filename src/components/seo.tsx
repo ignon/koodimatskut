@@ -11,7 +11,7 @@ export const SEO = ({ title, image, description, pathname, children, siteLanguag
   children?: any,
 }) => {
   const {
-
+    title: defaultTitle,
     description: defaultDescription,
     siteLanguage: defaultLanguage,
     image: defaultImage,
