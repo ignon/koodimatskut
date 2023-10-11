@@ -6,7 +6,7 @@ slug: opettajalle
 ---
 
 ## Yleistä
-Sivuston tehtävät alkavat lukutaidottomille sopivilla koodausharjoituksilla ja etenevät tavoitteellisesti käsite kerrallaan eteenpäin. Listan tarkoitus on tarjota opettajille mahdollisimman valmiiksi jäsenneltyä oppimateriaalia, joka tukee ja ohjaa oppituntien kulkua kuten matematiikan kirjakin. Kaikki tehtävät toimivat ilman tilien luontia, joko iPadilla tai suoraan selaimessa. Materiaalia riittää noin 25 oppitunniksi.
+Sivuston tehtävät alkavat lukutaidottomille sopivilla koodausharjoituksilla ja etenevät tavoitteellisesti käsite kerrallaan eteenpäin. Listan tarkoitus on tarjota opettajille mahdollisimman valmiiksi jäsenneltyä oppimateriaalia, joka tukee ja ohjaa oppituntien kulkua kuten matematiikan kirjakin. Kaikki tehtävät toimivat ilman tilien luontia, osa iPadilla, suurin osa suoraan selaimessa. Materiaalia riittää noin 25 oppitunniksi.
 
 Materiaali suosii harjoituksia, jotka antavat oppilaille selkeät tavoitteet sekä koodilohkot, joita soveltaa tavoitteiden saavuttamiseksi – näin ne ohjaavat ja tukevat myös opettajan tekemistä. Tällaiset harjoitukset minimoivat tarvetta opettajajohtoiselle opetukselle ja vapauttavat opettajan aikaa oppilaiden henkilökohtaiseen ohjeistamiseen kysymyksillä johdattaen. Valmiiden koodauspelien lisäksi sivustolla on suomenkielisiä Scratch- ja Microbit-harjoituksia jotka treenaavat pelien ja animaatioiden ohjelmointia.
 

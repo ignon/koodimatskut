@@ -1,49 +1,12 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby Minimal TypeScript Starter
-</h1>
+# Koodimatskut.fi
+[Koodimatskut.fi](https://koodimatskut.fi/) is a carefully curated and arrenged list of high-quality coding learning materials for primary schools (in Finnish).
 
-## 🚀 Quick start
+Powered by Gatsby.js, a static site generator which allows for querying local markdown files with GraphQL, then passing them as props to React components.
 
-1.  **Create a Gatsby site.**
+The code isn't yet shared with any open-source lisence, but contact me if you are interested in contributing, localization the materials or using the CSS styles / static site generation code for your own projects.
 
-    Use the Gatsby CLI to create a new site, specifying the minimal TypeScript starter.
 
-    ```shell
-    # create a new Gatsby site using the minimal TypeScript starter
-    npm init gatsby -- -ts
-    ```
+The games listed in the project are the property of their respective owners and provided with the name of their creator. The screenshots or pictures used for each game are for non-profit, educational, and informational purposes only. If you are the owner of a game mentioned here and wish to have it removed, contact me at arttu.b.makinen (át) gmail.com and I'll remove it as soon as possible. This website/repo/project does not claim any ownership or affiliation with the games listed in here.
 
-2.  **Start developing.**
 
-    Navigate into your new site’s directory and start it up.
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
-
-3.  **Open the code and start customizing!**
-
-    Your site is now running at http://localhost:8000!
-
-    Edit `src/pages/index.tsx` to see your site update in real-time!
-
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-## 🚀 Quick start (Netlify)
-
-Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
-
-[<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-minimal-ts)
