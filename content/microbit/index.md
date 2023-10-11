@@ -109,8 +109,10 @@ https://makecode.microbit.org/_fwc9WL2h1dHv
 
 -->
 
-Tämän sivuston harjoitukset on pyritty rajaamaan harjoituksiin jotka ovat ilmaisia, toimivat nettiselaimessa eivätkä tarvi opettajatilejä tai fyysisten laitteiden ostamista. Teen Microbitin osalta poikkeuksen sillä se on halpa, helppo kuljettaa ja jakaa luokkahuoneiden välillä sekä monella koululla tuntuu lähtökohtaisesti olevan näitä. Lisäksi koodia voi ajaa koodausympäristön Microbit-simulaattorissa eli laitetta ei välttämättä tarvitse edes ostaa.
+Tämän sivuston harjoitukset on pyritty rajaamaan harjoituksiin jotka ovat ilmaisia, toimivat nettiselaimessa eivätkä tarvi opettajatilejä tai fyysisten laitteiden ostamista. Teen Microbitin osalta poikkeuksen sillä se on halpa, helppo kuljettaa ja jakaa luokkahuoneiden välillä, sekä monella koululla tuntuu lähtökohtaisesti olevan näitä. Lisäksi koodia voi ajaa koodausympäristön Microbit-simulaattorissa eli laitetta ei välttämättä tarvitse edes ostaa.
 
+![Kommentin avaus](./kommentin_avaus.png)
+***Huom:** Tehtävänannot löytyvät harjoituksista kommentteina (post-it lappuja joihin voi lisätä tekstiä). Tuoreen Microbit-päivityksen myötä kommentit ovat alussa suljettuna, ja ne on erikseen avattava klikkaamalla niitä vasemmasta reunasta....*
 
 ## Harjoitukset
 Harjoitusten tekemiseen menee 3 - 5 oppituntia. Harjoitukset on pyritty tekemään siten, että oppilaat voivat tehdä niitä itsenäisesti omalla tahdillaan, opettajan tukemana. Suosittelen vahvasti että paikalla on yksi opettaja jokaista 10 oppilasta kohden.
