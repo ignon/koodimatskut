@@ -13,7 +13,7 @@ links:
   url:   https://studio.code.org/s/coursee-2023/lessons/13/levels/1?lang=fi-FI
 ---
 
-Tehtävissä ei valitettavasti ole suomenkielisiä tehtävänantoja. Lisäksi osa tehtävistä on englanninkielisiä monivalintatehtäviä, jotka pitää osata jättää välistä (muistuta oppilaita!) Suosittelen kuitenkin harjoitusten tekemistä, sillä tarjolla ei ole paljoa muita harjoitteita, jotka harjoittaisivat `niin-kauan-kuin` silmukan käyttöä.
+Tehtävissä ei valitettavasti ole suomenkielisiä tehtävänantoja. Lisäksi osassa on englanninkielisiä monivalintatehtäviä, jotka pitää tajuta jättää välistä (muistuta oppilaita!) Suosittelen kuitenkin harjoitusten tekemistä, sillä tarjolla ei ole paljoa muita harjoitteita, jotka harjoittaisivat `niin-kauan-kuin` silmukan käyttöä.
 
 `niin-kauan-kuin` on oikeastaan käänteinen `toista-kunnes`-silmukka. Molemmat seuraavista käskyistä liikuttavat robotin seinän luokse:
 - **niin-kauan-kuin** eteen voi astua => astu eteen
