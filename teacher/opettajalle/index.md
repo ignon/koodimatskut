@@ -6,12 +6,15 @@ slug: opettajalle
 ---
 
 ## Yleistä
-Sivuston tehtävät alkavat lukutaidottomille sopivilla koodausharjoituksilla ja etenevät tavoitteellisesti käsite kerrallaan eteenpäin. Listan tarkoitus on tarjota opettajille mahdollisimman valmiiksi jäsenneltyä oppimateriaalia, joka tukee ja ohjaa oppituntien kulkua kuten matematiikan kirjakin. Kaikki tehtävät toimivat ilman tilien luontia, osa vain iPadilla, suurin osa suoraan selaimessa. Harjoituksia riittää noin 25 oppitunniksi.
+Sivuston tehtävät alkavat lukutaidottomille sopivilla koodausharjoituksilla ja etenevät tavoitteellisesti käsite kerrallaan eteenpäin. Listan tarkoitus on tarjota opettajille mahdollisimman valmiiksi jäsenneltyä oppimateriaalia, joka tukee ja ohjaa oppituntien kulkua kuten matematiikan kirjakin. Kaikki tehtävät ovat ilmaisia ja toimivat ilman käyttäjätunnusten luontia. Harjoituksia riittää noin 25 oppitunniksi.
 
 Materiaali suosii harjoituksia, jotka antavat oppilaille selkeät tavoitteet sekä koodilohkot, joita soveltaa tavoitteiden saavuttamiseksi – näin ne ohjaavat ja tukevat myös opettajan tekemistä. Tällaiset harjoitukset minimoivat tarvetta opettajajohtoiselle opetukselle ja vapauttavat opettajan aikaa oppilaiden henkilökohtaiseen ohjeistamiseen kysymyksillä johdattaen. Valmiiden koodauspelien lisäksi sivustolla on suomenkielisiä Scratch- ja Microbit-harjoituksia jotka treenaavat pelien ja animaatioiden ohjelmointia. Jokaiseen harjoitukseen on merkattu harjoituksen arvioitu kesto, sekä suositeltu luokka-aste, jota voi oman harkinnan mukaan soveltaa ±2 vuotta ylös tai alas.
 
 ## Miksi sivuston on tehty?
 Tietääkseni saatavilla ei ole ilmaisia suomenkielisiä materiaaleja, joita tehdessä olisi pidetty mielessä suurempi pedagoginen kuva, kuten mitä eri koodauskäsitteitä kannattaisi opetella, missä järjestyksessä tai millä harjoitteilla ne kannattaisi opetella. Scratch- ja Microbit-harjoituksia lukuunottamatta kaikki harjoitukset ovat siis muiden tekemiä, sivusto vain kokoaa ne helposti navigoitavan käyttöliittymän alle.
+
+## Pyyntö
+Sivusto on intohimoprojektini ilman mitään kunnollista markkinointikanavaa, joten arvostaisin kovasti jos mainostaisit sitä opekollegoillesi. Sivuun on käytetty paljon tunteja ja koen, että sillä on paljon annettavaa – siitä on kuitenkin hyötyä ainoastaan jos sitä käytetään!
 
 ## Pedagogiikka ja etenemisjärjestys
 Ohjelmoinnissa uuden oppiminen ei perustu niin vahvasti aiemmin opitun varaan kuin esim. matematiikassa, vaan käsitteet voi periaatteessa käydä läpi haluamassaan järjestyksessä. Aloitamme kuitenkin helpoimmista ja konkreettisimmista käsitteistä ja etenemme niistä eteenpäin:
@@ -48,7 +51,7 @@ Pääasiassa suosittelen että oppilaat saisivat edetä harjoituksissa itsenäis
 
 ## OPS-vastaavuus
 
-[Digitaalisen osaamisen kuvaukset](https://eperusteet.opintopolku.fi/#/fi/digiosaaminen/8706410/osaamiskokonaisuus/8709075) jakaa tavoitellun ohjelmointiosaamisen kolmeen alueeseen: 1) Ohjelmoinnillinen ajattelu 2) Tutkiva työskentely ja tuottaminen 3) Ohjelmoitujen ympäristöjen tuntemus ja niissä toimiminen. Käsittelen seuraavien alaotsikoiden alla katerogioiden OPS-vastaavuuksia yksi kerrallaan.
+[Digitaalisen osaamisen kuvaukset](https://eperusteet.opintopolku.fi/#/fi/digiosaaminen/8706410/osaamiskokonaisuus/8709075) jakaa tavoitellun ohjelmointiosaamisen kolmeen osa-alueeseen: 1) Ohjelmoinnillinen ajattelu 2) Tutkiva työskentely ja tuottaminen 3) Ohjelmoitujen ympäristöjen tuntemus ja niissä toimiminen. Seuraavat alaotsikot käsittelevät osa-alueita yksi kerrallaan.
 
 > **Huomioitavaa:** Allekirjoittanut ei omista (vielä) minkään tason pedagogista tutkintoa, joten OPS-analyysit ovat vain omaa pohdintaa. Alta löytää kommenttiosio, johon voi lisätä omia näkemyksiään.
 
