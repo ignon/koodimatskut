@@ -120,6 +120,14 @@ Hei! Olen Arttu Mäkinen, tietotekniikan opiskelija Jyväskylästä (toivottavas
 Sivusto kerää anonyymiä analytiikkaa, joka säilötään EU-alueella. Sivulatausten yhteydessä lähetettäviä tietoja ovat kellonaika, käyttöjärjestelmä, nettiselain, sekä maa ja kaupunki. Analytiikkaa kerätään siitä mitä harjoituksia, opemateriaaleja ja harjoituslinkkejä on klikattu.  Sivusto ei säilö mitään selaimen pitkäkestoiseen muistiin (evästeet, local storage yms), joten kerätty analytiikka ei ole jäljitettävissä käyttäjään tai edes käytettyyn selaimeen (IP-osoitettakaan ei säilytetä).
 <!-- Juupajoki -->
 
+## Pelien tietosuojasta
+Jos arvioinnin takia koette tarpeelliseksi seurata oppilaiden tekemiä tehtäviä, voi Code.org:iin tehdä ope- ja oppilastilit. [Code.org:in tietosuojaselosteessa](https://code.org/privacy#rights-under-the-general-data-protection-regulation-gdpr) lukee kirjoitushetkellä (17.10.2023): "If you are an individual in the European Economic Area (EEA) and you choose to use our US-based Services, <u>we collect and process personal data about you only where we have a legal basis for doing so under the GDPR or other applicable EU laws.</u>"
+
+Älkää tehkö tilejä Scratchiin, sillä sen tietosuojaseloste ei mainitse GDPR:ää (useamman oppitunnin projekteja tehdessä voitte tallentaa projektitiedoston tietokoneelle ja mahdollisesti säilöä sen Driveen)
+
+Jos haluatte ottaa varman päälle, käyttäkää nettiselaimia ainoastaan Incognito-tilassa (tällöin esim. Google Analytics ei pysty säilömään evästeitä selaimen pitkäkestoiseen muistiin).
+
+
 ## In English
 Koodimatskut.fi is a carefully curated and arrenged list of high-quality coding learning materials for primary schools (in Finnish).
 
