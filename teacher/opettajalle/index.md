@@ -121,7 +121,7 @@ Sivusto kerää anonyymiä analytiikkaa, joka säilötään EU-alueella. Sivulat
 <!-- Juupajoki -->
 
 ## Pelien tietosuojasta
-Jos arvioinnin takia koette tarpeelliseksi seurata oppilaiden tekemiä tehtäviä, voi Code.org:iin tehdä ope- ja oppilastilit. [Code.org:in tietosuojaselosteessa](https://code.org/privacy#rights-under-the-general-data-protection-regulation-gdpr) lukee kirjoitushetkellä (17.10.2023): "If you are an individual in the European Economic Area (EEA) and you choose to use our US-based Services, <u>we collect and process personal data about you only where we have a legal basis for doing so under the GDPR or other applicable EU laws.</u>"
+Jos arvioinnin takia koette tarpeelliseksi seurata oppilaiden tekemiä tehtäviä, voi Code.org:iin tehdä [ope](https://support.code.org/hc/en-us/articles/360023222371-How-can-I-change-my-account-type-from-student-to-teacher-or-vice-versa-)- ja oppilastilit. [Code.org:in tietosuojaselosteessa](https://code.org/privacy#rights-under-the-general-data-protection-regulation-gdpr) lukee kirjoitushetkellä (17.10.2023): "If you are an individual in the European Economic Area (EEA) and you choose to use our US-based Services, <u>we collect and process personal data about you only where we have a legal basis for doing so under the GDPR or other applicable EU laws.</u>"
 
 Älkää tehkö tilejä Scratchiin, sillä sen tietosuojaseloste ei mainitse GDPR:ää (useamman oppitunnin projekteja tehdessä voitte tallentaa projektitiedoston tietokoneelle ja mahdollisesti säilöä sen Driveen)
 

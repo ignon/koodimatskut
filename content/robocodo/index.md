@@ -12,12 +12,19 @@ links:
 - title: Nettiversio
   url:   https://game.rodocodo.com/hour-of-code/
 - title: iPad/iPhone
-  url:   https://apps.apple.com/gb/app/rodocodo/id1450944869
+  url:   https://apps.apple.com/us/app/rodocodo-code-hour/id1597648605
 - title: Android
-  url:   https://play.google.com/store/apps/details?id=com.rodocodo.game&hl=en&gl=US
+  url:   https://play.google.com/store/apps/details?id=com.rodocodo.codehour
 ---
 
 **Huom:** Käskypalikoiden raahaaminen ei toimi jostain syystä nettiversiossa kosketusnäytöllä. Käyttäkää nettiversiota ainoastaan hiiren kanssa tai ladatkaa mobiiliversio.
+
+
+> **Tietosuoja**: Kirjoitushetkellä (18.10.2023) pelin datankeruusta mainitaan mobiilialustoilla:
+> **App Store**: Data Not Collected: The developer does not collect any data from this app.
+> **Play Store**: No data collected. No data shared with third parties.
+
+
 
 ---
 

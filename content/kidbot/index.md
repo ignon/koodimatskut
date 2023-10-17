@@ -8,11 +8,14 @@ tags: [funktiot, lukutaidottomille]
 slug: kidbot
 priority: 500
 links:
-- title: Nettiversio (ilmainen)
+- title: Kidbot
   url:   https://e2p.itch.io.
+---
+
+<!--
 - title: iPad/iPhone (maksullinen)
   url:   https://apps.apple.com/us/app.-start/id1090682359
----
+-->
 
 Pelin nettiversion toimii iPadeilla ja Chromebookeilla, joten suosittelen käyttämään sitä (testatkaa toki nettiversion toimivuus laitteillanne ennen tunnin alkua). Tähän mennessä olemme opetelleet pääasiassa `toista`-silmukan käyttöä. Tässä pelissä opettelemme uuden konseption eli `funktion`.
 

@@ -20,7 +20,12 @@ Lisää funktioiden treenausta. Pelin kaksi ensimmäistä osaa (*Basics* ja *Fun
 
 Youtubesta löytyy [esimerkkiratkaisut rekursio-osion tehtäviin](https://www.youtube.com/watch?v=So8DZuzY2JA&ab_channel=asclimcatch).
 
-> **Huom**: Peli toimii vain mobiililaitteilla, jos sellaisia ei ole käytössä niin suosittelen pelaamaan **Rodocodo**-pelin **Part 2**-osion, jossa harjoitellaan funktioita.
+**Huom**: Peli toimii vain mobiililaitteilla, jos sellaisia ei ole käytössä niin suosittelen pelaamaan **Rodocodo**-pelin **Part 2**-osion, jossa harjoitellaan funktioita.
+
+> ### Tietosuoja
+> Kirjoitushetkellä (18.10.2023) pelin datankeruusta mainitaan mobiilialustoilla:
+> - **App Store**: Data Not Collected: The developer does not collect any data from this app.
+> - **Play Store**: No data collected. No data shared with third parties.
 
 <!--
 NOTES: Rekursio-osiossa on mahdotonta selittää käytännön esimerkeillä rekursin ja infinite loopin eroa, sillä pelissä ei ole lopetusehtoja rekursiolle.
