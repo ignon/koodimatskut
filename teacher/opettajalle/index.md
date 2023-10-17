@@ -127,7 +127,6 @@ Jos arvioinnin takia koette tarpeelliseksi seurata oppilaiden tekemiä tehtävi�
 
 Jos haluatte ottaa varman päälle, käyttäkää nettiselaimia ainoastaan Incognito-tilassa (tällöin esim. Google Analytics ei pysty säilömään evästeitä selaimen pitkäkestoiseen muistiin).
 
-
 ## In English
 Koodimatskut.fi is a carefully curated and arrenged list of high-quality coding learning materials for primary schools (in Finnish).
 

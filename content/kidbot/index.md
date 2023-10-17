@@ -9,7 +9,7 @@ slug: kidbot
 priority: 500
 links:
 - title: Kidbot
-  url:   https://e2p.itch.io.
+  url:   https://e2p.itch.io/kidbot
 ---
 
 <!--

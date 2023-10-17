@@ -20,9 +20,10 @@ links:
 **Huom:** Käskypalikoiden raahaaminen ei toimi jostain syystä nettiversiossa kosketusnäytöllä. Käyttäkää nettiversiota ainoastaan hiiren kanssa tai ladatkaa mobiiliversio.
 
 
-> **Tietosuoja**: Kirjoitushetkellä (18.10.2023) pelin datankeruusta mainitaan mobiilialustoilla:
-> **App Store**: Data Not Collected: The developer does not collect any data from this app.
-> **Play Store**: No data collected. No data shared with third parties.
+> ### Tietosuoja
+> Kirjoitushetkellä (18.10.2023) pelin datankeruusta mainitaan mobiilialustoilla:
+> - **App Store**: Data Not Collected: The developer does not collect any data from this app.
+> - **Play Store**: No data collected. No data shared with third parties.
 
 
 
