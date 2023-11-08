@@ -4,8 +4,6 @@ import Toggle from '../components/Toggle'
 import Card from '../components/Card'
 import analytics from '../analytics'
 
-const TITLE = 'Koodimatskut';
-
 const HeaderCard = ({ children }: {
   children: any
 }) => {

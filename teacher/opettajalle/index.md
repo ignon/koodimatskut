@@ -38,7 +38,7 @@ Kuudennen vuoden harjoituksissa aletaan hiljalleen siirtymään graafisesta lohk
 ## Opettamisesta
 Ohjelmoinnin opettamisessa alakoululaisille on mielestäni haastavinta isot ryhmäkoot, opettajan rajallinen aika oppilasta kohden sekä luokanhallinta.
 
-Jokaiselle tunnille kannattaa miettiä, <u>mitkä ovat ne koodauspelin kentät (harjoitukset) jotka kannattaa käydä läpi koko luokan edessä</u>, (3-4kpl), yleensä sellaisia ovat ne kentät jotka esittelevät uuden konseptin tai soveltavat niitä uudella tavalla. Ei kannata käydä kaikkia kerralla, vaan käydä kentät läpi vasta kun joku oppilaista on kerennyt niihin.
+Jokainen oppitunti kannattaa aloittaa uuteen koodauspeliin siirtymisellä, ei haittaa vaikka oppilailla olisi jäänyt edellisestä harjoituksesta tehtäviä tekemättä. Näin opettaja voi selittää uudet konseptit oppilaille samanaikaisesti, eikä kukaan koe jäävänsä selkeästi jälkeen muista oppilaista. Jokaiselle tunnille kannattaa miettiä, <u>mitkä ovat ne koodauspelin kentät (harjoitukset) jotka kannattaa käydä läpi koko luokan edessä</u>, (3-4kpl), yleensä sellaisia ovat ne kentät jotka esittelevät uuden konseptin tai soveltavat niitä uudella tavalla. Ei kannata käydä kaikkia kerralla, vaan käydä kentät läpi vasta kun joku oppilaista on kerennyt niihin.
 
 Jos usea oppilas jää jumiin samaan tehtävään, kannattaa se käydä läpi koko luokan edessä ajan säästämiseksi. Jos muutama oppilas on jumissa tehtävässä, kannattaa heidät tuoda yhteen jonkun oppilaan tietokoneen luokse ja selittää heille yhdessä. Kannattaa kuitenkin suosia oppilaskohtaista opettamista aina kun opettajan aika vain sellaiseen riittää. Usein kannattaa auttaa oppilas alkuun tehtävässä ja tulla hetken päästä katsomaan, osasiko hän jatkaa tehtävän loppuun.
 
