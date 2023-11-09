@@ -14,7 +14,7 @@ Materiaali suosii harjoituksia, jotka antavat oppilaille selkeät tavoitteet sek
 Tietääkseni saatavilla ei ole ilmaisia suomenkielisiä materiaaleja, joita tehdessä olisi pidetty mielessä suurempi pedagoginen kuva, kuten mitä eri koodauskäsitteitä kannattaisi opetella, missä järjestyksessä tai millä harjoitteilla ne kannattaisi opetella. Scratch- ja Microbit-harjoituksia lukuunottamatta kaikki harjoitukset ovat siis muiden tekemiä, sivusto vain kokoaa ne helposti navigoitavan käyttöliittymän alle.
 
 ## Pyyntö
-Sivusto on intohimoprojektini ilman mitään kunnollista markkinointikanavaa, joten arvostaisin kovasti jos mainostaisit sitä opekollegoillesi, linkkaisit koulun Teams-kanavalle tai ehdottaisit materiaalia kuntasi digi-/koodipolulle. Sivuun on käytetty paljon tunteja ja koen, että sillä on paljon annettavaa. Siitä on kuitenkin hyötyä ainoastaan jos sitä käytetään!
+Sivusto on intohimoprojektini ilman mitään kunnollista markkinointikanavaa, joten arvostaisin kovasti jos mainostaisit sitä opekollegoillesi tai linkkaisit koulun Teams-kanavalle. Koulujen ja kuntien digi-/koodipoluille materiaalin saa myös linkata täysin vapaasti. Sivuun on käytetty paljon tunteja ja koen, että sillä on paljon annettavaa. Siitä on kuitenkin hyötyä ainoastaan jos sitä käytetään!
 
 ## Pedagogiikka ja etenemisjärjestys
 Ohjelmoinnissa uuden oppiminen ei perustu niin vahvasti aiemmin opitun varaan kuin esim. matematiikassa, vaan käsitteet voi periaatteessa käydä läpi haluamassaan järjestyksessä. Aloitamme kuitenkin helpoimmista ja konkreettisimmista käsitteistä ja etenemme niistä eteenpäin:
@@ -29,7 +29,7 @@ Ohjelmoinnissa uuden oppiminen ei perustu niin vahvasti aiemmin opitun varaan ku
 7. totuusarvot (`loogiset- ja vertailuoperaattorit`)
 8. funktion `argumentit` ja `palautusarvot`.
 
-Konseptit pyritään esittelemään erillään muista konsepteista, aloittaen yksinkertaisimmista esimerkeistä ja lopulta siirtyen soveltavampiin harjoituksiin, joissa pitää yhdistellä eri konsepteja keskenään.
+Konseptit pyritään esittelemään erillään muista konsepteista, aloittaen yksinkertaisimmista esimerkeistä ja lopulta siirtyen soveltavampiin harjoituksiin, jotka yhdistelevät eri konsepteja keskenään.
 
 
 ## Siirtymä tekstipohjaiseen ohjelmointiin
@@ -66,7 +66,7 @@ Nykyisissä matematiikan oppikirjoista löytyy myös hyviä tietojenkäsittelyti
 ### 2) Tutkiva työskentely ja tuottaminen
 OPS listaa ohjelmoinnin tavoitteiksi sosiaalisten- ja ryhmätyöskentelytaitojen kehittämistä, kuten omien ideoiden esittämistä, kaverien kuuntelua, sekä eri roolien ottamista ohjelmointiin liittyvissä ryhmätyöskentelyprojekteissa, sekä toivoo 3.-6. -luokkalaiselta kykyä luoda itse iteratiivisesti omia ohjelmointiprojektejaan, kuten animaatioita ja pelejä. Nämä vaatimukset eroavat huomattavasti Koodimatskut.fi:n listaamista harjoituksista, jotka ovat pääsääntöisesti itsenäisesti tehtäviä harjoitteita, joissa on tehtävänanto ja selkeä tavoite. Näkisin kuitenkin että harjoitteilla on välinearvo OPS:n listaamien tavoitteiden saavuttamisessa. Oppiakseen ohjelmoimaan pelejä ja animaatioita itsenäisesti, on oppilaan ensin päästävä lukemaan, muokkaamaan ja uudelleenjärjestelemään valmiiksi annettua koodia. Vasta tämän jälkeen voi kyetä itsenäiseen (ja lopulta ryhmässä) työskentelyyn ja tuottamiseen. Suosittelisinkin että Microbit- ja Scratch-osioiden jälkeen opettajat päästävät oppilaat ohjelmoimaan ryhmissä tai pareittain, harjoituksissa opittuja taitoja soveltaen vapaamuotoisemman tavoitteen saavuttamaksi. Myös harjoitusten tekeminen parityöskentelynä on mahdollista, mutta tällöin on riskinä että oppilas ei välttämättä etene itselleen ideaalilla vauhdilla jos vieruskaveri kannattelee kaveriaan mukanaan ja ratkaisee tehtävät hänen puolestaan.
 
-OPS toivoo 3. - 6. luokkalaistelta oppilaalta kykyä käyttää mittauksia ja antureita, sekä yhdistää niihin robotiikkaa. Microbit-haroituksissa käytämme antuneita kuten gyroskooppia sekä valo- ja lämpötilasensoria. Fyysisiä robotteja emme ohjelmoi, mutta harjoittelemme pelihahmon liikuttamista koodaten, joka antaa hyvän pohjan robottien ohjelmoimiseen.
+OPS toivoo 3. - 6. luokkalaistelta oppilaalta kykyä käyttää mittauksia ja antureita, sekä yhdistää niihin robotiikkaa. Microbit-harjoituksissa käytämme antuneita kuten gyroskooppia sekä valo- ja lämpötilasensoria. Fyysisiä robotteja emme ohjelmoi, mutta harjoittelemme pelihahmon liikuttamista koodaten, joka antaa hyvän pohjan robottien ohjelmoimiseen.
 
 <u>OPS-vastaavuus:</u> Harjoitukset antavat oppilaalle hyvät edellytykset luoda animaatioita ja pelejä itsenäisesti, mutta jää pitkälti opettajan vastuulle hyödyntää tehtävissä itsenäisesti opittuja taitoja ryhmäprojekteissa, tukea oppilaita sanallistamaan oppimaansa opettamalla harjoituksia kysymyksillä johdattelemalla ja testata koodauspeleissä opittuja taitoja fyysisten robottien parissa.
 
