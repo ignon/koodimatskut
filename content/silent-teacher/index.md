@@ -21,3 +21,9 @@ Silent Teacher -harjoituksesta on eri versiot Python- ja Javascript-ohjelmointik
 > Peli on tarkoitettu toimimaan ilman opettajan apua. Ei siis haittaa vaikka opettaja ei osaisi opettaa tai sanallistaa tehtäviä täydellisesti.
 
 **Huom:** Tämä on jo alakoulun OPS:in ulkopuolella, mutta tehkää halutessanne kevyenä ensikosketuksena yläkouluohjelmointiin (:
+
+<!--
+### Muuttujat
+<u>var a = 3</u>
+"var" avainsana tulee sanasta "variable" eli muuttuja. Ylläoleva koodi määrittelee muuttujat a, jonka arvo on 3
+-->

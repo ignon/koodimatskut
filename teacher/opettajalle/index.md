@@ -14,7 +14,7 @@ Materiaali suosii harjoituksia, jotka antavat oppilaille selkeät tavoitteet sek
 Tietääkseni saatavilla ei ole ilmaisia suomenkielisiä materiaaleja, joita tehdessä olisi pidetty mielessä suurempi pedagoginen kuva, kuten mitä eri koodauskäsitteitä kannattaisi opetella, missä järjestyksessä tai millä harjoitteilla ne kannattaisi opetella. Scratch- ja Microbit-harjoituksia lukuunottamatta kaikki harjoitukset ovat siis muiden tekemiä, sivusto vain kokoaa ne helposti navigoitavan käyttöliittymän alle.
 
 ## Pyyntö
-Sivusto on intohimoprojektini ilman mitään kunnollista markkinointikanavaa, joten arvostaisin kovasti jos mainostaisit sitä opekollegoillesi tai linkkaisit koulun Teams-kanavalle. Koulujen ja kuntien digi-/koodipoluille materiaalin saa myös linkata täysin vapaasti. Sivuun on käytetty paljon tunteja ja koen, että sillä on paljon annettavaa. Siitä on kuitenkin hyötyä ainoastaan jos sitä käytetään!
+Sivusto on intohimoprojektini ilman mitään kunnollista markkinointikanavaa, joten arvostaisin kovasti jos mainostaisit sitä opekollegoillesi tai linkkaisit koulun Teams-kanavalle. Koulujen ja kuntien digi-/koodipoluille materiaalin saa myös linkata täysin vapaasti! Sivuun on käytetty paljon tunteja ja koen, että sillä on paljon annettavaa. Siitä on kuitenkin hyötyä ainoastaan jos sitä käytetään!
 
 ## Pedagogiikka ja etenemisjärjestys
 Ohjelmoinnissa uuden oppiminen ei perustu niin vahvasti aiemmin opitun varaan kuin esim. matematiikassa, vaan käsitteet voi periaatteessa käydä läpi haluamassaan järjestyksessä. Aloitamme kuitenkin helpoimmista ja konkreettisimmista käsitteistä ja etenemme niistä eteenpäin:
@@ -116,7 +116,7 @@ sisältäen kolme osa-aluetta: 1) ohjelmoinnillinen ajattelu 2) tutkiva työsken
 -->
 
 ## Tekijästä
-Hei! Olen Arttu Mäkinen, tietotekniikan opiskelija Jyväskylästä (toivottavasti jossain välissä myös koulutusteknologian maisteri), jolla on taustaa pelikehityksestä ja noin 400 oppitunnin kokemus peruskoululaisten ohjelmoinnin opettamisesta iltapäiväkerhoissa, joissa on opetettu sekä graafista että tekstipohjaista ohjelmointia.  Jos satut istumaan rahakirstun päällä, jolla voisi rahoittaa ohjelmoinnin avointen oppimateriaalien kehittämistä lukioiden ja yläkoulujen käyttöön, minuun saa ottaa yhteyttä osoitteeseen arttu.b.makinen (át) gmail.com. Muissakin merkeissä saa toki olla yhteyksissä (:
+Hei! Olen Arttu Mäkinen, tietotekniikan opiskelija Jyväskylästä (toivottavasti jossain välissä myös koulutusteknologian maisteri), jolla on taustaa pelikehityksestä ja noin 400 oppitunnin kokemus peruskoululaisten ohjelmoinnin opettamisesta iltapäiväkerhoissa, niin graafisilla kuin tekstipohjaisilla ohjelmointikielillä.  Jos satut istumaan rahakirstun päällä, jolla voisi rahoittaa ohjelmoinnin avointen oppimateriaalien kehittämistä lukioiden ja yläkoulujen käyttöön, minuun saa ottaa yhteyttä osoitteeseen arttu.b.makinen (át) gmail.com. Muissakin merkeissä saa toki olla yhteyksissä (:
 
 ## Analytiikka
 Sivusto kerää anonyymiä analytiikkaa, joka säilötään EU-alueella. Sivulatausten yhteydessä lähetettäviä tietoja ovat kellonaika, käyttöjärjestelmä, nettiselain, sekä maa ja kaupunki. Analytiikkaa kerätään siitä mitä harjoituksia, opemateriaaleja ja harjoituslinkkejä on klikattu.  Sivusto ei säilö mitään selaimen pitkäkestoiseen muistiin (evästeet, local storage yms), joten kerätty analytiikka ei ole jäljitettävissä käyttäjään tai edes käytettyyn selaimeen (IP-osoitettakaan ei säilytetä).
