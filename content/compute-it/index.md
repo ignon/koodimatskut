@@ -24,3 +24,6 @@ links:
 > **up** ylös \
 > **down** alas
 
+**Huomioitavaa:**
+- Peli muuttuu nopeasti hyvin vaikeaksi. Jos oppilas jää jumiin, kannattaa hänen kertauksen takia aloittaa uudestaan ensimmäisestä tehtävästi, jolloin hän myös huomaa kehittyneensä.
+- Jos ette ole vielä tehneet alkupään funktioharjoituksia (Kidbot, AlgoRun), kannattaa ne tehdä ennen tähän harjoitukseen siirtymistä.
