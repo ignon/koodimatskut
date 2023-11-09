@@ -29,13 +29,10 @@ links:
   url:   https://scratch.mit.edu/projects/901373244/editor
 ---
 
-**Huom:** Kieli on vaihdettava suomeksi vasemmasta yläkulmasta (Settings => Language => "Suomi")
-
-**Huom:** Tämä on ainoa materiaali, mitä en ole vielä ehtinyt testaamaan luokkahuoneessa, joten se tuskin on vielä aivan priimaa. Saa antaa palautetta.
-
-**Huom:** Korosta että aina kannatta lisätä vain yksi lohko kerrallaan ja testata miten ohjelman toiminta muuttuu!
-
-**Huom:** Varoita oppilaita että jos koodilohkon raahaa vasemman reunan valikon kohdalle, se joutuu roskiin ja häviää. Tämän tapahtuessa harjoituksen voi avata uudestaan (tai voi perua muutoksen `Ctrl + Z` pikanäppäimellä).
-
-**Huom:** Kuten useimmissa graafisissa ohjelmointiympäristöissä, koodipalikat on värikoodattu eli punaiset koodilohkot löytyvät punaiselta välilehdeltä ja siniset siniseltä välilehdeltä jne.
+**Huomioitavaa:**
+- Kieli on vaihdettava suomeksi vasemmasta yläkulmasta (Settings => Language => "Suomi")
+- Tämä on ainoa materiaali, mitä en ole vielä ehtinyt testaamaan luokkahuoneessa, joten se tuskin on vielä aivan priimaa. Saa antaa palautetta.
+- Korosta että aina kannatta lisätä vain yksi lohko kerrallaan ja testata miten ohjelman toiminta muuttuu!
+- Varoita oppilaita että jos koodilohkon raahaa vasemman reunan valikon kohdalle, se joutuu roskiin ja häviää. Tämän tapahtuessa harjoituksen voi avata uudestaan (tai voi perua muutoksen `Ctrl + Z` pikanäppäimellä).
+- Kuten useimmissa graafisissa ohjelmointiympäristöissä, koodipalikat on värikoodattu eli punaiset koodilohkot löytyvät punaiselta välilehdeltä ja siniset siniseltä välilehdeltä jne.
 
