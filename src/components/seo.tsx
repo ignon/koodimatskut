@@ -41,8 +41,7 @@ export const SEO = ({ title, image, description, pathname, children, siteLanguag
 
   return (
     <>
-      <Helmet title={seo.title}>
-        <html lang={siteLanguage} />
+      <Helmet title={seo.title} htmlAttributes={{ lang: siteLanguage }}>
         <meta name="description" content={seo.description} />
         <meta name="image" content={seo.image} />
       </Helmet>
