@@ -8,7 +8,7 @@ slug: opettajalle
 ## Yleistä
 Sivuston tehtävät alkavat lukutaidottomille sopivilla koodausharjoituksilla ja etenevät tavoitteellisesti käsite kerrallaan eteenpäin. Listan tarkoitus on tarjota opettajille mahdollisimman valmiiksi jäsenneltyä oppimateriaalia, joka tukee ja ohjaa oppituntien kulkua kuten matematiikan kirjakin. Kaikki tehtävät ovat ilmaisia ja toimivat ilman käyttäjätunnusten luontia. Harjoituksia riittää noin 25 oppitunniksi.
 
-Materiaali suosii harjoituksia, jotka antavat oppilaille selkeät tavoitteet sekä koodilohkot, joita soveltaa tavoitteiden saavuttamiseksi – näin ne ohjaavat ja tukevat myös opettajan tekemistä. Tällaiset harjoitukset minimoivat tarvetta opettajajohtoiselle opetukselle ja vapauttavat opettajan aikaa oppilaiden henkilökohtaiseen ohjeistamiseen kysymyksillä johdattaen. Valmiiden koodauspelien lisäksi sivustolla on suomenkielisiä Scratch- ja Microbit-harjoituksia jotka treenaavat pelien ja animaatioiden ohjelmointia. Jokaiseen harjoitukseen on merkattu harjoituksen arvioitu kesto, sekä suositeltu luokka-aste, jota voi oman harkinnan mukaan soveltaa ±2 vuotta ylös tai alas.
+Materiaali suosii harjoituksia, jotka antavat oppilaille selkeät tavoitteet sekä koodilohkot, joita soveltaa tavoitteiden saavuttamiseksi – näin ne ohjaavat ja tukevat myös opettajan tekemistä. Tällaiset harjoitukset minimoivat tarvetta opettajajohtoiselle opetukselle ja vapauttavat opettajan aikaa oppilaiden henkilökohtaiseen ohjeistamiseen kysymyksillä johdattaen. Valmiiden koodauspelien lisäksi sivustolla on suomenkielisiä Scratch- ja Microbit-harjoituksia jotka treenaavat pelien ja animaatioiden ohjelmointia. Jokaiseen harjoitukseen on merkattu harjoituksen arvioitu kesto, sekä suositeltu luokka-aste, jota voi oman harkinnan mukaan soveltaa kaksi vuotta ylös tai alas.
 
 ## Miksi sivuston on tehty?
 Tietääkseni saatavilla ei ole ilmaisia suomenkielisiä materiaaleja, joita tehdessä olisi pidetty mielessä suurempi pedagoginen kuva, kuten mitä eri koodauskäsitteitä kannattaisi opetella, missä järjestyksessä tai millä harjoitteilla ne kannattaisi opetella. Scratch- ja Microbit-harjoituksia lukuunottamatta kaikki harjoitukset ovat siis muiden tekemiä, sivusto vain kokoaa ne helposti navigoitavan käyttöliittymän alle.
@@ -48,6 +48,8 @@ Jos oppilas toistuvasti käyttää tietokonetta opettajan puhuessa, voi opettaja
 
 Pääasiassa suosittelen että oppilaat saisivat edetä harjoituksissa itsenäisesti omalla vauhdillaan; joidenkin ryhmien ja harjoitusten kohdalla olen joskus kokenut tuen tarpeen liian korkeaksi tähän ja käynyt harjoituksia läpi yhdessä koko luokan kanssa. Tällöin hyvä tapa pysyä tietoisena siitä missä vaiheessa oppilaat ovat on pyytää heitä siirtämään läppärinsä pulpetin päätyyn kun he ovat valmiita tehtävässä (ja muussa tapauksessa vetämään sen kohti itseään).
 
+## Pikastartti
+Jos opetat 3. – 6. luokkalaisia, joilla ei ole aikaisempaa koodauskokemusta, suosittelen aloittamaan "Taiteilija" ja "Laurel"-tehtävillä ja hyppäämään niistä suoraan Minecraft-tehtäviin. Niistä voi edetä eteenpäin kohti Microbit- ja Scratch-tehtäviä.
 
 ## OPS-vastaavuus
 
