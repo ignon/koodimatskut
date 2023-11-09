@@ -14,7 +14,7 @@ Materiaali suosii harjoituksia, jotka antavat oppilaille selkeät tavoitteet sek
 Tietääkseni saatavilla ei ole ilmaisia suomenkielisiä materiaaleja, joita tehdessä olisi pidetty mielessä suurempi pedagoginen kuva, kuten mitä eri koodauskäsitteitä kannattaisi opetella, missä järjestyksessä tai millä harjoitteilla ne kannattaisi opetella. Scratch- ja Microbit-harjoituksia lukuunottamatta kaikki harjoitukset ovat siis muiden tekemiä, sivusto vain kokoaa ne helposti navigoitavan käyttöliittymän alle.
 
 ## Pyyntö
-Sivusto on intohimoprojektini ilman mitään kunnollista markkinointikanavaa, joten arvostaisin kovasti jos mainostaisit sitä opekollegoillesi. Sivuun on käytetty paljon tunteja ja koen, että sillä on paljon annettavaa. Siitä on kuitenkin hyötyä ainoastaan jos sitä käytetään!
+Sivusto on intohimoprojektini ilman mitään kunnollista markkinointikanavaa, joten arvostaisin kovasti jos mainostaisit sitä opekollegoillesi, linkkaisit koulun Teams-kanavalle tai ehdottaisit materiaalia kuntasi digi-/koodipolulle. Sivuun on käytetty paljon tunteja ja koen, että sillä on paljon annettavaa. Siitä on kuitenkin hyötyä ainoastaan jos sitä käytetään!
 
 ## Pedagogiikka ja etenemisjärjestys
 Ohjelmoinnissa uuden oppiminen ei perustu niin vahvasti aiemmin opitun varaan kuin esim. matematiikassa, vaan käsitteet voi periaatteessa käydä läpi haluamassaan järjestyksessä. Aloitamme kuitenkin helpoimmista ja konkreettisimmista käsitteistä ja etenemme niistä eteenpäin:
