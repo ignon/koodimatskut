@@ -2,9 +2,9 @@ import type { GatsbyConfig } from "gatsby";
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: `Koodimatskut`,
+    title: `Koodimatskut | Ohjelmoinnin oppimateriaaleja alakouluille`,
     siteUrl: `https://www.koodimatskut.fi`,
-    description: 'Ohjelmoinnin pelillisiä harjoituksia alakouluille',
+    description: '25 oppituntia pelillisiä koodausharjoituksia opemateriaaleilla ja OPS-vastaavuuksilla järkevässä etenemisjärjestyksessä!',
     image: '/thumbnail.jpg',
     siteLanguage: 'fi-FI'
   },

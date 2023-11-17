@@ -6,7 +6,7 @@ difficulty: 6. luokka
 hero: hero.png
 priority: 1630
 slug: silent-teacher
-tags: [funktion argumentit ja palautusarvot, merkkijonot, listat]
+tags: [funktion argumentit ja palautusarvot, muuttujat, listat]
 numbered_links: false
 links:
 - title: Javascript
