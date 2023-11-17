@@ -2,31 +2,27 @@ import React from "react"
 import Helmet from 'react-helmet'
 import { useSiteMetadata } from "../hooks/useSiteMetadata"
 
-export const SEO = ({ title, image, description, pathname, children, siteLanguage }: {
+export const SEO = ({ title, image, description, pathname, children }: {
   title?: string,
   description?: string,
   pathname?: string,
   image?: string,
-  siteLanguage?: string
   children?: any,
 }) => {
   const {
     title: defaultTitle,
     description: defaultDescription,
-    siteLanguage: defaultLanguage,
+    siteLanguage,
     image: defaultImage,
-    siteUrl,
-    // twitterUsername
+    siteUrl
   } = useSiteMetadata()
 
   const seo = {
     title: title || defaultTitle,
     description: description || defaultDescription,
-    siteLanguage: siteLanguage || defaultLanguage || '',
-    // image: `${siteUrl}${image}`,
+    siteLanguage,
     url: `${siteUrl}${pathname || ''}`,
-    image: `${siteUrl}${image || defaultImage}`,
-    // twitterUsername,
+    image: `${siteUrl}${image || defaultImage}`
   }
 
   const schemaOrgJSONLD = [
@@ -41,7 +37,7 @@ export const SEO = ({ title, image, description, pathname, children, siteLanguag
 
   return (
     <>
-      <Helmet title={seo.title} htmlAttributes={{ lang: siteLanguage }}>
+      <Helmet title={seo.title} htmlAttributes={{ lang: seo.siteLanguage }}>
         <meta name="description" content={seo.description} />
         <meta name="image" content={seo.image} />
       </Helmet>
