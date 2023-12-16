@@ -21,6 +21,11 @@ html {
   }
 }
 
+.bg-winter {
+  background-image: url("/winter/snowflakes.jpg");
+  background-size: 55vw;
+}
+
 @media print {
   @page {
     size: A4;

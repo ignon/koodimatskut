@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { graphql } from 'gatsby'
 import { SEO } from '../components/seo'
 
@@ -20,6 +20,12 @@ const MainPage = ({ data }: {
   const teacherNodes = nodes.filter((node: any) => node.fields.collection != 'content');
 
   const [activeCard, setActiveCard] = useState<string>('')
+
+  useEffect(() => {
+    if ((new Date()).getMonth() == 11) {
+      document.getElementsByTagName('body')[0].classList.add('bg-winter')
+    }
+  }, [])
 
 
   return (

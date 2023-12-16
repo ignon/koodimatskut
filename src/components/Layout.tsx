@@ -8,7 +8,7 @@ const Layout = ({ pageTitle, children }: {
 }) => {
   return (
     <div>
-      <main className="max-w-3xl mx-auto flex flex-col">
+      <main className="max-w-3xl mx-auto flex flex-col bg-white bg-opacity-80">
         {children}
       </main>
     </div>
