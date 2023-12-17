@@ -11,11 +11,12 @@ export const ToggleIcon = ({ isOpen }: {
 }
 
 
-const Toggle = ({ text, onClick, isOpen, className }: {
+const Toggle = ({ text, onClick, isOpen, className, textStyle='' }: {
   text: string,
   isOpen: boolean
   onClick: any,
-  className?: string
+  className?: string,
+  textStyle?: string
 }) => {
 
 
@@ -28,7 +29,7 @@ const Toggle = ({ text, onClick, isOpen, className }: {
         flex-none
         ${className ?? ''}
     `}>
-      <div className="block flex-none shrink-1">
+      <div className={`block flex-none shrink-1 ${textStyle}`}>
         {text} <ToggleIcon isOpen={isOpen} />
       </div>
     </button>

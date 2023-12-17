@@ -26,6 +26,12 @@ html {
   background-size: 1024px;
 }
 
+.bg-summer {
+  background-image: url("/summer/clouds.jpg");
+  background-size: 100vw;
+  background-repeat: no-repeat;
+}
+
 @media print {
   @page {
     size: A4;

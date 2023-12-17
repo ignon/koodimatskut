@@ -11,6 +11,7 @@ import ToggleChildren from '../components/ToggleChildren'
 import ExternalLink from '../components/ExternalLink'
 import analytics from '../analytics'
 import CommentSection from '../components/CommentSection'
+import useSeasons from '../hooks/useSeasons'
 
 const MainPage = ({ data }: {
   data: any
@@ -21,12 +22,7 @@ const MainPage = ({ data }: {
 
   const [activeCard, setActiveCard] = useState<string>('')
 
-  useEffect(() => {
-    const isDecember = (new Date()).getMonth() == 11
-    if (isDecember) {
-      document.getElementsByTagName('body')[0].classList.add('bg-winter')
-    }
-  }, [])
+  useSeasons()
 
 
   return (

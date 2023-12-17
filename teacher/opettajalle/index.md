@@ -137,8 +137,10 @@ The games listed on this website are the property of their respective owners and
 ## Graphics
 The screenshots or pictures used for each game are for non-profit, educational, and informational purposes only. If you are the owner of a game mentioned here and wish to have it removed, contact me at arttu.b.makinen (át) gmail.com and I'll remove it as soon as possible. This website does not claim any ownership or affiliation with the games listed in here.
 
-The free-to-use snowflake background (only used in December) has been designed by [Pastel.grafisk / Freepik](http://www.freepik.com)
+The snowflake background (only used in winter) has been designed by [Pastel.grafisk on Freepik](http://www.freepik.com)
+.
 
+The sky background (only used on summer) has been designed by [rawpixel.com on Freepik](https://www.freepik.com/free-vector/sky-background-pastel-paper-cut-design-vector_18938534.htm)
 
 <!--
 ## OPS
