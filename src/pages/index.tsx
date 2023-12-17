@@ -22,7 +22,8 @@ const MainPage = ({ data }: {
   const [activeCard, setActiveCard] = useState<string>('')
 
   useEffect(() => {
-    if ((new Date()).getMonth() == 11) {
+    const isDecember = (new Date()).getMonth() == 11
+    if (isDecember) {
       document.getElementsByTagName('body')[0].classList.add('bg-winter')
     }
   }, [])

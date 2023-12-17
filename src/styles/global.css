@@ -23,7 +23,7 @@ html {
 
 .bg-winter {
   background-image: url("/winter/snowflakes.jpg");
-  background-size: 55vw;
+  background-size: 1024px;
 }
 
 @media print {
