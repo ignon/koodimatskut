@@ -66,7 +66,7 @@ const ShareButton = () => {
   }
   const shareData = {
     title: 'Koodimatskut.fi',
-    url: 'https://koodimatskut.fi'
+    url: 'https://koodimatskut.fi?utm_source=share'
   }
 
   return (
