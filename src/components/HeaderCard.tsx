@@ -1,9 +1,11 @@
 import * as React from 'react'
 import { useState } from 'react'
-import Toggle from '../components/Toggle'
-import Card from '../components/Card'
+import Toggle from './Toggle'
+import TitleCard from './TitleCard'
+import Card from './Card'
 import analytics from '../analytics'
 import { getSeason } from '../hooks/useSeasons'
+import { MdShare } from 'react-icons/md'
 
 const HeaderCard = ({ children }: {
   children: any
@@ -15,16 +17,14 @@ const HeaderCard = ({ children }: {
     ? 'Koodimatskut'
     : 'Koodimatskut.fi'
 
+  const textColor = 'text-gray-700'
   const titleColor = getSeason() === 'summer'
-    ? 'text-[#f0fdfa] drop-shadow-[0_0.6px_0.6px_rgba(0,0,0,0.8)]'
+    ? 'text-[#f0fdfa] drop-shadow-[0_0.6px_0.6px_rgba(0,0,0,0.9)]'
     : 'text-gray-600'
 
-  const textColor = getSeason() === 'summer'
-    ? 'text-gray-600'
-    : 'text-gray-700'
 
   return (
-    <div className="flex flex-col justify-start align-center my-4 w-full px-2">
+    <div className="flex flex-col justify-start align-center my-4 w-full">
       <h1
         className={`text-center mt-7 text-5xl sm:text-6xl font-extrabold text-gray-600 ${titleColor} overflow-hidden`}
         onClick={() => setShowDomain(!showDomain)}
@@ -45,21 +45,44 @@ const HeaderCard = ({ children }: {
           setIsOpen(!isOpen)
         }}
         className="py-3 text-gray-600"
-        textStyle='text-gray-600'
       />
 
       {!isOpen || (
-        <Card>
-          <div className="bg-red-400 py-5 w-full">
-            <h1 className="text-center text-4xl font-extrabold text-gray-700">Opettajan materiaalit</h1>
-          </div>
-          <div className={`text-lg text-gray-800 my-8 px-3 py-3`}>
+        <div>
+          <TitleCard title='Opettajan materiaalit'>
             {children}
-          </div>
-        </Card>
+          </TitleCard>
+          <ShareButton />
+        </div>
       )}
 
     </div>
+  )
+}
+
+const ShareButton = () => {
+  const shareData = {
+    title: 'Koodimatskut.fi',
+    text: 'Ohjelmoinnin oppimateriaaleja alakouluille',
+    url: 'https://Koodimatskut.fi'
+  }
+  return (
+    <Card styles='bg-red-500 hover:brightness-150 py-1 my-0'>
+      <button
+        className='flex flex-row justify-center text-white'
+        onClick={() => {
+          try {
+            navigator.share(shareData)
+              .then(() => analytics.sendEvent('Share'))
+              .catch(err => console.log('Sharing error', err?.message))
+          }
+          catch { }
+        }}
+      >
+        <MdShare size={80} className='text-inherit flex-0 mr-10' />
+        <p className='text-5xl text-inherit py-0 pr-3 pt-2 font-extrabold flex-0 ml-3'>Jaa </p>
+      </button>
+    </Card>
   )
 }
 

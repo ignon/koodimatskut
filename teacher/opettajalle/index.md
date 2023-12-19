@@ -1,7 +1,7 @@
 ---
 title: Opettajalle
-tags: [funktiot, lukutaidottomille]
-priority: 700
+tags: []
+priority: 100
 slug: opettajalle
 ---
 
@@ -55,7 +55,7 @@ Jos opetat 3. – 6. luokkalaisia, joilla ei ole aikaisempaa koodauskokemusta, s
 
 [Digitaalisen osaamisen kuvaukset](https://eperusteet.opintopolku.fi/#/fi/digiosaaminen/8706410/osaamiskokonaisuus/8709075) jakaa tavoitellun ohjelmointiosaamisen kolmeen osa-alueeseen: 1) Ohjelmoinnillinen ajattelu 2) Tutkiva työskentely ja tuottaminen 3) Ohjelmoitujen ympäristöjen tuntemus ja niissä toimiminen. Seuraavat alaotsikot käsittelevät osa-alueita yksi kerrallaan.
 
-> **Huomioitavaa:** Allekirjoittanut ei omista (vielä) minkään tason pedagogista tutkintoa, joten OPS-analyysit ovat vain omaa pohdintaa. Alta löytää kommenttiosio, johon voi lisätä omia näkemyksiään.
+> **Huomioitavaa:** Allekirjoittanut ei omista (vielä) minkään tason pedagogista tutkintoa, joten OPS-analyysit ovat vain omaa pohdintaa. Alta löytyy kommenttiosio, johon voi lisätä omia näkemyksiään.
 
 ### 1) Ohjelmointiin liittyvät käsitteet ja perusrakenteet
 
@@ -129,18 +129,6 @@ Tilien luonti ei ole pakollista, mutta jos arvioinnin takia koette tarpeelliseks
 
 Jos haluatte ottaa varman päälle, käyttäkää nettiselaimia ainoastaan Incognito-tilassa (tällöin esim. Google Analytics ei pysty säilömään evästeitä selaimen pitkäkestoiseen muistiin).
 
-## In English
-Koodimatskut.fi is a carefully curated and arranged list of high-quality coding learning materials for primary schools (in Finnish). The materials have been selected so that they conform to Finnish coding education standards and are either localized to Finnish or require only basic English proficiency.
-
-The games listed on this website are the property of their respective owners and provided with the name of their creator.
-
-## Graphics
-The screenshots or pictures used for each game are for non-profit, educational, and informational purposes only. If you are the owner of a game mentioned here and wish to have it removed, contact me at arttu.b.makinen (át) gmail.com and I'll remove it as soon as possible. This website does not claim any ownership or affiliation with the games listed in here.
-
-The snowflake background (only used in winter) has been designed by [Pastel.grafisk on Freepik](http://www.freepik.com)
-.
-
-The sky background (only used on summer) has been designed by [rawpixel.com on Freepik](https://www.freepik.com/free-vector/sky-background-pastel-paper-cut-design-vector_18938534.htm)
 
 <!--
 ## OPS

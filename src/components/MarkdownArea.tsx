@@ -4,7 +4,7 @@ const MarkdownArea = ({ html }: {
   html: any
 }) => (
   <div
-    className="markdown-area mx-5 mt-10"
+    className="markdown-area mx-5 text-left"
     dangerouslySetInnerHTML={{ __html: html }}
   />
 )

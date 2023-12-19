@@ -12,18 +12,25 @@ const ToggleIcon = ({ isOpen }: {
 }
 
 
-const ToggleChildren = ({ text, children, className='', divClassName='' }: {
+const ToggleChildren = ({ text, children, className='', divClassName='', onOpen }: {
   text: string,
   className?: string,
   divClassName?: string
-  children: React.ReactNode
+  children: React.ReactNode,
+  onOpen?: any
 }) => {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
     <div className={divClassName}>
       <button
-        onClick={() => setIsOpen(!isOpen)}
+        onClick={() => {
+          const newIsOpen = !isOpen
+          setIsOpen(newIsOpen)
+          if (newIsOpen && onOpen) {
+            onOpen()
+          }
+        }}
         className={`
           ${className}
           text-xl text-gray-700

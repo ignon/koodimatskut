@@ -1,5 +1,10 @@
 import type { GatsbyConfig } from "gatsby";
 
+import dotenv from 'dotenv'
+dotenv.config({
+  path: '.env'
+})
+
 const config: GatsbyConfig = {
   siteMetadata: {
     title: `Koodimatskut - Ohjelmoinnin oppimateriaaleja alakouluille`,
@@ -47,6 +52,12 @@ const config: GatsbyConfig = {
       },
       __key: "images"
     },
+    // {
+    //   resolve: `gatsby-source-custom`,
+    //   options: {
+    //     POSTHOG_API_KEY: process.env.POSTHOG_API_KEY
+    //   }
+    // },
     {
       resolve: 'gatsby-source-filesystem',
       options: { "name": "pages", "path": "./src/pages/" },

@@ -73,8 +73,6 @@ const GameCard = ({ node, index, onClick, isOpen }: {
       linkSlug?: string
     }
 
-    console.log({ node })
-
     const links = frontmatter.links;
     const numbered = node.frontmatter.numbered_links;
     const slugifiedLinks = links.map((link: ILink): ILinkButtonProp => ({

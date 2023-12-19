@@ -43,7 +43,7 @@ const init = async () => {
 }
 init()
 
-const sendEvent = async (eventId: string, options: object) => {
+const sendEvent = async (eventId: string, options?: object) => {
   const posthog = await loadPosthog()
   posthog?.capture(eventId, options)
 

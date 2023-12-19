@@ -13,7 +13,7 @@ const Layout = ({ pageTitle, children }: {
 
   return (
     <div>
-      <main className={`max-w-3xl mx-auto flex flex-col ${backgroundStyle}`}>
+      <main className={`max-w-3xl mx-auto pb-10 flex flex-col ${backgroundStyle}`}>
         {children}
       </main>
     </div>

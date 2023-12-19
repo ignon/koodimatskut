@@ -6,7 +6,7 @@ difficulty: 3.- 4. luokka
 hero: microbit.png
 priority: 1250
 slug: microbit
-tags: [jos-muutenjos-muuten, muuttujat, tapahtumat]
+tags: [muuten-jos, muuttujat, tapahtumat]
 numbered_links: true
 links:
 - title: "Sydänanimaatio"

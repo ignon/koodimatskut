@@ -7,14 +7,17 @@ const CloseButton = ({ onClose }: {
   onClose: any
 }) => {
   return (
-    <MdClose className="flex-1" size={60} />
+    <button onClick={onClose}>
+      <MdClose className="flex-1" size={60}/>
+    </button>
   )
 }
 
-const Modal = ({ isOpen, onClose, children }: {
+const Modal = ({ isOpen, onClose, title, children }: {
   isOpen: boolean,
   onClose: any,
-  children: any
+  children: any,
+  title: string
 }) => {
 
   useEffect(() => {
@@ -28,12 +31,12 @@ const Modal = ({ isOpen, onClose, children }: {
   return (
     <div className={`${visibility} fixed inset-0 flex flex-col h-full z-50 bg-black/75`}>
       <div className={`
-        flex flex-col justify-center items-center bg-white overflow-x-hidden w-7/12 min-h-screen rounded-3xl
-        mx-auto
+        flex flex-col justify-center items-center bg-white overflow-x-hidden w-7/12 min-h-[600px] rounded-3xl
+        mx-auto my-auto
       `}>
       <div className="w-full flex flex-row justify-center bg-red-400 shadow-md shadow-black/30 py-4">
         <div className={`flex-1 text-center text-5xl font-bold text-gray-700`}>
-          Opettajalle
+          In English
         </div>
         <div className="relative mr-5 text-gray-700">
           <CloseButton onClose={onClose} />
@@ -61,13 +64,13 @@ export const ToggleModal = ({ toggleText, children }: {
     <div>
       <Toggle
         text={toggleText}
-        isOpen={false}
+        isOpen={isOpen}
         onClick={() => setIsOpen(!isOpen)}
         className="py-3 text-gray-500 inline-block"
       />
-      <div className={isOpen ? 'visible' : 'hidden'}>
+      <Modal isOpen={isOpen} onClose={() => setIsOpen(false)} title='In English'>
         {children}
-      </div>
+      </Modal>
     </div>
   )
 }

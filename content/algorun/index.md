@@ -31,7 +31,7 @@ Youtubesta löytyy [esimerkkiratkaisut rekursio-osion tehtäviin](https://www.yo
 NOTES: Rekursio-osiossa on mahdotonta selittää käytännön esimerkeillä rekursin ja infinite loopin eroa, sillä pelissä ei ole lopetusehtoja rekursiolle.
 -->
 
-<!-- ![](./aliohjelma_4.jpg)
+<!-- ![](./aliohjelma_4.jpg) -->
 ![](./kaskysarjat.jpg)
 ---
 
@@ -82,3 +82,4 @@ NOTES: Rekursio-osiossa on mahdotonta selittää käytännön esimerkeillä reku
 *<u>Rekursio-osan 9. kenttä</u> on jo hyvin kryptinen eikä kukaan oppilaistani ole läpäissyt tätä itsenäisesti.*
 
 ![](./recursion-9.jpg)
+*Kryptisyys jatkuu...*
