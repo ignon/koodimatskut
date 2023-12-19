@@ -61,26 +61,28 @@ const HeaderCard = ({ children }: {
 }
 
 const ShareButton = () => {
+  if (!navigator.share) {
+    return null
+  }
   const shareData = {
     title: 'Koodimatskut.fi',
-    text: 'Ohjelmoinnin oppimateriaaleja alakouluille',
-    url: 'https://Koodimatskut.fi'
+    url: 'https://koodimatskut.fi'
   }
+
   return (
     <Card styles='bg-red-500 hover:brightness-150 py-1 my-0'>
       <button
         className='flex flex-row justify-center text-white'
-        onClick={() => {
+        onClick={async () => {
           try {
-            navigator.share(shareData)
-              .then(() => analytics.sendEvent('Share'))
-              .catch(err => console.log('Sharing error', err?.message))
+            await navigator.share(shareData)
+            analytics.sendEvent('Share')
           }
           catch { }
         }}
       >
-        <MdShare size={80} className='text-inherit flex-0 mr-10' />
-        <p className='text-5xl text-inherit py-0 pr-3 pt-2 font-extrabold flex-0 ml-3'>Jaa </p>
+        <MdShare size={80} className='text-inherit flex-0 mr-10 my-0 py-0' />
+        <p className='text-5xl text-inherit py-0 my-0 pr-3 mt-3 font-extrabold flex-0 ml-3'>Jaa </p>
       </button>
     </Card>
   )
