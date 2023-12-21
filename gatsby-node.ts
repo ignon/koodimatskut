@@ -46,6 +46,8 @@ exports.onCreateNode = ({ node, actions, getNode }: any) => {
 };
 
 exports.createPages = async ({ actions: { createPage }}: any) => {
+
+  const DATE = (new Date()).toLocaleDateString('fi-FI')
   const STATS = POSTHOG_API_KEY
     ? await getStats()
     : null
@@ -54,7 +56,8 @@ exports.createPages = async ({ actions: { createPage }}: any) => {
     path: '/',
     component: path.resolve('./src/pages/index.tsx'),
     context: {
-      STATS
+      STATS,
+      DATE
     }
   })
 }

@@ -61,9 +61,8 @@ const HeaderCard = ({ children }: {
 }
 
 const ShareButton = () => {
-  if (!navigator.share) {
-    return null
-  }
+  // if (!navigator.share) { return null }
+
   const shareData = {
     title: 'Koodimatskut.fi',
     url: 'https://koodimatskut.fi?utm_source=share'
@@ -82,7 +81,7 @@ const ShareButton = () => {
         }}
       >
         <MdShare size={80} className='text-inherit flex-0 mr-10 my-0 py-0' />
-        <p className='text-5xl text-inherit py-0 my-0 pr-3 mt-3 font-extrabold flex-0 ml-3'>Jaa </p>
+        <p className='text-5xl text-inherit py-0 my-0 pr-3 mt-3 font-extrabold flex-0 ml43'>Jaa </p>
       </button>
     </Card>
   )

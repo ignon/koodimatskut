@@ -99,7 +99,7 @@ const GameCard = ({ node, index, onClick, isOpen }: {
 
             <div className="bg-gray-20">
                 <div className="flex max-h-10 flex-row justify-start align-center w-full pl-4 mt-0">
-                    <h1 className="font-bold  text-gray-700 text-lg whitespace-nowrap p-1  mt-0.5">
+                    <h1 className="font-bold  text-gray-700 text-lg whitespace-nowrap p-1  mt-0.5" id={`${index-1}`}>
                       {index+1}. {title}
                     </h1>
                     <div className="flex ml-4 mt-1.5">

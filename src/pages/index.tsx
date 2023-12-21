@@ -30,7 +30,7 @@ const MainPage = ({ data, pageContext }: {
   useSeasons()
 
   console.log({ pageContext })
-  const { STATS } = pageContext
+  const { STATS, DATE } = pageContext
 
   return (
     <Layout pageTitle="Blog posts">
@@ -73,7 +73,7 @@ const MainPage = ({ data, pageContext }: {
           url='https://ignon.github.io/'
         />
         <p className={`text-center text-lg italic text-gray-600 mb-1`}>
-          Sivu päivitetty viimeksi {(new Date()).toLocaleDateString('fi-FI')}
+          Sivu päivitetty viimeksi {DATE}
         </p>
         <Stats STATS={STATS} />
         {/* <ToggleModal toggleText='In English'> <p>Moi!</p> </ToggleModal> */}
