@@ -52,6 +52,7 @@ exports.createPages = async ({ actions: { createPage }}: any) => {
     ? await getStats()
     : null
 
+
   createPage({
     path: '/',
     component: path.resolve('./src/pages/index.tsx'),
