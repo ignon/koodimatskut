@@ -55,7 +55,7 @@ exports.createPages = async ({ actions: { createPage }}: any) => {
 
   createPage({
     path: '/',
-    component: path.resolve('./src/pages/index.tsx'),
+    component: path.resolve('./src/templates/index.tsx'),
     context: {
       STATS,
       DATE

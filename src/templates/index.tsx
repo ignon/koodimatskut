@@ -2,12 +2,10 @@ import * as React from 'react'
 import { useState, useEffect } from 'react'
 import { graphql } from 'gatsby'
 import { SEO } from '../components/seo'
-
 import TitleCard from '../components/TitleCard'
 import Layout from '../components/Layout'
 import GameCard from '../components/GameCard'
 import HeaderCard from '../components/HeaderCard'
-// import { ToggleModal } from '../components/Modal'
 import MarkdownArea from '../components/MarkdownArea'
 import ExternalLink from '../components/ExternalLink'
 import analytics from '../analytics'
@@ -41,8 +39,8 @@ const MainPage = ({ data, pageContext }: {
           <MarkdownArea html={node.html} key={node.id} />
         ))}
         <CommentSection
-          id={'opettajalle'}
-          title={'opettajalle'}
+          id='opettajalle'
+          title='opettajalle'
           visible={activeCard == ''}
         />
       </ HeaderCard>
