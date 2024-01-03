@@ -3,7 +3,10 @@ import { useEffect } from "react"
 export const getSeason = (): string => {
   // return 'summer'
   const month = getMonth()
-  if (isBetween(month, 11, 12)) {
+  if (
+    isBetween(month, 11, 12) ||
+    isBetween(month, 1, 2)
+  ) {
     return 'winter'
   }
   if (isBetween(month, 5, 7)) {

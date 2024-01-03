@@ -9,7 +9,7 @@ slug: minecraft-sankarin-matka
 tags: [funktiot, toista]
 links:
 - title: Sankarin matka
-  url:   https://studio.code.org/s./reset?lang=fi-FI
+  url:   https://studio.code.org/s/hero/lessons/1/levels/1?lang=fi-FI
 ---
 
 

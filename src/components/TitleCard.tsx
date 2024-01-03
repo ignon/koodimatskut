@@ -7,7 +7,7 @@ const TitleCard = ({ title, children, styles='' }: {
   styles?: string
 }) => {
   return (
-    <Card styles={styles}>
+    <Card styles={`mt-4 ${styles}`}>
       <div className="bg-red-400 py-5 w-full">
       <h1 className="text-center text-4xl font-extrabold text-gray-700">{title}</h1>
       </div>

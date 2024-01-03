@@ -10,7 +10,7 @@ Koodimatskut.fi is a carefully curated and arranged list of high-quality coding 
 
 The screenshots or pictures used for each game are for non-profit, educational, and informational purposes only. If you are the owner of a game mentioned here and wish to have it removed, contact me at arttu.b.makinen (át) gmail.com and I'll remove it as soon as possible. This website does not claim any ownership or affiliation with the games listed here.
 
-The snowflake background (only used in winter) has been designed by [Pastel.grafisk on Freepik](http://www.freepik.com)
+The snowflake background (only used in winter) has been designed by [Pastel.grafisk on Freepik](https://www.freepik.com/free-vector/flakes-background-design_983711.htm)
 .
 
 The sky background (only used on summer) has been designed by [rawpixel.com on Freepik](https://www.freepik.com/free-vector/sky-background-pastel-paper-cut-design-vector_18938534.htm)

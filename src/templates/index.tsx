@@ -18,7 +18,8 @@ const MainPage = ({ data, pageContext }: {
   data: any,
   pageContext: any
 }) => {
-  const { nodes } = data.allMarkdownRemark;
+  console.log(pageContext)
+  const { nodes } = pageContext.data.allMarkdownRemark;
   const markdownNodes = nodes.filter((node: any) => node.fields.collection === 'content');
   const teacherNodes = nodes.filter((node: any) => node.fields.collection !== 'content');
   const inEnglishPost = nodes.find((node: any) => node.frontmatter.slug == 'in-english')
@@ -32,8 +33,6 @@ const MainPage = ({ data, pageContext }: {
 
   return (
     <Layout pageTitle="Blog posts">
-      {/* <p>{'build_key: ' + POSTHOG_API_KEY}</p> */}
-      {/* <p>{'live_key: ' + process.env.POSTHOG_API_KEY}</p> */}
       <HeaderCard>
         {teacherNodes.map((node: any) => (
           <MarkdownArea html={node.html} key={node.id} />
@@ -66,15 +65,14 @@ const MainPage = ({ data, pageContext }: {
       ))}
 
         <ExternalLink
-          className='text-center text-2xl text-gray-600 ml-1 my-5 mb-3'
+          className='text-center text-2xl text-gray-600 ml-1 mt-5'
           text={`Arttu Mäkinen`}
           url='https://ignon.github.io/'
         />
-        <p className={`text-center text-lg italic text-gray-600 mb-1`}>
+        <p className={`text-center text-lg italic text-gray-600 mt-3 mb-1.5`}>
           Sivu päivitetty viimeksi {DATE}
         </p>
         <Stats STATS={STATS} />
-        {/* <ToggleModal toggleText='In English'> <p>Moi!</p> </ToggleModal> */}
         <div className='text-center'>
           <ToggleChildren
             text='In English' className='text-left pr-4 pt-3 pb-1'
@@ -105,52 +103,12 @@ const Stats = ({ STATS }: {
   }
 
   return (
-    <div>
-      <p className={`text-center text-lg italic mr-3 text-gray-600 my-1`}>Harjoituslinkkejä klikattu: {STATS.linkClicks}</p>
-      <p className={`text-center text-lg italic mr-3 text-gray-600 my-1`}>Sivulatauksia: {STATS.pageViews}</p>
+    <div className=''>
+      <p className={`text-center text-lg italic mr-3 text-gray-600 my-2`}>Harjoituslinkkejä klikattu: {STATS.linkClicks}</p>
+      <p className={`text-center text-lg italic mr-3 text-gray-600 my-2`}>Sivulatauksia: {STATS.pageViews}</p>
     </div>
   )
 }
-
-export const query = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-        description
-        siteUrl
-      }
-    }
-    allMarkdownRemark(sort: { frontmatter: { priority: ASC }}) {
-      nodes {
-        fields {
-          collection
-        }
-        frontmatter {
-          title
-          developer
-          time
-          difficulty
-          priority
-          tags
-          slug
-          numbered_links
-          links {
-            title
-            url
-          }
-          hero {
-            childImageSharp {
-              gatsbyImageData
-            }
-          }
-        }
-        html
-        id
-      }
-    }
-  }
-`
 
 export default MainPage
 
