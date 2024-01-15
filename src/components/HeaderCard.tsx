@@ -61,7 +61,7 @@ const HeaderCard = ({ children }: {
 }
 
 const ShareButton = () => {
-  // if (!navigator.share) { return null }
+  if (!navigator.share) { return null }
 
   const shareData = {
     title: 'Koodimatskut.fi',
