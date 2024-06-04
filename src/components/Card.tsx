@@ -1,10 +1,11 @@
 import * as React from 'react'
 import { twMerge } from 'tailwind-merge'
 
-const Card = ({ children, styles='', ref }: {
+const Card = ({ children, styles='', ref, id }: {
   children: React.ReactNode,
   ref?: React.RefObject<HTMLDivElement>,
-  styles?: string
+  styles?: string,
+  id?: string
 }) => {
 
     const className = twMerge(`
@@ -17,12 +18,13 @@ const Card = ({ children, styles='', ref }: {
     `, styles)
 
     return (
-      <div
+      <section
+        id={id}
         ref={ref}
         className={className}
       >
         {children}
-      </div>
+      </section>
   )
 }
 

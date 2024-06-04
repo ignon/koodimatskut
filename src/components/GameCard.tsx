@@ -92,14 +92,15 @@ const GameCard = ({ node, index, onClick, isOpen }: {
     const markdonVisibility = showMarkdown ? 'visible' : 'hidden'
 
     return (
-      <Card>
+      <Card id={frontmatter.slug}>
         <div ref={myRef} className="w-full">
+          <h1></h1> {/* To anchor links to top of cards */}
           <button onClick={onHeroImageClick} className="w-full">
             <HeroImage heroImage={heroImage} altText="featured image" />
 
             <div className="bg-gray-20">
                 <div className="flex max-h-10 flex-row justify-start align-center w-full pl-4 mt-0">
-                    <h1 className="font-bold  text-gray-700 text-lg whitespace-nowrap p-1  mt-0.5" id={`${index-1}`}>
+                    <h1 className="font-bold  text-gray-700 text-lg whitespace-nowrap p-1  mt-0.5">
                       {index+1}. {title}
                     </h1>
                     <div className="flex ml-4 mt-1.5">
@@ -130,7 +131,7 @@ const GameCard = ({ node, index, onClick, isOpen }: {
 
               <div className={`${markdonVisibility}`}>
 
-                <div className={`text-xl text-center mb-2 text-gray-700 mt-10`}>
+                <div className={`text-xl text-center mb-14 text-gray-700 mt-8`}>
                   {!frontmatter.time || <MdAccessTime className="inline mb-1" size={23}/>}
                   <div className="inline mx-2 mt-8">{frontmatter.time}</div>
 
@@ -143,7 +144,7 @@ const GameCard = ({ node, index, onClick, isOpen }: {
 
                 {showMarkdown &&
                   <CommentSection
-                    id={frontmatter.slug}
+                    id={`${frontmatter.slug}_comments`}
                     title={frontmatter.slug}
                   />
                 }
