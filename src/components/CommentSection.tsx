@@ -7,7 +7,6 @@ const CommentSection = ({ id, title, visible=true }: {
   id: string,
   visible?: boolean
 }) => {
-
   return (
     <div className='text-center text-lg pt-5'>
       <ToggleChildren

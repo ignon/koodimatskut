@@ -10,7 +10,7 @@ priority: 550
 numbered_links: false
 links:
 - title: iPad/iPhone
-  url:   https://apps.apple.com/us/app.-learn-to-code/id1517210466
+  url:   https://apps.apple.com/us/app/algorun-learn-to-code/id1517210466
 - title: Android
   url: https://play.google.com/store/apps/details?id=com.bitcrumbs.AlgoRunFree&hl=en&gl=US
 ---
