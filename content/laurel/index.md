@@ -9,7 +9,7 @@ slug: laurel
 priority: 270
 links:
 - title: Silmukat
-  url:   https://studio.code.org/s/coursea-2023/lessons/9/levels/2?lang=fi-FI
+  url:   https://studio.code.org/courses/pre-express-2025/units/1/lessons/7/levels/2
 ---
 
 ![](./exercise_14.png)

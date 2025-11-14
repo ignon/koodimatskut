@@ -17,17 +17,20 @@ const getStats = async () => {
         Authorization: `Bearer ${POSTHOG_API_KEY}`
       }
     })
+    console.log({ RESPONSE: res.data.result })
     const insightList = res.data.results
+    console.log({ insights: JSON.stringify(insightList, null, 4) })
     const insights = _.keyBy(insightList, 'name')
     const kumulatiivinen = insights['Kumulatiivinen'].result
     const insightFields = _.keyBy(kumulatiivinen, 'label')
     const linkClicks = insightFields['LinkClick'].count
     const pageViews = insightFields['$pageview'].count
     const STATS = { linkClicks, pageViews }
-    // console.log({ STATS, insightFields, kumulatiivinen })
+    console.log({ ...STATS, insightFields, kumulatiivinen })
     return STATS
   }
-  catch {
+  catch(e) {
+    console.log('Error: ', e)
     return null
   }
 }
@@ -86,6 +89,7 @@ exports.createPages = async ({ graphql, actions: { createPage }}: any) => {
   const STATS = POSTHOG_API_KEY
     ? await getStats()
     : null
+
 
   const { data } = await graphql(cardsQuery)
   const { nodes } = data.allMarkdownRemark

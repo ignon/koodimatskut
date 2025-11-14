@@ -10,10 +10,8 @@ tags: [käskysarjat, toista, lukutaidottomille]
 categories: [alakoulu]
 numbered_links: true
 links:
-- title: Käskysarjat
-  url:   https://studio.code.org/s/course1/lessons/4/levels/1?lang=fi-FI
 - title: Silmukat
-  url:   https://studio.code.org/s/course1/lessons/13/levels/1?lang=fi-FI
+  url:   https://studio.code.org/courses/pre-express-2025/units/1/lessons/3/levels/2?lang
 ---
 
 Täsmennä oppilaille että tehtävien tarkoitus on harjoitella `toista`-silmukan käyttöä, joten sitä on hyvä käyttää aina kun mahdollista. Selitä että vaikka nyt tehtävät voisikin ratkaista ilman sitä, koodatessa tulee tilanteita, jolloin joitakin käskyjä on toistettava jopa satoja tuhansia kertoja. Silloin on pakko osata käyttää silmukoita.

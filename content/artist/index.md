@@ -9,10 +9,8 @@ slug: taiteilija
 tags: [toista, lukutaidottomille]
 numbered_links: true
 links:
-- title: Käskysarjat
-  url:   https://studio.code.org/s/course1/lessons/10/levels/1?lang=fi-FI
 - title: Silmukat
-  url:   https://studio.code.org/s/course1/lessons/18/levels/1?lang=fi-FI
+  url:   https://studio.code.org/courses/pre-express-2025/units/1/lessons/8/levels/3
 ---
 
 

@@ -10,7 +10,7 @@ priority: 225
 numbered_links: false
 links:
 - title: Silmukat
-  url:   https://studio.code.org/s/coursea-2023/lessons/8/levels/1?lang=fi-FI
+  url:   https://studio.code.org/courses/pre-express-2025/units/1/lessons/6/levels/1
 ---
 
 `toista` -silmukan kertausta.
