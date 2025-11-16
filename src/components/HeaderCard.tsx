@@ -31,9 +31,14 @@ const HeaderCard = ({ children }: {
       >
         {title}
       </h1>
-      <p className={`text-center mt-7 mb-5 mx-3 text-lg ${textColor}`}>
+      <p className={`text-center mt-7 mb-3 mx-3 text-lg ${textColor}`}>
         Koodimatskut.fi on tarkkaan valikoitu lista ohjelmoinnin pelillisiä harjoituksia organisoituna järkevään etenemisjärjestykseen.
       </p>
+
+        <p className={`text-center text-lg italic text-gray-600 mt-0 mb-0`}>
+          Linkit korjattu 11/2025
+        </p>
+
 
       <Toggle
         text="Opettajalle"

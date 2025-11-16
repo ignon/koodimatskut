@@ -44,6 +44,8 @@ const MainPage = ({ data, pageContext }: {
         />
       </ HeaderCard>
 
+
+
       {markdownNodes.map((node: any, index: number) => (
         <GameCard
           node={node}
