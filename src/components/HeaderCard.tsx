@@ -36,7 +36,7 @@ const HeaderCard = ({ children }: {
       </p>
 
         <p className={`text-center text-lg italic text-gray-600 mt-0 mb-0`}>
-          Linkit korjattu 11/2025
+          Linkit korjattu 09/2026
         </p>
 
 
