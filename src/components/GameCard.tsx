@@ -6,7 +6,7 @@ import Tag from '../components/Tag'
 import Toggle from '../components/Toggle'
 import HeroImage from '../components/HeroImage'
 import LinkButton from '../components/LinkButton'
-import CommentSection from '../components/CommentSection'
+// import CommentSection from '../components/CommentSection'
 import { MdAccessTime } from 'react-icons/md'
 import type { ILinkButtonProp } from '../components/LinkButton'
 import analytics from '../analytics'
@@ -142,12 +142,12 @@ const GameCard = ({ node, index, onClick, isOpen }: {
 
                 <MarkdownArea html={node.html} />
 
-                {showMarkdown &&
+                {/* {showMarkdown &&
                   <CommentSection
                     id={`${frontmatter.slug}_comments`}
                     title={frontmatter.slug}
                   />
-                }
+                } */}
               </div>
             </div>
           </div>

@@ -9,7 +9,7 @@ import HeaderCard from '../components/HeaderCard'
 import MarkdownArea from '../components/MarkdownArea'
 import ExternalLink from '../components/ExternalLink'
 import analytics from '../analytics'
-import CommentSection from '../components/CommentSection'
+// import CommentSection from '../components/CommentSection'
 import ToggleChildren from '../components/ToggleChildren'
 import useSeasons from '../hooks/useSeasons'
 
@@ -37,11 +37,11 @@ const MainPage = ({ data, pageContext }: {
         {teacherNodes.map((node: any) => (
           <MarkdownArea html={node.html} key={node.id} />
         ))}
-        <CommentSection
+        {/* <CommentSection
           id='opettajalle'
           title='opettajalle'
           visible={activeCard == ''}
-        />
+        /> */}
       </ HeaderCard>
 
 

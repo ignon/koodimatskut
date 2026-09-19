@@ -55,7 +55,7 @@ Jos opetat 3. – 6. luokkalaisia, joilla ei ole aikaisempaa koodauskokemusta, s
 
 [Digitaalisen osaamisen kuvaukset](https://eperusteet.opintopolku.fi/#/fi/digiosaaminen/8706410/osaamiskokonaisuus/8709075) jakaa tavoitellun ohjelmointiosaamisen kolmeen osa-alueeseen: 1) Ohjelmoinnillinen ajattelu 2) Tutkiva työskentely ja tuottaminen 3) Ohjelmoitujen ympäristöjen tuntemus ja niissä toimiminen. Seuraavat alaotsikot käsittelevät osa-alueita yksi kerrallaan.
 
-> **Huomioitavaa:** Allekirjoittanut ei omista (vielä) minkään tason pedagogista tutkintoa, joten OPS-analyysit ovat vain omaa pohdintaa. Alta löytyy kommenttiosio, johon voi lisätä omia näkemyksiään.
+> **Huomioitavaa:** Allekirjoittanut ei omista (vielä) minkään tason pedagogista tutkintoa, joten OPS-analyysit ovat vain omaa pohdintaa.
 
 ### 1) Ohjelmointiin liittyvät käsitteet ja perusrakenteet
 
